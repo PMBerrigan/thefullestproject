@@ -243,5 +243,37 @@
       "source": "https://fairfaxfalcons.org/",
       "lastScraped": "2026-07-25"
     }
+  },
+  {
+    "id": "sub-20260725-f9e76f94",
+    "type": "submission",
+    "status": "pending",
+    "origin": {
+      "type": "quick-submit",
+      "detail": "bookmarklet",
+      "submittedAt": "2026-07-25T18:16:53.512Z"
+    },
+    "targetFile": "src/_data/resources/states/VA.json",
+    "payload": {
+      "name": "Sensory Rooms | Neighborhood and Community Services",
+      "category": [
+        "government"
+      ],
+      "location": "Virginia",
+      "area": "Northern Virginia",
+      "description": "Sensory Rooms provide a person-centered, safe and nurturing environment designed to enhance the quality of life for individuals of all ages—and particularly those with physical and intellectual disabilities—through structured interaction and engagement with the room’s unique features. By nature, sensory rooms are relaxing and calming environments that offer a variety of sights, sounds and interactive elements that promote stress-free engagement and physical and intellectual development—especially for young children and individuals with disabilities.",
+      "phone": "703-324-5532",
+      "email": "ncs-tracers@fairfaxcounty.gov",
+      "website": "https://www.fairfaxcounty.gov/neighborhood-community-services/therapeutic-recreation/sensory-room",
+      "address": "12011 Government Center Parkway, 10th Floor Fairfax, VA 22035",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "Sensory Room"
+      ],
+      "source": "https://www.fairfaxcounty.gov/neighborhood-community-services/therapeutic-recreation/sensory-room",
+      "lastScraped": "2026-07-25"
+    }
   }
 ]
