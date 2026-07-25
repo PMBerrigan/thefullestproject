@@ -211,5 +211,37 @@
       "source": "https://www.fairfaxcounty.gov/neighborhood-community-services/therapeutic-recreation/fantastic-times",
       "lastScraped": "2026-07-25"
     }
+  },
+  {
+    "id": "sub-20260725-4543bc79",
+    "type": "submission",
+    "status": "pending",
+    "origin": {
+      "type": "quick-submit",
+      "detail": "bookmarklet",
+      "submittedAt": "2026-07-25T18:13:01.803Z"
+    },
+    "targetFile": "src/_data/resources/states/VA.json",
+    "payload": {
+      "name": "Adaptive Sports - Fairfax Falcons Paralympic Sports Team",
+      "category": [
+        "recreation"
+      ],
+      "location": "Virginia",
+      "area": "Northern Virginia",
+      "description": "The Fairfax Falcons Paralympic Sports Team provides adaptive basketball opportunities for youth with physical disabilities across Northern Virginia and the Washington, DC area. We offer a supportive, inclusive environment where athletes can build skills, stay active, and grow in confidence.",
+      "phone": "",
+      "email": "",
+      "website": "https://fairfaxfalcons.org/",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "Adaptive basketball"
+      ],
+      "source": "https://fairfaxfalcons.org/",
+      "lastScraped": "2026-07-25"
+    }
   }
 ]
