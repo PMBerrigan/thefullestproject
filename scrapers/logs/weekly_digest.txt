@@ -1,27 +1,24 @@
-Weekly Scrape Digest — 2026-07-19
+Weekly Scrape Digest — 2026-07-26
 ==================================================
 
 AWAITING REVIEW — approve or reject at https://thefullestproject.org/admin/review/
-  blog: 6 pending
-  resource: 1442 pending (267 new this run)
-  spotlight: 8 pending
-  story: 57 pending
-  submission: 3 pending
+  blog: 4 pending
+  resource: 1573 pending (131 new this run)
+  spotlight: 6 pending
+  story: 44 pending
+  submission: 9 pending
+
+Scraper: osm_overpass
+  Entries processed: 913
+  - [error] OH: HTTP Error 429: Too Many Requests
+  - [error] WA: HTTP Error 429: Too Many Requests
+  - [error] WY: HTTP Error 429: Too Many Requests
+  - [error] AR: HTTP Error 504: Gateway Timeout
+  - [error] IA: HTTP Error 504: Gateway Timeout
+  - [error] NH: HTTP Error 504: Gateway Timeout
 
 Scraper: cms_providers
   Entries processed: 79
-
-Scraper: osm_overpass
-  Entries processed: 766
-  - [error] OK: HTTP Error 504: Gateway Timeout
-  - [error] OR: HTTP Error 504: Gateway Timeout
-  - [error] SD: HTTP Error 504: Gateway Timeout
-  - [error] UT: HTTP Error 504: Gateway Timeout
-  - [error] WA: HTTP Error 429: Too Many Requests
-  - [error] AL: HTTP Error 429: Too Many Requests
-  - [error] FL: HTTP Error 429: Too Many Requests
-  - [error] ID: HTTP Error 504: Gateway Timeout
-  - [error] KY: HTTP Error 504: Gateway Timeout
 
 Scraper: spotlight_scraper
   Entries processed: 1

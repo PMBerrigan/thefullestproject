@@ -1,100 +1,6 @@
 [
   {
     "scraper": "spotlight_scraper",
-    "timestamp": "2026-03-15T02:43:45.261573",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "added",
-        "name": "What Are Adaptive Sports? - Mass General Brigham",
-        "category": "Adventures",
-        "website": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc0tqU1kzcldNNWkxWG85RXdvMFB6UVUxQlp6YjBGYUFER0NoSU02OFNvNmlwM3Y1MXJXM3kyTTRZTjRGczJzVmtGTVYwTTdpbm9jWG1EUUQ0eU8xbGlERllvMzJZMnlhTUtmLWJvOFVPV0xPbnFJcEw2NFhacVdDSW1pS2hEVWxHTVVoVkNLRQ?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "What Are Adaptive Sports? - Mass General Brigham",
-        "category": "Sports",
-        "website": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc0tqU1kzcldNNWkxWG85RXdvMFB6UVUxQlp6YjBGYUFER0NoSU02OFNvNmlwM3Y1MXJXM3kyTTRZTjRGczJzVmtGTVYwTTdpbm9jWG1EUUQ0eU8xbGlERllvMzJZMnlhTUtmLWJvOFVPV0xPbnFJcEw2NFhacVdDSW1pS2hEVWxHTVVoVkNLRQ?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Funding the ADA’s Promise - New America",
-        "category": "Education",
-        "website": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RZHVmRVB3VUw0WlZNSG1PWVJkdzBrY3R0ZGI2djJCRWJJSDA3THR4TFZMT3RCUFQtOFlhTlJaUEt2dGtxQlIxZ3hXWnlVYi00d1IwakJzWmxlTzM4OElQc2g4dDZhMU5TMnUzQkF3?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-03-15T02:43:47.369262",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "\"Care Out Loud\" National Public Awareness and Resource Campaign Delivers Free Tools, Visibility and Support to the 63 Million U.S. Caregivers - PR Newswire",
-        "source": "PR Newswire",
-        "slug": "care-out-loud-national-public-awareness-and-resource-campaig"
-      },
-      {
-        "action": "created_post",
-        "title": "A sudden change to how VA evaluates disabilities triggers swift backlash - Federal News Network",
-        "source": "Federal News Network",
-        "slug": "a-sudden-change-to-how-va-evaluates-disabilities-triggers-sw"
-      },
-      {
-        "action": "created_post",
-        "title": "Interdisciplinary Research Initiative Uses Assistive Technology to Support Students with Developmental Disabilities - Lehigh University",
-        "source": "Lehigh University",
-        "slug": "interdisciplinary-research-initiative-uses-assistive-technol"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
-    "timestamp": "2026-03-22T02:35:11.940185",
-    "entries_found": 2,
-    "entries": [
-      {
-        "action": "added",
-        "name": "The Business Case for Inclusion",
-        "category": "Community",
-        "website": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb0ZqZTdseTk4ejBWVFNOVlRKSzVCSmdZOG9OQ1VHQ3NkRVRDb0t5TWlmN2VxSzZqY2NhQm1oVVNLdXI0WTlWM0drRUFTT25MNFlsZlJrUnZLaThHbVFxZzBzQlBhblNnSjRnZHhha2lVOVNjeWV5VnRZZHJqbzVJRUd4VmtNYVJXTW1j?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Students navigate support, challenges within Seton Hall’s Di",
-        "category": "Education",
-        "website": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTFNHSHFwd0VUWDdJRGZDRHhhZnVaZGNTR1NDSjRJOFV0UFdYRkRpS1lLREgxRjFVRWRsYUVYSmwxNl9IdW10ZC0xUnRXSkZvQlZfTzBtUmRQMlVPYXJWanJUME4tektWZWFLTjE1cUJqbTN6MXpVcHNQWlI3WDFkTGRJS0NsLVlPRWFQRDVJRDUxRWZxR3QxNnBRRlhOYkRkcEFoTEFoQ05WdHAtcTRzcllZMDRvbmNKb3lQU0ZRZHptek1wZ1E?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-03-22T02:35:14.019600",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "Caregiving without a net: Poll shows who needs help most - michiganmedicine.org",
-        "source": "michiganmedicine.org",
-        "slug": "caregiving-without-a-net-poll-shows-who-needs-help-most-mich"
-      },
-      {
-        "action": "created_post",
-        "title": "Best Free Trading Channels In Telegram For 2026 - Traders Union",
-        "source": "Traders Union",
-        "slug": "best-free-trading-channels-in-telegram-for-2026-traders-unio"
-      },
-      {
-        "action": "created_post",
-        "title": "Code to Inclusion: How Inclusive Digital Infrastructure and AI Can Transform Disability Inclusion - timesnownews.com",
-        "source": "timesnownews.com",
-        "slug": "code-to-inclusion-how-inclusive-digital-infrastructure-and-a"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
     "timestamp": "2026-03-29T02:45:43.737265",
     "entries_found": 2,
     "entries": [
@@ -979,6 +885,71 @@
   {
     "scraper": "blog_content",
     "timestamp": "2026-07-19T03:17:17.167908",
+    "entries_found": 1,
+    "entries": [
+      {
+        "action": "no_new_posts"
+      }
+    ]
+  },
+  {
+    "scraper": "osm_overpass",
+    "timestamp": "2026-07-26T03:36:04.703099",
+    "status": "PARTIAL",
+    "targets_attempted": 51,
+    "targets_succeeded": 45,
+    "entries_found": 913,
+    "entries_queued": 131,
+    "entries": [
+      {
+        "action": "error",
+        "name": "OH: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "WA: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "WY: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "AR: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "IA: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "NH: HTTP Error 504: Gateway Timeout"
+      }
+    ]
+  },
+  {
+    "scraper": "cms_providers",
+    "timestamp": "2026-07-26T03:36:07.496533",
+    "status": "OK",
+    "targets_attempted": 2,
+    "targets_succeeded": 2,
+    "entries_found": 79,
+    "entries_queued": 0,
+    "entries": []
+  },
+  {
+    "scraper": "spotlight_scraper",
+    "timestamp": "2026-07-26T03:37:40.475790",
+    "entries_found": 1,
+    "entries": [
+      {
+        "action": "no_new_found"
+      }
+    ]
+  },
+  {
+    "scraper": "blog_content",
+    "timestamp": "2026-07-26T03:38:19.476907",
     "entries_found": 1,
     "entries": [
       {
