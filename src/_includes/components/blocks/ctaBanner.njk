@@ -1,0 +1,12 @@
+{# Closing call to action on a solid colour band, with a filled primary button
+   and a lighter secondary one. #}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="ctaBanner" data-block-index="{{ blockIndex }}">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+    <h2 class="text-3xl font-bold mb-4" data-block-field="heading">{{ block.heading }}</h2>
+    <p class="mb-8 opacity-90" data-block-field="body">{{ block.body }}</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="{{ block.primaryCta.url }}" class="btn-secondary no-underline" data-block-field="primaryCta.label">{{ block.primaryCta.label }}</a>
+      <a href="{{ block.secondaryCta.url }}" class="bg-white/20 hover:bg-white/30 text-white px-6 py-3 font-semibold transition-colors no-underline" style="border-radius: var(--radius-button);" data-block-field="secondaryCta.label">{{ block.secondaryCta.label }}</a>
+    </div>
+  </div>
+</section>

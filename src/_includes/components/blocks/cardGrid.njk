@@ -1,0 +1,22 @@
+{# Grid of linked icon cards. The "columns" variant switches between 2, 3 and 4
+   across on large screens; it always stacks to one column on phones. #}
+{% set COLUMN_CLASSES = {
+  "2": "grid-cols-1 md:grid-cols-2",
+  "3": "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
+  "4": "grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
+} %}
+{% set columnClass = COLUMN_CLASSES[block.columns | string] | default(COLUMN_CLASSES["3"]) %}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="cardGrid" data-block-index="{{ blockIndex }}">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center mb-12" style="color: var(--color-primary);" data-block-field="heading">{{ block.heading }}</h2>
+    <div class="grid {{ columnClass }} gap-8">
+      {% for card in block.cards %}
+      <a href="{{ card.url }}" class="card p-8 no-underline block" style="color: var(--color-text);">
+        <div class="text-4xl mb-4" aria-hidden="true">{{ card.icon }}</div>
+        <h3 class="text-xl font-bold mb-3" style="color: var(--color-primary);" data-block-field="cards.{{ loop.index0 }}.title">{{ card.title }}</h3>
+        <p style="color: var(--color-text-light);" data-block-field="cards.{{ loop.index0 }}.description">{{ card.description }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

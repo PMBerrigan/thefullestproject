@@ -15,6 +15,272 @@ local_backend:
 media_folder: "src/images/blog"
 public_folder: "/images/blog"
 
+# The palette of section types a page can be built from. Anchored here so the
+# Homepage and About Page offer exactly the same set — a section that can be
+# added to one can be added to the other.
+#
+# Each `name` must match a partial in src/_includes/components/blocks/ and be
+# listed in BLOCK_TYPES in components/block-renderer.njk.
+block_types: &block_types
+  - label: "Big Banner"
+    name: "hero"
+    summary: "Banner — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Subheading", name: "subheading", widget: "text" }
+      - label: "Main button"
+        name: "primaryCta"
+        widget: "object"
+        fields:
+          - { label: "Button text", name: "label", widget: "string" }
+          - { label: "Links to", name: "url", widget: "string" }
+      - label: "Second button"
+        name: "secondaryCta"
+        widget: "object"
+        fields:
+          - { label: "Button text", name: "label", widget: "string" }
+          - { label: "Links to", name: "url", widget: "string" }
+      - label: "Section height"
+        name: "padding"
+        widget: "select"
+        default: "large"
+        options:
+          - { label: "Short", value: "small" }
+          - { label: "Medium", value: "normal" }
+          - { label: "Tall", value: "large" }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false, hint: "Only needed for linking straight to this section. Leave blank." }
+
+  - label: "Page Title"
+    name: "pageHeader"
+    summary: "Page title — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Intro text", name: "body", widget: "text" }
+      - label: "Background"
+        name: "background"
+        widget: "select"
+        default: "warm"
+        options: &background_options
+          - { label: "White", value: "white" }
+          - { label: "Warm cream", value: "warm" }
+          - { label: "Cool blue", value: "cool" }
+          - { label: "Deep cream", value: "cream" }
+          - { label: "Brand colour (white text)", value: "primary" }
+      - label: "Section height"
+        name: "padding"
+        widget: "select"
+        default: "normal"
+        options: &padding_options
+          - { label: "Short", value: "small" }
+          - { label: "Medium", value: "normal" }
+          - { label: "Tall", value: "large" }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Text Section"
+    name: "text"
+    summary: "Text — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - label: "Paragraphs"
+        name: "paragraphs"
+        widget: "list"
+        field: { label: "Paragraph", name: "paragraph", widget: "text" }
+        hint: "Add as many paragraphs as you need. Drag to reorder them."
+      - { label: "Bold closing line", name: "emphasis", widget: "string", required: false, hint: "Appears in bold at the end of the last paragraph." }
+      - label: "Text alignment"
+        name: "align"
+        widget: "select"
+        default: "center"
+        options:
+          - { label: "Centred", value: "center" }
+          - { label: "Left", value: "left" }
+      - { label: "Background", name: "background", widget: "select", default: "white", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Card Grid"
+    name: "cardGrid"
+    summary: "Cards — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - label: "How many across"
+        name: "columns"
+        widget: "select"
+        default: "3"
+        hint: "On phones the cards always stack into one column."
+        options:
+          - { label: "2 across", value: "2" }
+          - { label: "3 across", value: "3" }
+          - { label: "4 across", value: "4" }
+      - label: "Cards"
+        name: "cards"
+        widget: "list"
+        collapsed: true
+        summary: "{{fields.title}}"
+        fields:
+          - { label: "Icon (emoji)", name: "icon", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Links to", name: "url", widget: "string" }
+      - { label: "Background", name: "background", widget: "select", default: "white", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Help Build the Directory"
+    name: "contribute"
+    summary: "Contribute — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Intro text", name: "intro", widget: "text" }
+      - label: "Left card"
+        name: "primary"
+        widget: "object"
+        fields:
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Text", name: "body", widget: "text" }
+          - { label: "Button text", name: "ctaLabel", widget: "string" }
+          - { label: "Links to", name: "ctaUrl", widget: "string" }
+      - label: "Right card (highlighted)"
+        name: "secondary"
+        widget: "object"
+        fields:
+          - { label: "Icon (emoji)", name: "icon", widget: "string" }
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Text", name: "body", widget: "text" }
+          - { label: "Button text", name: "ctaLabel", widget: "string" }
+          - { label: "Links to", name: "ctaUrl", widget: "string" }
+      - { label: "Background", name: "background", widget: "select", default: "cream", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "small", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Latest Stories"
+    name: "storyFeed"
+    summary: "Stories — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Subheading", name: "subheading", widget: "string" }
+      - { label: "Message when there are no stories yet", name: "emptyMessage", widget: "text" }
+      - { label: "Button text for the empty message", name: "emptyCtaLabel", widget: "string" }
+      - { label: "Browse-all button text", name: "browseAllLabel", widget: "string" }
+      - { label: "Background", name: "background", widget: "select", default: "warm", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Organization Spotlight"
+    name: "spotlight"
+    summary: "Spotlight — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Subheading", name: "subheading", widget: "string" }
+      - { label: "View-all button text", name: "viewAllLabel", widget: "string" }
+      - { label: "Background", name: "background", widget: "select", default: "white", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Email Signup"
+    name: "newsletter"
+    summary: "Email signup — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Text", name: "body", widget: "text" }
+      - { label: "Placeholder in the email box", name: "placeholder", widget: "string" }
+      - { label: "Button text", name: "buttonLabel", widget: "string" }
+      - { label: "Background", name: "background", widget: "select", default: "primary", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Numbers & Stats"
+    name: "stats"
+    summary: "Stats — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Text", name: "body", widget: "text" }
+      - label: "Numbers"
+        name: "stats"
+        widget: "list"
+        collapsed: false
+        summary: "{{fields.label}}"
+        fields:
+          - { label: "Count resources automatically", name: "auto", widget: "boolean", default: false, hint: "Turn on to show the live number of resources in the directory. The number you type below is then ignored." }
+          - { label: "Number", name: "value", widget: "string", required: false }
+          - { label: "Caption", name: "label", widget: "string" }
+      - { label: "Button text", name: "ctaLabel", widget: "string" }
+      - { label: "Links to", name: "ctaUrl", widget: "string" }
+      - { label: "Background", name: "background", widget: "select", default: "white", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Stacked Cards"
+    name: "stack"
+    summary: "Stacked cards — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - label: "Cards"
+        name: "items"
+        widget: "list"
+        collapsed: true
+        summary: "{{fields.title}}"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Text", name: "body", widget: "text" }
+      - { label: "Background", name: "background", widget: "select", default: "white", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "People / Founders"
+    name: "profiles"
+    summary: "People — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - label: "People"
+        name: "people"
+        widget: "list"
+        collapsed: true
+        summary: "{{fields.name}}"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Paragraph 1", name: "paragraph1", widget: "text" }
+          - { label: "Paragraph 2", name: "paragraph2", widget: "text" }
+          - { label: "Highlight (bold summary)", name: "highlight", widget: "text" }
+      - { label: "Background", name: "background", widget: "select", default: "white", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Call-to-Action Banner"
+    name: "ctaBanner"
+    summary: "Call to action — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Text", name: "body", widget: "text" }
+      - label: "Main button"
+        name: "primaryCta"
+        widget: "object"
+        fields:
+          - { label: "Button text", name: "label", widget: "string" }
+          - { label: "Links to", name: "url", widget: "string" }
+      - label: "Second button"
+        name: "secondaryCta"
+        widget: "object"
+        fields:
+          - { label: "Button text", name: "label", widget: "string" }
+          - { label: "Links to", name: "url", widget: "string" }
+      - { label: "Background", name: "background", widget: "select", default: "primary", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
 collections:
   - name: "blog"
     label: "Articles"
@@ -69,146 +335,27 @@ collections:
         name: "homepage"
         file: "src/_data/homepage.json"
         fields:
-          - label: "Hero"
-            name: "hero"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Subheading", name: "subheading", widget: "text" }
-              - label: "Primary Button"
-                name: "primaryCta"
-                widget: "object"
-                fields:
-                  - { label: "Label", name: "label", widget: "string" }
-                  - { label: "URL", name: "url", widget: "string" }
-              - label: "Secondary Button"
-                name: "secondaryCta"
-                widget: "object"
-                fields:
-                  - { label: "Label", name: "label", widget: "string" }
-                  - { label: "URL", name: "url", widget: "string" }
-          - label: "Mission"
-            name: "mission"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
-              - { label: "Bold closing line", name: "emphasis", widget: "string" }
-          - label: "Feature Cards"
-            name: "features"
-            widget: "object"
-            fields:
-              - { label: "Section Heading", name: "heading", widget: "string" }
-              - label: "Cards"
-                name: "cards"
-                widget: "list"
-                collapsed: true
-                summary: "{{fields.title}}"
-                fields:
-                  - { label: "Icon (emoji)", name: "icon", widget: "string" }
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Description", name: "description", widget: "text" }
-                  - { label: "Link URL", name: "url", widget: "string" }
-          - label: "Stories Section"
-            name: "stories"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Subheading", name: "subheading", widget: "string" }
-              - { label: "Empty-state message", name: "emptyMessage", widget: "text" }
-              - { label: "Empty-state button label", name: "emptyCtaLabel", widget: "string" }
-              - { label: "Browse-all button label", name: "browseAllLabel", widget: "string" }
-          - label: "Spotlight Section"
-            name: "spotlight"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Subheading", name: "subheading", widget: "string" }
-              - { label: "View-all button label", name: "viewAllLabel", widget: "string" }
-          - label: "Newsletter"
-            name: "newsletter"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
-              - { label: "Email placeholder", name: "placeholder", widget: "string" }
-              - { label: "Button label", name: "buttonLabel", widget: "string" }
-          - label: "Coverage / Stats"
-            name: "coverage"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
-              - { label: "Stat 1 label (the count itself is automatic)", name: "statResourcesLabel", widget: "string" }
-              - { label: "Stat 2 value", name: "statLocationsValue", widget: "string" }
-              - { label: "Stat 2 label", name: "statLocationsLabel", widget: "string" }
-              - { label: "Stat 3 value", name: "statCategoriesValue", widget: "string" }
-              - { label: "Stat 3 label", name: "statCategoriesLabel", widget: "string" }
-              - { label: "Button label", name: "ctaLabel", widget: "string" }
+          - label: "Page Sections"
+            name: "blocks"
+            widget: "list"
+            label_singular: "Section"
+            collapsed: true
+            summary: "{{fields.heading}}"
+            hint: "Drag the handles to reorder sections. Use 'Add Section' for a new one, and the 'Show this section' switch inside a section to hide it without deleting it."
+            types: *block_types
 
       - label: "About Page"
         name: "about"
         file: "src/_data/about.json"
         fields:
-          - label: "Hero"
-            name: "hero"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Intro", name: "body", widget: "text" }
-          - label: "The Problem"
-            name: "problem"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Paragraph 1", name: "paragraph1", widget: "text" }
-              - { label: "Paragraph 2", name: "paragraph2", widget: "text" }
-              - { label: "Bold closing line", name: "emphasis", widget: "string" }
-          - label: "Three-Phase Approach"
-            name: "approach"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - label: "Phases"
-                name: "phases"
-                widget: "list"
-                summary: "{{fields.title}}"
-                fields:
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Body", name: "body", widget: "text" }
-          - label: "Founders"
-            name: "founders"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - label: "Bios"
-                name: "bios"
-                widget: "list"
-                summary: "{{fields.name}}"
-                fields:
-                  - { label: "Name", name: "name", widget: "string" }
-                  - { label: "Location", name: "location", widget: "string" }
-                  - { label: "Paragraph 1", name: "paragraph1", widget: "text" }
-                  - { label: "Paragraph 2", name: "paragraph2", widget: "text" }
-                  - { label: "Highlight (bold summary)", name: "highlight", widget: "text" }
-          - label: "Bottom CTA"
-            name: "cta"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
-              - label: "Primary Button"
-                name: "primaryCta"
-                widget: "object"
-                fields:
-                  - { label: "Label", name: "label", widget: "string" }
-                  - { label: "URL", name: "url", widget: "string" }
-              - label: "Secondary Button"
-                name: "secondaryCta"
-                widget: "object"
-                fields:
-                  - { label: "Label", name: "label", widget: "string" }
-                  - { label: "URL", name: "url", widget: "string" }
+          - label: "Page Sections"
+            name: "blocks"
+            widget: "list"
+            label_singular: "Section"
+            collapsed: true
+            summary: "{{fields.heading}}"
+            hint: "Drag the handles to reorder sections. Use 'Add Section' for a new one, and the 'Show this section' switch inside a section to hide it without deleting it."
+            types: *block_types
 
       - label: "Page Headers"
         name: "pageHeaders"

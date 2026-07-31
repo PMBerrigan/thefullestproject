@@ -100,11 +100,39 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--hero-background, linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 65%, var(--color-highlight) 115%));
 }
 
-/* Section rhythm — driven by the "Section spacing" setting. Blocks use this
-   instead of a fixed py-16 so the whole page breathes together. */
+/* Section rhythm — driven by the "Section spacing" setting. Blocks use these
+   instead of fixed py-* utilities so the whole page breathes together.
+   At the "comfortable" default these resolve to the original values exactly:
+   sm = py-12 (3rem), normal = py-16 (4rem), lg = py-20 / lg:py-28 (5rem/7rem). */
 .section-pad {
   padding-top: var(--space-section, 4rem);
   padding-bottom: var(--space-section, 4rem);
+}
+
+.section-pad-sm {
+  padding-top: calc(var(--space-section, 4rem) * 0.75);
+  padding-bottom: calc(var(--space-section, 4rem) * 0.75);
+}
+
+.section-pad-lg {
+  padding-top: calc(var(--space-section, 4rem) * 1.25);
+  padding-bottom: calc(var(--space-section, 4rem) * 1.25);
+}
+
+@media (min-width: 1024px) {
+  .section-pad-lg {
+    padding-top: calc(var(--space-section, 4rem) * 1.75);
+    padding-bottom: calc(var(--space-section, 4rem) * 1.75);
+  }
+}
+
+/* Selectable block backgrounds (see the "Background" field on each block). */
+.section-cream {
+  background-color: var(--color-warm);
+}
+
+.section-primary {
+  background-color: var(--color-primary);
 }
 
 /* Section alternating backgrounds */

@@ -1,0 +1,36 @@
+{# The three most recent stories, pulled from src/_data/stories.json. Content is
+   automatic; only the surrounding wording is editable. Falls back to a friendly
+   empty state when no stories have been collected yet. #}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="storyFeed" data-block-index="{{ blockIndex }}">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center mb-4" style="color: var(--color-primary);" data-block-field="heading">{{ block.heading }}</h2>
+    <p class="text-center mb-12" style="color: var(--color-text-light);" data-block-field="subheading">{{ block.subheading }}</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% for story in stories | limit(3) %}
+      <article class="card overflow-hidden">
+        <div class="p-6">
+          <span class="tag" style="background-color: var(--color-warm); color: var(--color-primary);">{{ story.category or "Story" }}</span>
+          <h3 class="text-lg font-bold mt-3 mb-2">
+            <a href="{{ story.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="no-underline" style="color: var(--color-text);">{{ story.title }}</a>
+          </h3>
+          <p class="text-sm mb-3" style="color: var(--color-text-light);">{{ story.excerpt }}</p>
+          <div class="flex items-center justify-between">
+            <span class="text-xs" style="color: var(--color-text-light);">{{ story.sourceName }}</span>
+            <time class="text-xs" style="color: var(--color-text-light);">{{ story.date }}</time>
+          </div>
+        </div>
+      </article>
+      {% else %}
+      <div class="card p-6 text-center lg:col-span-3">
+        <p style="color: var(--color-text-light);" data-block-field="emptyMessage">{{ block.emptyMessage }}</p>
+        <a href="/contact/" class="btn-primary mt-4 inline-block no-underline" data-block-field="emptyCtaLabel">{{ block.emptyCtaLabel }}</a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="text-center mt-14">
+      <a href="/blog/" class="btn-secondary no-underline" data-block-field="browseAllLabel">{{ block.browseAllLabel }} &rarr;</a>
+    </div>
+  </div>
+</section>

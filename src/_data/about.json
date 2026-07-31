@@ -1,54 +1,90 @@
 {
-  "hero": {
-    "heading": "About The Fullest Project",
-    "body": "We believe every individual with a disability deserves the opportunity to live life to the fullest, and every caregiver deserves the support to make that possible."
-  },
-  "problem": {
-    "heading": "The Problem We're Solving",
-    "paragraph1": "While there are so many different programs, resources, and communities out there whose whole purpose is to support the special needs and disability community, there is no centralized place to find these resources. Finding the specific resource or information needed is often dependent on who you know or how well you can Google search.",
-    "paragraph2": "Too many pivotal moments of growth and progress for children with disabilities are directly related to tools, resources, or information that caregivers were told about through someone who knew something, someone, or where to go. Without that established community, the trajectory would be significantly different.",
-    "emphasis": "What about those who don't have those connections?"
-  },
-  "approach": {
-    "heading": "Our Three-Phase Approach",
-    "phases": [
-      {
-        "title": "Phase 1: Consolidate Resources",
-        "body": "Conduct research and develop a comprehensive directory for national resources and two pilot locations: Northern Virginia and Portland, OR. Resources are also crowdsourced by users, so new information is constantly being added."
+  "blocks": [
+    {
+      "type": "pageHeader",
+      "id": "hero",
+      "visible": true,
+      "background": "warm",
+      "padding": "normal",
+      "heading": "About The Fullest Project",
+      "body": "We believe every individual with a disability deserves the opportunity to live life to the fullest, and every caregiver deserves the support to make that possible."
+    },
+    {
+      "type": "text",
+      "id": "problem",
+      "visible": true,
+      "background": "white",
+      "padding": "normal",
+      "align": "left",
+      "heading": "The Problem We're Solving",
+      "paragraphs": [
+        "While there are so many different programs, resources, and communities out there whose whole purpose is to support the special needs and disability community, there is no centralized place to find these resources. Finding the specific resource or information needed is often dependent on who you know or how well you can Google search.",
+        "Too many pivotal moments of growth and progress for children with disabilities are directly related to tools, resources, or information that caregivers were told about through someone who knew something, someone, or where to go. Without that established community, the trajectory would be significantly different."
+      ],
+      "emphasis": "What about those who don't have those connections?"
+    },
+    {
+      "type": "stack",
+      "id": "approach",
+      "visible": true,
+      "background": "warm",
+      "padding": "normal",
+      "heading": "Our Three-Phase Approach",
+      "items": [
+        {
+          "title": "Phase 1: Consolidate Resources",
+          "body": "Conduct research and develop a comprehensive directory for national resources and two pilot locations: Northern Virginia and Portland, OR. Resources are also crowdsourced by users, so new information is constantly being added."
+        },
+        {
+          "title": "Phase 2: Build Knowledge Through Community",
+          "body": "Continue to share information and build knowledge through community engagement via our blog, podcast, social media, and partnerships with established organizations."
+        },
+        {
+          "title": "Phase 3: Empower & Support Caregivers",
+          "body": "Develop a gig-economy platform connecting caregivers who need help with individuals who have the skills to support them. Establish life coaching for caregivers and business coaching for disability-focused non-profits."
+        }
+      ]
+    },
+    {
+      "type": "profiles",
+      "id": "founders",
+      "visible": true,
+      "background": "white",
+      "padding": "normal",
+      "heading": "Meet the Founders",
+      "people": [
+        {
+          "name": "Erin Forgeron",
+          "location": "Portland, Oregon",
+          "paragraph1": "Erin has a bachelor's in Psychology, a Masters & Doctorate in Occupational Therapy, specializes in pediatrics and sensory processing, and has worked in pediatric Occupational Therapy for over 10 years. She is a homeschool mama to two fun-loving, high energy boys who are both neurodivergent.",
+          "paragraph2": "When she initially began working in pediatrics, there was an immediate realization that there is a gap within the community for properly supporting and educating those caregivers who find themselves in a position to care for and love someone with a disability. Years later, she would uniquely experience this herself when her oldest child began to show signs of struggle.",
+          "highlight": "Erin brings therapeutic expertise in occupational therapy, a network of experts in pediatrics, and a deep passion for supporting the disability community."
+        },
+        {
+          "name": "Nicole Berrigan",
+          "location": "Northern Virginia",
+          "paragraph1": "Nicole has a bachelor's in Business Administration, a Masters in Organizational Leadership, has worked in Human Resources for over 15 years, is a trained executive coach, and is a mom to a beautiful child who is disabled.",
+          "paragraph2": "Through her experience supporting and advocating for her child's needs, she realized that so many pivotal points of significant growth or progress were directly related to tools, resources, or information she learned about through someone in her community. Without those connections, the trajectory would have been significantly different.",
+          "highlight": "Nicole brings business management skills, coaching expertise, and firsthand experience as a caregiver navigating the disability landscape."
+        }
+      ]
+    },
+    {
+      "type": "ctaBanner",
+      "id": "cta",
+      "visible": true,
+      "background": "primary",
+      "padding": "normal",
+      "heading": "Join Our Community",
+      "body": "We may not be able to fight every battle, but we can make knowing what is out there to support your child easier to find and use.",
+      "primaryCta": {
+        "label": "Find Resources",
+        "url": "/resources/"
       },
-      {
-        "title": "Phase 2: Build Knowledge Through Community",
-        "body": "Continue to share information and build knowledge through community engagement via our blog, podcast, social media, and partnerships with established organizations."
-      },
-      {
-        "title": "Phase 3: Empower & Support Caregivers",
-        "body": "Develop a gig-economy platform connecting caregivers who need help with individuals who have the skills to support them. Establish life coaching for caregivers and business coaching for disability-focused non-profits."
+      "secondaryCta": {
+        "label": "Get in Touch",
+        "url": "/contact/"
       }
-    ]
-  },
-  "founders": {
-    "heading": "Meet the Founders",
-    "bios": [
-      {
-        "name": "Erin Forgeron",
-        "location": "Portland, Oregon",
-        "paragraph1": "Erin has a bachelor's in Psychology, a Masters & Doctorate in Occupational Therapy, specializes in pediatrics and sensory processing, and has worked in pediatric Occupational Therapy for over 10 years. She is a homeschool mama to two fun-loving, high energy boys who are both neurodivergent.",
-        "paragraph2": "When she initially began working in pediatrics, there was an immediate realization that there is a gap within the community for properly supporting and educating those caregivers who find themselves in a position to care for and love someone with a disability. Years later, she would uniquely experience this herself when her oldest child began to show signs of struggle.",
-        "highlight": "Erin brings therapeutic expertise in occupational therapy, a network of experts in pediatrics, and a deep passion for supporting the disability community."
-      },
-      {
-        "name": "Nicole Berrigan",
-        "location": "Northern Virginia",
-        "paragraph1": "Nicole has a bachelor's in Business Administration, a Masters in Organizational Leadership, has worked in Human Resources for over 15 years, is a trained executive coach, and is a mom to a beautiful child who is disabled.",
-        "paragraph2": "Through her experience supporting and advocating for her child's needs, she realized that so many pivotal points of significant growth or progress were directly related to tools, resources, or information she learned about through someone in her community. Without those connections, the trajectory would have been significantly different.",
-        "highlight": "Nicole brings business management skills, coaching expertise, and firsthand experience as a caregiver navigating the disability landscape."
-      }
-    ]
-  },
-  "cta": {
-    "heading": "Join Our Community",
-    "body": "We may not be able to fight every battle, but we can make knowing what is out there to support your child easier to find and use.",
-    "primaryCta": { "label": "Find Resources", "url": "/resources/" },
-    "secondaryCta": { "label": "Get in Touch", "url": "/contact/" }
-  }
+    }
+  ]
 }

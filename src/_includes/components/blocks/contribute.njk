@@ -1,0 +1,29 @@
+{# Two side-by-side prompts asking visitors to add a resource. The second card
+   carries a coloured border to draw the eye to the browser button. #}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="contribute" data-block-index="{{ blockIndex }}">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center mb-2" style="color: var(--color-primary);" data-block-field="heading">{{ block.heading }}</h2>
+    <p class="text-center mb-8 max-w-2xl mx-auto" style="color: var(--color-text-light);" data-block-field="intro">
+      {{ block.intro }}
+    </p>
+    <div class="grid md:grid-cols-2 gap-6 items-stretch">
+      <div class="card p-6 flex flex-col">
+        <h3 class="text-xl font-bold mb-2" style="color: var(--color-primary);" data-block-field="primary.heading">{{ block.primary.heading }}</h3>
+        <p class="text-sm mb-5 flex-grow" style="color: var(--color-text-light);" data-block-field="primary.body">
+          {{ block.primary.body }}
+        </p>
+        <a href="{{ block.primary.ctaUrl }}" class="btn-primary no-underline text-center" data-block-field="primary.ctaLabel">{{ block.primary.ctaLabel }}</a>
+      </div>
+      <div class="card p-6 flex flex-col" style="border: 2px solid var(--color-pink);">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-2xl" aria-hidden="true">{{ block.secondary.icon }}</span>
+          <h3 class="text-xl font-bold" style="color: var(--color-primary);" data-block-field="secondary.heading">{{ block.secondary.heading }}</h3>
+        </div>
+        <p class="text-sm mb-5 flex-grow" style="color: var(--color-text-light);" data-block-field="secondary.body">
+          {{ block.secondary.body }}
+        </p>
+        <a href="{{ block.secondary.ctaUrl }}" class="btn-secondary no-underline text-center" data-block-field="secondary.ctaLabel">{{ block.secondary.ctaLabel }}</a>
+      </div>
+    </div>
+  </div>
+</section>

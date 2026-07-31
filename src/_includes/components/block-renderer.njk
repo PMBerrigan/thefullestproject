@@ -1,0 +1,43 @@
+{#
+  Renders an ordered list of typed content blocks.
+
+  Order, visibility and per-block variants all come from data (src/_data/*.json,
+  edited in the Content Manager), not from the template — that is what lets the
+  section order be rearranged without touching code.
+
+  Expects a `blocks` array in scope. Each entry:
+    type        one of BLOCK_TYPES below; anything else is skipped
+    visible     false hides the block; missing/true renders it
+    id          optional stable anchor for deep links and CSS
+    background  white | warm | cool | cream | primary
+    padding     small | normal | large
+
+  Every block renders with data-block-index, which is how the inline editor
+  addresses it back to its position in the JSON array. Keep those anchors.
+#}
+{% set BLOCK_TYPES = [
+  "hero", "pageHeader", "text", "cardGrid", "contribute", "storyFeed",
+  "spotlight", "newsletter", "stats", "stack", "profiles", "ctaBanner"
+] %}
+{% set BG_CLASSES = {
+  "white": "",
+  "warm": "section-warm",
+  "cool": "section-cool",
+  "cream": "section-cream",
+  "primary": "section-primary"
+} %}
+{% set PAD_CLASSES = {
+  "small": "section-pad-sm",
+  "normal": "section-pad",
+  "large": "section-pad-lg"
+} %}
+
+{%- for block in blocks -%}
+  {%- if block.visible !== false and block.type in BLOCK_TYPES -%}
+    {%- set blockIndex = loop.index0 -%}
+    {%- set blockId = block.id or (block.type ~ "-" ~ loop.index) -%}
+    {%- set bgClass = BG_CLASSES[block.background] | default("") -%}
+    {%- set padClass = PAD_CLASSES[block.padding] | default("section-pad") -%}
+    {% include "components/blocks/" ~ block.type ~ ".njk" %}
+  {%- endif -%}
+{%- endfor -%}
