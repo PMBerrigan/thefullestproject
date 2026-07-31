@@ -60,6 +60,49 @@ npx wrangler secret put BREVO_APPROVED_TEMPLATE_ID   # approval thank-you (optio
 Brevo features no-op gracefully until the `BREVO_*` secrets are set, so the
 worker can ship before the Brevo account exists.
 
+## Edit Studio (inline page editing) — activation
+
+`/admin/edit/` lets an admin change text by clicking it on the real page. The
+code is committed but **inert until two things happen**:
+
+```bash
+# 1. A signing secret for the short-lived edit-session tokens.
+#    Must be at least 32 characters — the worker fails closed below that.
+npx wrangler secret put EDIT_SESSION_SECRET   # e.g. openssl rand -base64 48
+
+# 2. Deploy.
+npx wrangler deploy
+```
+
+Until then `/inline-edit/*` returns `500 {"error":"Editing is not configured"}`
+and the rest of the worker is unaffected.
+
+**Turning it off.** Set `inlineEditor.enabled` to `false` in
+`src/_data/site.json` and push. That governs both halves: Eleventy stops copying
+`src/admin-edit/` into the build, so `/admin/edit/` 404s, and the API returns
+404 for every `/inline-edit/*` request. For an immediate kill with no deploy,
+set the Cloudflare environment variable `INLINE_EDIT_ENABLED=0`.
+
+**Revoking sessions.** Rotate `EDIT_SESSION_SECRET`. Every outstanding session
+dies on its next request — no deploy, no rebuild.
+
+**What a session can do.** Replace an existing non-empty text string at an
+allow-listed `(block type, field path)` on the homepage, About or Get Involved,
+for two hours. It cannot change URLs, section order, visibility, backgrounds, or
+add or delete anything, and it grants nothing on GitHub. Every change is one
+commit naming the actor, revertible with `git revert`.
+
+The allow-list is `editable-fields.js`, shared with the test suite so the two
+cannot drift:
+
+```bash
+node cloudflare-worker-admin-api/test-inline-edit.mjs
+```
+
+Two of those tests compare the table against the `data-block-field` anchors in
+`src/_includes/components/blocks/*.njk` in both directions, so adding an anchor
+without a rule (or a rule without an anchor) fails.
+
 ## Approval thank-you email
 
 When an admin approves a **submission** (a resource sent through the site form or
