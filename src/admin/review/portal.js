@@ -216,6 +216,17 @@
     }
     loadSiteIndex();
     activateTab('queue');
+    revealEditStudio();
+  }
+
+  // Edit Studio only exists in the build when site.inlineEditor.enabled is true,
+  // so probing for it is also the check for whether the feature is switched on.
+  function revealEditStudio() {
+    fetch('/admin/edit/', { method: 'HEAD' })
+      .then(function(res) {
+        if (res.ok) byId('edit-pages-link').hidden = false;
+      })
+      .catch(function() { /* feature off — leave the link hidden */ });
   }
 
   // ── Tabs ──────────────────────────────────────────────────────────────────
