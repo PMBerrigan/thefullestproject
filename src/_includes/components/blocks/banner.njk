@@ -1,0 +1,10 @@
+{# Coloured page-top band with a headline and a line of intro, no buttons.
+   Narrower and slightly shorter than the homepage `hero`. #}
+<section class="hero-gradient text-white section-pad-banner" data-block-id="{{ blockId }}" data-block-type="banner" data-block-index="{{ blockIndex }}">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl sm:text-5xl font-extrabold mb-4" style="font-family: var(--font-heading);" data-block-field="heading">{{ block.heading }}</h1>
+    <p class="text-xl opacity-90 max-w-2xl mx-auto" data-block-field="subheading">
+      {{ block.subheading }}
+    </p>
+  </div>
+</section>

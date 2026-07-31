@@ -1,0 +1,16 @@
+{#
+  Escape hatch for sections that are too bespoke for a generic block — forms,
+  share widgets, anything with its own JavaScript or load-bearing element ids.
+
+  The section still sits in the page's block list, so it can be reordered and
+  hidden from the Content Manager like any other; only its internals are fixed
+  in code. Its content lives in components/custom/<include>.njk.
+
+  `include` is checked against this whitelist rather than interpolated straight
+  into an include path, so a typo renders nothing instead of breaking the build.
+  Add new partials here and to the "Which section" options in src/admin/config.yml.
+#}
+{% set CUSTOM_INCLUDES = ["get-involved-newsletter", "get-involved-share"] %}
+{%- if block.include in CUSTOM_INCLUDES -%}
+{% include "components/custom/" ~ block.include ~ ".njk" %}
+{%- endif -%}

@@ -15,6 +15,20 @@ local_backend:
 media_folder: "src/images/blog"
 public_folder: "/images/blog"
 
+# Shared option lists, defined before the block palette that aliases them —
+# YAML anchors must appear before the first use.
+background_options: &background_options
+  - { label: "White", value: "white" }
+  - { label: "Warm cream", value: "warm" }
+  - { label: "Cool blue", value: "cool" }
+  - { label: "Deep cream", value: "cream" }
+  - { label: "Brand colour (white text)", value: "primary" }
+
+padding_options: &padding_options
+  - { label: "Short", value: "small" }
+  - { label: "Medium", value: "normal" }
+  - { label: "Tall", value: "large" }
+
 # The palette of section types a page can be built from. Anchored here so the
 # Homepage and About Page offer exactly the same set — a section that can be
 # added to one can be added to the other.
@@ -51,6 +65,77 @@ block_types: &block_types
           - { label: "Tall", value: "large" }
       - { label: "Section ID (advanced)", name: "id", widget: "string", required: false, hint: "Only needed for linking straight to this section. Leave blank." }
 
+  - label: "Coloured Page Banner"
+    name: "banner"
+    summary: "Banner — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Intro text", name: "subheading", widget: "text" }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Way to Help (emoji + card)"
+    name: "tierCard"
+    summary: "Way to help — {{fields.heading}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - { label: "Large emoji", name: "emoji", widget: "string", hint: "Shown big above the heading, e.g. 🧩" }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Intro text", name: "intro", widget: "text" }
+      - label: "The card"
+        name: "card"
+        widget: "object"
+        fields:
+          - label: "Card layout"
+            name: "layout"
+            widget: "select"
+            default: "plain"
+            options:
+              - { label: "Plain — centred, no icon", value: "plain" }
+              - { label: "With icon beside the heading", value: "icon" }
+          - { label: "Card icon (emoji)", name: "icon", widget: "string", required: false, hint: "Only used with the icon layout." }
+          - label: "Card border"
+            name: "borderColor"
+            widget: "select"
+            required: false
+            default: ""
+            options:
+              - { label: "No border", value: "" }
+              - { label: "Secondary colour", value: "secondary" }
+              - { label: "Primary colour", value: "primary" }
+              - { label: "Accent colour", value: "accent" }
+          - { label: "Card heading", name: "heading", widget: "string" }
+          - { label: "Card text", name: "body", widget: "text" }
+          - { label: "Button text", name: "ctaLabel", widget: "string" }
+          - { label: "Links to", name: "ctaUrl", widget: "string" }
+      - label: "Footnote underneath (optional)"
+        name: "footnote"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Text", name: "text", widget: "string", required: false, hint: "Leave blank for no footnote." }
+          - { label: "Link text", name: "linkLabel", widget: "string", required: false }
+          - { label: "Link goes to", name: "url", widget: "string", required: false }
+      - { label: "Background", name: "background", widget: "select", default: "white", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
+  - label: "Built-in Section (developer-built)"
+    name: "custom"
+    summary: "Built-in — {{fields.include}}"
+    fields:
+      - { label: "Show this section", name: "visible", widget: "boolean", default: true }
+      - label: "Which section"
+        name: "include"
+        widget: "select"
+        hint: "These sections contain forms or buttons that need code, so their wording is not editable here. You can still move them or hide them."
+        options:
+          - { label: "Newsletter signup card", value: "get-involved-newsletter" }
+          - { label: "Share-the-word card", value: "get-involved-share" }
+      - { label: "Background", name: "background", widget: "select", default: "white", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
+      - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
+
   - label: "Page Title"
     name: "pageHeader"
     summary: "Page title — {{fields.heading}}"
@@ -58,24 +143,8 @@ block_types: &block_types
       - { label: "Show this section", name: "visible", widget: "boolean", default: true }
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Intro text", name: "body", widget: "text" }
-      - label: "Background"
-        name: "background"
-        widget: "select"
-        default: "warm"
-        options: &background_options
-          - { label: "White", value: "white" }
-          - { label: "Warm cream", value: "warm" }
-          - { label: "Cool blue", value: "cool" }
-          - { label: "Deep cream", value: "cream" }
-          - { label: "Brand colour (white text)", value: "primary" }
-      - label: "Section height"
-        name: "padding"
-        widget: "select"
-        default: "normal"
-        options: &padding_options
-          - { label: "Short", value: "small" }
-          - { label: "Medium", value: "normal" }
-          - { label: "Tall", value: "large" }
+      - { label: "Background", name: "background", widget: "select", default: "warm", options: *background_options }
+      - { label: "Section height", name: "padding", widget: "select", default: "normal", options: *padding_options }
       - { label: "Section ID (advanced)", name: "id", widget: "string", required: false }
 
   - label: "Text Section"
@@ -347,6 +416,19 @@ collections:
       - label: "About Page"
         name: "about"
         file: "src/_data/about.json"
+        fields:
+          - label: "Page Sections"
+            name: "blocks"
+            widget: "list"
+            label_singular: "Section"
+            collapsed: true
+            summary: "{{fields.heading}}"
+            hint: "Drag the handles to reorder sections. Use 'Add Section' for a new one, and the 'Show this section' switch inside a section to hide it without deleting it."
+            types: *block_types
+
+      - label: "Get Involved"
+        name: "getInvolved"
+        file: "src/_data/getInvolved.json"
         fields:
           - label: "Page Sections"
             name: "blocks"
