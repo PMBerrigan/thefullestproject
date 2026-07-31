@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Card component */
 .card {
   background: white;
-  border-radius: 0.75rem;
+  border-radius: var(--radius-card, 0.75rem);
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   transition: box-shadow 0.2s, transform 0.2s;
 }
@@ -93,9 +93,60 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Hero gradient — blue into green with a warm gold corner (keeps white text
-   over the darker blue/green area readable) */
+   over the darker blue/green area readable).
+   --hero-background is only set when Design & Branding picks the solid or image
+   hero style; otherwise this gradient stands. */
 .hero-gradient {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 65%, var(--color-highlight) 115%);
+  background: var(--hero-background, linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 65%, var(--color-highlight) 115%));
+}
+
+/* Section rhythm — driven by the "Section spacing" setting. Blocks use these
+   instead of fixed py-* utilities so the whole page breathes together.
+   At the "comfortable" default these resolve to the original values exactly:
+   sm = py-12 (3rem), normal = py-16 (4rem), lg = py-20 / lg:py-28 (5rem/7rem). */
+.section-pad {
+  padding-top: var(--space-section, 4rem);
+  padding-bottom: var(--space-section, 4rem);
+}
+
+.section-pad-sm {
+  padding-top: calc(var(--space-section, 4rem) * 0.75);
+  padding-bottom: calc(var(--space-section, 4rem) * 0.75);
+}
+
+.section-pad-lg {
+  padding-top: calc(var(--space-section, 4rem) * 1.25);
+  padding-bottom: calc(var(--space-section, 4rem) * 1.25);
+}
+
+@media (min-width: 1024px) {
+  .section-pad-lg {
+    padding-top: calc(var(--space-section, 4rem) * 1.75);
+    padding-bottom: calc(var(--space-section, 4rem) * 1.75);
+  }
+}
+
+/* Banner blocks sit between normal and hero height: py-16 growing to py-20 on
+   large screens at the default spacing. */
+.section-pad-banner {
+  padding-top: var(--space-section, 4rem);
+  padding-bottom: var(--space-section, 4rem);
+}
+
+@media (min-width: 1024px) {
+  .section-pad-banner {
+    padding-top: calc(var(--space-section, 4rem) * 1.25);
+    padding-bottom: calc(var(--space-section, 4rem) * 1.25);
+  }
+}
+
+/* Selectable block backgrounds (see the "Background" field on each block). */
+.section-cream {
+  background-color: var(--color-warm);
+}
+
+.section-primary {
+  background-color: var(--color-primary);
 }
 
 /* Section alternating backgrounds */

@@ -1,0 +1,43 @@
+{# A way to help, presented as a large emoji, a heading and intro, then a single
+   card holding the actual action. The "Get Involved" page is a stack of these.
+
+   The card has two layouts:
+     icon   an emoji beside the card heading, centred body, button in its own row
+     plain  centred card, heading straight into body, button directly beneath
+   plus an optional footnote line underneath carrying one inline link. #}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="tierCard" data-block-index="{{ blockIndex }}">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-8">
+      <div class="text-5xl mb-3" aria-hidden="true">{{ block.emoji }}</div>
+      <h2 class="text-3xl font-bold mb-3" style="color: var(--color-primary);" data-block-field="heading">{{ block.heading }}</h2>
+      <p class="text-lg" style="color: var(--color-text-light);" data-block-field="intro">
+        {{ block.intro }}
+      </p>
+    </div>
+    <div class="card p-8{% if block.card.layout != 'icon' %} text-center{% endif %}{% if block.footnote and block.footnote.text %} mb-6{% endif %}"{% if block.card.borderColor %} style="border: 2px solid var(--color-{{ block.card.borderColor }});"{% endif %}>
+      {%- if block.card.layout == 'icon' %}
+      <div class="flex items-center gap-2 mb-2 justify-center">
+        <span class="text-3xl" aria-hidden="true">{{ block.card.icon }}</span>
+        <h3 class="text-xl font-bold" style="color: var(--color-primary);" data-block-field="card.heading">{{ block.card.heading }}</h3>
+      </div>
+      <p class="text-center mb-6" style="color: var(--color-text-light);" data-block-field="card.body">
+        {{ block.card.body }}
+      </p>
+      <div class="text-center">
+        <a href="{{ block.card.ctaUrl }}" class="btn-secondary no-underline text-lg px-8 py-4 inline-block" data-block-field="card.ctaLabel">{{ block.card.ctaLabel }}</a>
+      </div>
+      {%- else %}
+      <h3 class="text-xl font-bold mb-3" style="color: var(--color-primary);" data-block-field="card.heading">{{ block.card.heading }}</h3>
+      <p class="mb-6" style="color: var(--color-text-light);" data-block-field="card.body">
+        {{ block.card.body }}
+      </p>
+      <a href="{{ block.card.ctaUrl }}" class="btn-primary no-underline text-lg px-8 py-4 inline-block" data-block-field="card.ctaLabel">{{ block.card.ctaLabel }}</a>
+      {%- endif %}
+    </div>
+    {%- if block.footnote and block.footnote.text %}
+    <p class="text-center" style="color: var(--color-text-light);" data-block-field="footnote.text">
+      {{ block.footnote.text }} <a href="{{ block.footnote.url }}" class="font-semibold" style="color: var(--color-secondary);">{{ block.footnote.linkLabel }} &rarr;</a>
+    </p>
+    {%- endif %}
+  </div>
+</section>

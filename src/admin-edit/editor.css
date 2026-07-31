@@ -1,0 +1,148 @@
+/* Edit Studio shell chrome.
+ *
+ * Every class is tfpe- prefixed and no Tailwind class name appears anywhere, so
+ * a future Tailwind source scan cannot pull any of this into the public
+ * output.css. This file is never loaded by a page a visitor sees.
+ */
+
+:root {
+  --tfpe-ink: #2D3436;
+  --tfpe-muted: #636E72;
+  --tfpe-line: #E2E8F0;
+  --tfpe-brand: #3A668C;
+  --tfpe-accent: #FDB92E;
+  --tfpe-changed: #E8913A;
+  --tfpe-bar-h: 56px;
+}
+
+* { box-sizing: border-box; }
+
+/* Several containers below set `display: flex`, which outranks the `hidden`
+   attribute's default `display: none`. Without this the hidden publish panel
+   still covers the viewport and swallows every click. */
+[hidden] { display: none !important; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--tfpe-ink);
+  background: #F4F6F8;
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* ── Sign-in ─────────────────────────────────────────────────────────────── */
+
+.tfpe-signin {
+  min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px;
+}
+
+.tfpe-signin-card {
+  background: #fff; border-radius: 12px; padding: 32px; max-width: 420px; width: 100%;
+  box-shadow: 0 4px 20px rgba(0,0,0,.08);
+}
+
+.tfpe-signin-card h1 { margin: 0 0 8px; font-size: 24px; color: var(--tfpe-brand); }
+.tfpe-signin-card p { margin: 0 0 20px; color: var(--tfpe-muted); }
+
+.tfpe-details { margin-top: 20px; font-size: 14px; color: var(--tfpe-muted); }
+.tfpe-details summary { cursor: pointer; }
+.tfpe-details label { display: block; margin: 12px 0 4px; }
+.tfpe-details input {
+  width: 100%; padding: 8px 10px; border: 2px solid var(--tfpe-line);
+  border-radius: 6px; font-size: 14px; margin-bottom: 8px;
+}
+
+.tfpe-status { min-height: 20px; font-size: 14px; color: var(--tfpe-muted); }
+
+/* ── Buttons ─────────────────────────────────────────────────────────────── */
+
+.tfpe-btn {
+  border: 1px solid var(--tfpe-line); background: #fff; color: var(--tfpe-ink);
+  padding: 8px 14px; border-radius: 8px; font: inherit; font-size: 14px;
+  font-weight: 600; cursor: pointer;
+}
+.tfpe-btn:hover { background: #F4F6F8; }
+.tfpe-btn:disabled { opacity: .45; cursor: not-allowed; }
+
+.tfpe-btn-primary {
+  background: var(--tfpe-brand); border-color: var(--tfpe-brand); color: #fff;
+}
+.tfpe-btn-primary:hover { background: #2F5473; }
+
+.tfpe-btn-danger { color: #C0392B; }
+
+/* ── Studio shell ────────────────────────────────────────────────────────── */
+
+.tfpe-studio { display: flex; flex-direction: column; height: 100vh; }
+
+.tfpe-bar {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  min-height: var(--tfpe-bar-h); padding: 8px 16px;
+  background: #fff; border-bottom: 1px solid var(--tfpe-line);
+  box-shadow: 0 1px 3px rgba(0,0,0,.06); z-index: 2;
+}
+
+.tfpe-brand { font-weight: 800; color: var(--tfpe-brand); letter-spacing: .02em; }
+
+.tfpe-select {
+  padding: 6px 10px; border: 1px solid var(--tfpe-line); border-radius: 6px;
+  font: inherit; font-size: 14px; background: #fff;
+}
+
+.tfpe-bar-message { font-size: 14px; color: var(--tfpe-muted); }
+.tfpe-bar-message[data-tone="changed"] { color: var(--tfpe-changed); font-weight: 600; }
+.tfpe-bar-message[data-tone="live"] { color: #6A9346; font-weight: 600; }
+.tfpe-bar-message[data-tone="warn"] { color: #C0392B; font-weight: 600; }
+
+.tfpe-spacer { flex: 1 1 auto; }
+
+.tfpe-stage { flex: 1 1 auto; width: 100%; border: 0; background: #fff; }
+
+.tfpe-notice {
+  padding: 12px 16px; background: #FCF8EE; border-bottom: 1px solid #EFE3C6;
+  font-size: 14px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+}
+
+.tfpe-progress { height: 3px; background: var(--tfpe-line); }
+.tfpe-progress-fill {
+  height: 100%; width: 0; background: var(--tfpe-accent); transition: width .4s linear;
+}
+
+/* ── Review & publish panel ──────────────────────────────────────────────── */
+
+.tfpe-panel {
+  position: fixed; inset: 0; background: rgba(20,24,28,.55);
+  display: flex; align-items: center; justify-content: center; padding: 24px; z-index: 10;
+}
+
+.tfpe-panel-inner {
+  background: #fff; border-radius: 12px; width: min(760px, 100%);
+  max-height: 90vh; display: flex; flex-direction: column;
+}
+
+.tfpe-panel-head, .tfpe-panel-foot {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding: 16px 20px;
+}
+.tfpe-panel-head { border-bottom: 1px solid var(--tfpe-line); }
+.tfpe-panel-foot { border-top: 1px solid var(--tfpe-line); }
+.tfpe-panel-head h2 { margin: 0; font-size: 18px; }
+
+.tfpe-panel-list { overflow-y: auto; padding: 8px 20px; }
+
+.tfpe-change { padding: 14px 0; border-bottom: 1px solid var(--tfpe-line); }
+.tfpe-change:last-child { border-bottom: 0; }
+.tfpe-change-label { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--tfpe-muted); }
+.tfpe-change-before { color: var(--tfpe-muted); text-decoration: line-through; margin: 6px 0 2px; }
+.tfpe-change-after { font-weight: 600; }
+.tfpe-change-actions { margin-top: 8px; display: flex; gap: 8px; }
+
+.tfpe-conflict { background: #FDF3F2; border: 1px solid #F3D4D0; border-radius: 8px; padding: 12px; margin: 10px 0; }
+.tfpe-conflict p { margin: 0 0 8px; }
+
+.tfpe-muted { color: var(--tfpe-muted); font-size: 14px; margin: 0; }
+.tfpe-empty { padding: 32px 0; text-align: center; color: var(--tfpe-muted); }

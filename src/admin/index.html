@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +8,10 @@
 </head>
 <body>
   <script src="https://unpkg.com/decap-cms@3.8.4/dist/decap-cms.js"></script>
+  <!-- Live preview panes. Must load after the CMS bundle so `CMS`, `h` and
+       `createClass` are defined. -->
+  <script src="/admin/preview-templates.js"></script>
+  <script src="/admin/blocks-preview.js"></script>
   <script>
     // Cross-link to the review portal (Decap has no custom-nav hook)
     window.addEventListener('DOMContentLoaded', function() {

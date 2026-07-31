@@ -1,0 +1,17 @@
+{# Full-width banner with two calls to action. Its background is controlled by
+   the "Homepage Banner" setting in Design & Branding, not by a per-block field,
+   so there is only one place to change it. #}
+<section class="hero-gradient text-white {{ padClass }}" data-block-id="{{ blockId }}" data-block-type="hero" data-block-index="{{ blockIndex }}">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6" style="font-family: var(--font-heading);" data-block-field="heading">
+      {{ block.heading }}
+    </h1>
+    <p class="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto opacity-90" data-block-field="subheading">
+      {{ block.subheading }}
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="{{ block.primaryCta.url }}" class="btn-secondary text-lg px-8 py-4 no-underline" data-block-field="primaryCta.label">{{ block.primaryCta.label }}</a>
+      <a href="{{ block.secondaryCta.url }}" class="bg-white/20 hover:bg-white/30 text-white px-8 py-4 font-semibold text-lg transition-colors no-underline" style="border-radius: var(--radius-button);" data-block-field="secondaryCta.label">{{ block.secondaryCta.label }}</a>
+    </div>
+  </div>
+</section>

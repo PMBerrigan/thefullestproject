@@ -1,88 +1,163 @@
 {
-  "hero": {
-    "heading": "Living Life to the Fullest",
-    "subheading": "Your connection hub for disability resources, programs, education, and community.",
-    "primaryCta": {
-      "label": "Find Resources",
-      "url": "/resources/"
-    },
-    "secondaryCta": {
-      "label": "Learn More",
-      "url": "/about/"
-    }
-  },
-  "mission": {
-    "heading": "Our Mission",
-    "body": "While there are so many different programs, resources, and communities whose whole purpose is to support the disability community, there is no centralized place to find them. Finding the right resource often depends on who you know or how well you can search.",
-    "emphasis": "We're changing that."
-  },
-  "features": {
-    "heading": "How We Can Help",
-    "cards": [
-      {
-        "icon": "📍",
-        "title": "Resource Directory",
-        "description": "Find local and national programs, foundations, services, and support organizations — all in one place.",
+  "blocks": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "visible": true,
+      "padding": "large",
+      "heading": "Living Life to the Fullest",
+      "subheading": "Your connection hub for disability resources, programs, education, and community.",
+      "primaryCta": {
+        "label": "Find Resources",
         "url": "/resources/"
       },
-      {
-        "icon": "🧠",
-        "title": "Therapy Guide",
-        "description": "Learn about different therapy types, when each is most beneficial, and how to find the right provider.",
-        "url": "/therapy-guide/"
-      },
-      {
-        "icon": "♿",
-        "title": "Adaptive Equipment",
-        "description": "Explore adaptive equipment options, curated product lists, and equipment loaner programs.",
-        "url": "/adaptive-equipment/"
-      },
-      {
-        "icon": "🎓",
-        "title": "School & IEP Navigation",
-        "description": "Understand IEPs, 504 plans, your rights, and how to effectively advocate for your child's education.",
-        "url": "/school-iep/"
-      },
-      {
-        "icon": "📝",
-        "title": "Blog",
-        "description": "Stories, insights, and practical advice from experts and caregivers in the disability community.",
-        "url": "/blog/"
-      },
-      {
-        "icon": "🎧",
-        "title": "Podcast",
-        "description": "Listen to conversations with families, professionals, and advocates making a difference.",
-        "url": "/podcast/"
+      "secondaryCta": {
+        "label": "Learn More",
+        "url": "/about/"
       }
-    ]
-  },
-  "stories": {
-    "heading": "Stories & News",
-    "subheading": "Positive stories from families and the disability community — updated weekly",
-    "emptyMessage": "Stories coming soon! We're collecting inspiring stories from families in the disability community.",
-    "emptyCtaLabel": "Share Your Story",
-    "browseAllLabel": "Browse All Stories & News"
-  },
-  "spotlight": {
-    "heading": "Organization Spotlight",
-    "subheading": "Highlighting organizations providing accessible services and adventures",
-    "viewAllLabel": "View All Spotlights"
-  },
-  "newsletter": {
-    "heading": "Stay Connected",
-    "body": "Get updates on new resources, blog posts, podcast episodes, and community news delivered to your inbox.",
-    "placeholder": "Enter your email",
-    "buttonLabel": "Subscribe"
-  },
-  "coverage": {
-    "heading": "Serving All 50 States",
-    "body": "Disability resources for every state, plus national organizations that serve the entire country.",
-    "statResourcesLabel": "Resources Listed",
-    "statLocationsValue": "51",
-    "statLocationsLabel": "Locations Covered",
-    "statCategoriesValue": "29",
-    "statCategoriesLabel": "Resource Categories",
-    "ctaLabel": "Browse Resources by State"
-  }
+    },
+    {
+      "type": "text",
+      "id": "mission",
+      "visible": true,
+      "background": "warm",
+      "padding": "normal",
+      "align": "center",
+      "heading": "Our Mission",
+      "paragraphs": [
+        "While there are so many different programs, resources, and communities whose whole purpose is to support the disability community, there is no centralized place to find them. Finding the right resource often depends on who you know or how well you can search."
+      ],
+      "emphasis": "We're changing that."
+    },
+    {
+      "type": "cardGrid",
+      "id": "features",
+      "visible": true,
+      "background": "cool",
+      "padding": "normal",
+      "columns": "3",
+      "heading": "How We Can Help",
+      "cards": [
+        {
+          "icon": "📍",
+          "title": "Resource Directory",
+          "description": "Find local and national programs, foundations, services, and support organizations — all in one place.",
+          "url": "/resources/"
+        },
+        {
+          "icon": "🧠",
+          "title": "Therapy Guide",
+          "description": "Learn about different therapy types, when each is most beneficial, and how to find the right provider.",
+          "url": "/therapy-guide/"
+        },
+        {
+          "icon": "♿",
+          "title": "Adaptive Equipment",
+          "description": "Explore adaptive equipment options, curated product lists, and equipment loaner programs.",
+          "url": "/adaptive-equipment/"
+        },
+        {
+          "icon": "🎓",
+          "title": "School & IEP Navigation",
+          "description": "Understand IEPs, 504 plans, your rights, and how to effectively advocate for your child's education.",
+          "url": "/school-iep/"
+        },
+        {
+          "icon": "📝",
+          "title": "Blog",
+          "description": "Stories, insights, and practical advice from experts and caregivers in the disability community.",
+          "url": "/blog/"
+        },
+        {
+          "icon": "🎧",
+          "title": "Podcast",
+          "description": "Listen to conversations with families, professionals, and advocates making a difference.",
+          "url": "/podcast/"
+        }
+      ]
+    },
+    {
+      "type": "contribute",
+      "id": "contribute",
+      "visible": true,
+      "background": "cream",
+      "padding": "small",
+      "heading": "Help build the directory",
+      "intro": "Every family knows resources others are still searching for. Share what you know — we review each one before it goes live.",
+      "primary": {
+        "heading": "Know a resource we're missing?",
+        "body": "Add a program, service, or organization that supports individuals with disabilities and their caregivers. It takes about a minute.",
+        "ctaLabel": "Add a Resource",
+        "ctaUrl": "/submit-resource/"
+      },
+      "secondary": {
+        "icon": "📌",
+        "heading": "Add resources as you browse",
+        "body": "Get our one-click browser button. Come across a great resource anywhere on the web? Click it to send it to us — no copying, no pasting.",
+        "ctaLabel": "Get the Browser Button",
+        "ctaUrl": "/quick-submit/"
+      }
+    },
+    {
+      "type": "storyFeed",
+      "id": "stories",
+      "visible": true,
+      "background": "warm",
+      "padding": "normal",
+      "heading": "Stories & News",
+      "subheading": "Positive stories from families and the disability community — updated weekly",
+      "emptyMessage": "Stories coming soon! We're collecting inspiring stories from families in the disability community.",
+      "emptyCtaLabel": "Share Your Story",
+      "browseAllLabel": "Browse All Stories & News"
+    },
+    {
+      "type": "spotlight",
+      "id": "spotlight",
+      "visible": true,
+      "background": "white",
+      "padding": "normal",
+      "heading": "Organization Spotlight",
+      "subheading": "Highlighting organizations providing accessible services and adventures",
+      "viewAllLabel": "View All Spotlights"
+    },
+    {
+      "type": "newsletter",
+      "id": "newsletter",
+      "visible": true,
+      "background": "primary",
+      "padding": "normal",
+      "heading": "Stay Connected",
+      "body": "Get updates on new resources, blog posts, podcast episodes, and community news delivered to your inbox.",
+      "placeholder": "Enter your email",
+      "buttonLabel": "Subscribe"
+    },
+    {
+      "type": "stats",
+      "id": "coverage",
+      "visible": true,
+      "background": "white",
+      "padding": "normal",
+      "heading": "Serving All 50 States",
+      "body": "Disability resources for every state, plus national organizations that serve the entire country.",
+      "stats": [
+        {
+          "auto": true,
+          "value": "",
+          "label": "Resources Listed"
+        },
+        {
+          "auto": false,
+          "value": "51",
+          "label": "Locations Covered"
+        },
+        {
+          "auto": false,
+          "value": "29",
+          "label": "Resource Categories"
+        }
+      ],
+      "ctaLabel": "Browse Resources by State",
+      "ctaUrl": "/resources/"
+    }
+  ]
 }

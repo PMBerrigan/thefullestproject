@@ -1,0 +1,18 @@
+{# Featured organisation. Renders nothing at all when no spotlight is marked as
+   featured, so the page closes up rather than showing an empty band. #}
+{% set featuredSpotlights = spotlights | filterFeatured | limit(1) %}
+{% if featuredSpotlights.length %}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="spotlight" data-block-index="{{ blockIndex }}">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center mb-4" style="color: var(--color-primary);" data-block-field="heading">{{ block.heading }}</h2>
+    <p class="text-center mb-12" style="color: var(--color-text-light);" data-block-field="subheading">{{ block.subheading }}</p>
+    <div class="max-w-lg mx-auto">
+      {% set spotlight = featuredSpotlights[0] %}
+      {% include "components/spotlight-card.njk" %}
+    </div>
+    <div class="text-center mt-8">
+      <a href="/spotlights/" class="btn-secondary no-underline" data-block-field="viewAllLabel">{{ block.viewAllLabel }}</a>
+    </div>
+  </div>
+</section>
+{% endif %}

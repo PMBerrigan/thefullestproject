@@ -1,0 +1,75 @@
+{
+  "blocks": [
+    {
+      "type": "banner",
+      "id": "hero",
+      "visible": true,
+      "heading": "Get Involved",
+      "subheading": "The Fullest Project grows stronger with every person who joins in. Whether you have a minute or a mission, here's how you can help families in the disability community find what they need — and add what you know."
+    },
+    {
+      "type": "custom",
+      "id": "community",
+      "visible": true,
+      "include": "get-involved-newsletter",
+      "background": "warm",
+      "padding": "normal"
+    },
+    {
+      "type": "tierCard",
+      "id": "contributor",
+      "visible": true,
+      "background": "white",
+      "padding": "normal",
+      "emoji": "🧩",
+      "heading": "Become a Fullest Contributor",
+      "intro": "The strength of The Fullest Project comes from each of you sharing the resources and information you know, so that everyone can benefit. Come across a program, service, website, or organization that supports individuals with disabilities and isn't in our directory yet? Add it. Every resource you share saves another family hours of searching.",
+      "card": {
+        "layout": "icon",
+        "icon": "📌",
+        "borderColor": "secondary",
+        "heading": "Get the browser button",
+        "body": "The easiest way to contribute is our one-click browser button. Find a great resource anywhere on the web? Click it to send it to us — quickly and in the moment, no copying or pasting.",
+        "ctaLabel": "Get the Browser Button",
+        "ctaUrl": "/quick-submit/"
+      },
+      "footnote": {
+        "text": "Prefer to add one now?",
+        "linkLabel": "Submit a resource",
+        "url": "/submit-resource/"
+      }
+    },
+    {
+      "type": "custom",
+      "id": "advocate",
+      "visible": true,
+      "include": "get-involved-share",
+      "background": "cool",
+      "padding": "normal"
+    },
+    {
+      "type": "tierCard",
+      "id": "supporter",
+      "visible": true,
+      "background": "white",
+      "padding": "normal",
+      "emoji": "🤝",
+      "heading": "Become a Fullest Supporter",
+      "intro": "Donate to The Fullest Project to help maintain and expand our directory, create educational content, and increase awareness of and accessibility to these resources. Your donation keeps the website running ad-free and accessible to every family who needs it.",
+      "card": {
+        "layout": "plain",
+        "icon": "",
+        "borderColor": "",
+        "heading": "Support the mission",
+        "body": "Donations are processed securely through Every.org. You can make a one-time gift or set up a recurring donation.",
+        "ctaLabel": "Donate to The Fullest Project",
+        "ctaUrl": "/donate/"
+      },
+      "footnote": {
+        "text": "",
+        "linkLabel": "",
+        "url": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Edit Studio — The Fullest Project</title>
+  <link rel="stylesheet" href="./editor.css">
+</head>
+<body>
+
+<!-- Sign-in. Replaced by the studio once an edit session exists. -->
+<div id="signin" class="tfpe-signin">
+  <div class="tfpe-signin-card">
+    <h1>Edit Studio</h1>
+    <p>Change the words on your pages by clicking them.</p>
+    <button type="button" id="signin-btn" class="tfpe-btn tfpe-btn-primary">Sign in with GitHub</button>
+    <p id="signin-status" class="tfpe-status" role="status" aria-live="polite"></p>
+    <details class="tfpe-details">
+      <summary>Popup blocked? Use a personal access token</summary>
+      <label for="pat">Personal access token</label>
+      <input type="password" id="pat" autocomplete="off" spellcheck="false">
+      <button type="button" id="pat-btn" class="tfpe-btn">Use this token</button>
+    </details>
+  </div>
+</div>
+
+<!-- The studio. The public page is loaded into the iframe below; no editor
+     code or credential is ever added to the site itself. -->
+<div id="studio" class="tfpe-studio" hidden>
+  <header class="tfpe-bar">
+    <span class="tfpe-brand">Edit Studio</span>
+    <label class="sr-only" for="page-picker">Page to edit</label>
+    <select id="page-picker" class="tfpe-select"></select>
+    <span id="bar-message" class="tfpe-bar-message" role="status" aria-live="polite">Nothing is live until you publish</span>
+    <span class="tfpe-spacer"></span>
+    <button type="button" id="review-btn" class="tfpe-btn tfpe-btn-primary" disabled>Review &amp; publish</button>
+    <button type="button" id="done-btn" class="tfpe-btn">Done</button>
+  </header>
+
+  <div id="resume" class="tfpe-notice" hidden></div>
+  <div id="progress" class="tfpe-progress" hidden><div class="tfpe-progress-fill"></div></div>
+
+  <iframe id="stage" class="tfpe-stage" title="The page you are editing"></iframe>
+</div>
+
+<!-- Review & publish. Every pending change as before → after. -->
+<div id="panel" class="tfpe-panel" hidden>
+  <div class="tfpe-panel-inner">
+    <header class="tfpe-panel-head">
+      <h2 id="panel-title">Review your changes</h2>
+      <button type="button" id="panel-close" class="tfpe-btn" aria-label="Close">Back to editing</button>
+    </header>
+    <div id="panel-list" class="tfpe-panel-list"></div>
+    <footer class="tfpe-panel-foot">
+      <p class="tfpe-muted">This updates the live website in about 2 minutes.</p>
+      <button type="button" id="publish-btn" class="tfpe-btn tfpe-btn-primary">Publish</button>
+    </footer>
+  </div>
+</div>
+
+<script type="module" src="./editor.js"></script>
+</body>
+</html>

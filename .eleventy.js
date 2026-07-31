@@ -1,4 +1,5 @@
 const { HtmlBasePlugin } = require("@11ty/eleventy");
+const siteData = require("./src/_data/site.json");
 
 module.exports = function(eleventyConfig) {
   // Rewrite all URLs to include pathPrefix (for GitHub Pages subpath hosting)
@@ -9,6 +10,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/css/output.css");
   eleventyConfig.addPassthroughCopy("src/admin");
+
+  // The inline page editor is a separate directory on purpose: the blanket
+  // copy of src/admin above is unconditional, so keeping it out of there is
+  // what lets the flag actually withhold it. Flag off → /admin/edit/ does not
+  // exist in the build at all.
+  if (siteData.inlineEditor && siteData.inlineEditor.enabled === true) {
+    eleventyConfig.addPassthroughCopy({ "src/admin-edit": "admin/edit" });
+  }
+
   eleventyConfig.addPassthroughCopy("src/CNAME");
   eleventyConfig.addPassthroughCopy({ ".nojekyll": ".nojekyll" });
 

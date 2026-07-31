@@ -1,0 +1,15 @@
+{# Vertically stacked cards, each a titled paragraph. Suits ordered material
+   like a phased plan or a numbered set of steps. #}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="stack" data-block-index="{{ blockIndex }}">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold mb-8" style="color: var(--color-primary);" data-block-field="heading">{{ block.heading }}</h2>
+    <div class="space-y-8">
+      {% for item in block.items %}
+      <div class="card p-8">
+        <h3 class="text-xl font-bold mb-3" style="color: var(--color-secondary);" data-block-field="items.{{ loop.index0 }}.title">{{ item.title }}</h3>
+        <p style="color: var(--color-text-light);" data-block-field="items.{{ loop.index0 }}.body">{{ item.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

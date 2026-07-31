@@ -8,7 +8,12 @@
     "build:11ty": "npx @11ty/eleventy",
     "build": "npm run build:11ty && npm run build:css",
     "serve": "npx @11ty/eleventy --serve",
-    "deploy": "npm run build"
+    "deploy": "npm run build",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "baseline": "node scripts/html-baseline.js snapshot",
+    "baseline:diff": "node scripts/html-baseline.js diff",
+    "cms:local": "decap-server"
   },
   "keywords": [
     "disability",
@@ -25,5 +30,9 @@
     "@tailwindcss/cli": "^4.2.1",
     "concurrently": "^9.2.1",
     "tailwindcss": "^4.2.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "decap-server": "^3.10.0"
   }
 }

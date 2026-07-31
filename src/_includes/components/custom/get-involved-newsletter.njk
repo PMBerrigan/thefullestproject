@@ -1,0 +1,26 @@
+{# Newsletter signup presented as a tier card. Bespoke rather than a tierCard
+   block because the card holds a live form: the input id is fixed (the <label>
+   points at it) and the form carries the worker/Formspree wiring. #}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="custom" data-block-index="{{ blockIndex }}">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-8">
+      <div class="text-5xl mb-3" aria-hidden="true">💛</div>
+      <h2 class="text-3xl font-bold mb-3" style="color: var(--color-primary);">Become part of the Fullest Community</h2>
+      <p class="text-lg" style="color: var(--color-text-light);">
+        Sign up for our newsletter and be the first to know about new resources, programs, and stories for the disability community. A few emails a month, no spam, unsubscribe anytime — just the newest additions to the directory, practical guides, and encouragement from families who understand.
+      </p>
+    </div>
+    <div class="card p-8">
+      <h3 class="text-xl font-bold mb-4 text-center" style="color: var(--color-primary);">Join our community newsletter</h3>
+      <form action="https://formspree.io/f/{{ site.formspree.newsletter }}" method="POST" class="flex flex-col sm:flex-row gap-3"
+        data-newsletter data-worker-url="{{ site.adminWorkerUrl }}/newsletter">
+        <label for="community-email" class="sr-only">Email address</label>
+        <input type="email" id="community-email" name="email" placeholder="Enter your email" required class="form-input flex-grow">
+        <button type="submit" class="btn-primary whitespace-nowrap">Subscribe</button>
+      </form>
+      <p class="text-xs mt-4 text-center" style="color: var(--color-text-light);">
+        We'll send a confirmation email first — click the link in it to finish signing up. We never share your address.
+      </p>
+    </div>
+  </div>
+</section>

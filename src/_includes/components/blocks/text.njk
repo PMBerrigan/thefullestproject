@@ -1,0 +1,13 @@
+{# A heading plus one or more paragraphs. The optional bold closing line is
+   appended to the final paragraph, matching how the mission and problem
+   sections have always read. #}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="text" data-block-index="{{ blockIndex }}">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8{% if block.align != 'left' %} text-center{% endif %}">
+    <h2 class="text-3xl font-bold mb-6" style="color: var(--color-primary);" data-block-field="heading">{{ block.heading }}</h2>
+    {%- for paragraph in block.paragraphs %}
+    <p class="text-lg leading-relaxed{% if not loop.last %} mb-6{% endif %}" style="color: var(--color-text-light);" data-block-field="paragraphs.{{ loop.index0 }}">
+      {{ paragraph }}{% if loop.last and block.emphasis %} <strong style="color: var(--color-text);" data-block-field="emphasis">{{ block.emphasis }}</strong>{% endif %}
+    </p>
+    {%- endfor %}
+  </div>
+</section>

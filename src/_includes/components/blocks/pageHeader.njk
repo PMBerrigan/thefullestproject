@@ -1,0 +1,10 @@
+{# Simple page-title band: an h1 and a short intro. Used at the top of interior
+   pages where a full hero would be too much. #}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="pageHeader" data-block-index="{{ blockIndex }}">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl font-bold mb-6" style="color: var(--color-primary);" data-block-field="heading">{{ block.heading }}</h1>
+    <p class="text-xl" style="color: var(--color-text-light);" data-block-field="body">
+      {{ block.body }}
+    </p>
+  </div>
+</section>

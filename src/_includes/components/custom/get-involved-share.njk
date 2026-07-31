@@ -1,0 +1,49 @@
+{# Share-the-word card. Bespoke because the copy-link button and its
+   confirmation message are wired together by the script below via fixed element
+   ids — the script travels with the section so the block can be reordered
+   without leaving its behaviour behind. #}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="custom" data-block-index="{{ blockIndex }}">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-8">
+      <div class="text-5xl mb-3" aria-hidden="true">📣</div>
+      <h2 class="text-3xl font-bold mb-3" style="color: var(--color-primary);">Become a Fullest Advocate</h2>
+      <p class="text-lg" style="color: var(--color-text-light);">
+        Share The Fullest Project with everyone you know in the community — friends, therapists, teachers, support groups… anyone who could benefit from the information this site is curating, and who could add their own knowledge to the bank for everyone's benefit. The more people who know about it, the more complete and powerful it becomes.
+      </p>
+    </div>
+    <div class="card p-8 text-center">
+      <h3 class="text-xl font-bold mb-5" style="color: var(--color-primary);">Spread the word</h3>
+      <div class="flex flex-wrap gap-3 justify-center">
+        <button type="button" id="share-copy" class="btn-primary">Copy link</button>
+        <a href="mailto:?subject=A%20resource%20hub%20for%20the%20disability%20community&body=I%20thought%20you%20might%20find%20The%20Fullest%20Project%20helpful%20%E2%80%94%20a%20free%20directory%20of%20disability%20resources%2C%20programs%2C%20and%20community%3A%20https%3A%2F%2Fthefullestproject.org"
+           class="btn-secondary no-underline">Email a friend</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthefullestproject.org" target="_blank" rel="noopener noreferrer"
+           class="btn-secondary no-underline">Share on Facebook</a>
+        <a href="https://twitter.com/intent/tweet?text=A%20free%20directory%20of%20disability%20resources%2C%20programs%2C%20and%20community%3A&url=https%3A%2F%2Fthefullestproject.org" target="_blank" rel="noopener noreferrer"
+           class="btn-secondary no-underline">Share on X</a>
+      </div>
+      <p id="share-copied" class="text-sm mt-4 font-semibold hidden" style="color: var(--color-primary);">Link copied — thank you for sharing! 💛</p>
+    </div>
+  </div>
+</section>
+
+<script>
+// Copy-link share button
+(function() {
+  var btn = document.getElementById('share-copy');
+  var msg = document.getElementById('share-copied');
+  if (!btn) return;
+  btn.addEventListener('click', function() {
+    var url = 'https://thefullestproject.org';
+    function done() { if (msg) msg.classList.remove('hidden'); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(done).catch(done);
+    } else {
+      var t = document.createElement('textarea');
+      t.value = url; document.body.appendChild(t); t.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(t); done();
+    }
+  });
+})();
+</script>

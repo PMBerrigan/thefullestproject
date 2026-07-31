@@ -1,0 +1,24 @@
+{# Row of headline numbers with a closing call to action. A stat marked "auto"
+   shows the live count of resources in the directory instead of a fixed number,
+   so it stays honest as the directory grows. #}
+{% set STAT_COLUMNS = {
+  "2": "grid-cols-1 sm:grid-cols-2",
+  "3": "grid-cols-1 sm:grid-cols-3",
+  "4": "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
+} %}
+{% set statColumnClass = STAT_COLUMNS[block.stats | length | string] | default(STAT_COLUMNS["3"]) %}
+<section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="stats" data-block-index="{{ blockIndex }}">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-bold mb-4" style="color: var(--color-primary);" data-block-field="heading">{{ block.heading }}</h2>
+    <p class="mb-8" style="color: var(--color-text-light);" data-block-field="body">{{ block.body }}</p>
+    <div class="grid {{ statColumnClass }} gap-6 mb-8">
+      {% for stat in block.stats %}
+      <div class="card p-6 text-center">
+        <div class="text-3xl font-extrabold mb-1" style="color: var(--color-secondary);">{% if stat.auto %}{{ directory | length }}+{% else %}{{ stat.value }}{% endif %}</div>
+        <p class="text-sm" style="color: var(--color-text-light);" data-block-field="stats.{{ loop.index0 }}.label">{{ stat.label }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <a href="{{ block.ctaUrl }}" class="btn-primary no-underline text-lg px-8 py-4" data-block-field="ctaLabel">{{ block.ctaLabel }}</a>
+  </div>
+</section>

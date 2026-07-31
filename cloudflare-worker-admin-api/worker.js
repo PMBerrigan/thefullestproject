@@ -1,3 +1,10 @@
+// Inline-editor field allow-list and path resolution. Kept in its own module so
+// the Node test suite imports exactly the same table the worker enforces.
+import {
+  EDITABLE_PAGES, CMS_ENTRY, REASON_TEXT,
+  resolveLeaf, cleanValue, enumerateFields, blockLabel
+} from "./editable-fields.js";
+
 /**
  * Cloudflare Worker: tfp-admin-api
  *
@@ -79,6 +86,40 @@ export default {
       }
       if (path === "/health") {
         return cors(env, json({ status: "ok" }));
+      }
+
+      // Inline page editing. Handled before requireAdmin because every route
+      // but /session authenticates with a short-lived capability token rather
+      // than a GitHub token — the editing tab never holds a repo credential.
+      if (path.startsWith("/inline-edit")) {
+        if (env.INLINE_EDIT_ENABLED === "0") {
+          return cors(env, json({ error: "Not found" }, 404));
+        }
+        if (!(await inlineEditEnabled(env))) {
+          return cors(env, json({ error: "Inline editing is turned off" }, 404));
+        }
+        const allowed = (env.ALLOWED_ORIGIN || "https://thefullestproject.org")
+          .split(",").map(s => s.trim()).filter(Boolean);
+        if (!allowed.includes(request.headers.get("Origin") || "")) {
+          return cors(env, json({ error: "Bad origin" }, 403));
+        }
+
+        if (request.method === "POST" && path === "/inline-edit/session") {
+          const a = await requireAdmin(request, env);
+          if (a.error) return cors(env, json({ error: a.message }, a.error));
+          return cors(env, await handleEditSession(env, a));
+        }
+
+        const sess = await requireEditSession(request, env);
+        if (sess.error) return cors(env, json({ error: sess.message }, sess.error));
+
+        if (request.method === "GET" && path === "/inline-edit/page") {
+          return cors(env, await handleInlinePage(new URL(request.url), env));
+        }
+        if (request.method === "POST" && path === "/inline-edit/save") {
+          return cors(env, await handleInlineSave(await request.json(), env, sess));
+        }
+        return cors(env, json({ error: "Not found" }, 404));
       }
 
       // Everything else is admin-only
@@ -943,6 +984,269 @@ function stripTimestamps(origin) {
   return { type: origin?.type || "unknown", detail: origin?.detail || "" };
 }
 
+// ─── Inline page editing ─────────────────────────────────────────────────────
+
+const EDIT_SESSION_TTL = 7200;         // 2 hours
+const MAX_INLINE_CHANGES = 25;
+const INLINE_FLOOD_WINDOW_MS = 30_000; // one publish per half-minute
+let inlineFlagCache = { at: 0, value: null };
+
+/**
+ * The feature flag lives in the repo (src/_data/site.json) so one edit turns
+ * off BOTH halves: Eleventy stops copying the editor into _site, and this API
+ * stops answering. Cached briefly because it costs a GitHub read.
+ */
+async function inlineEditEnabled(env) {
+  const now = Date.now();
+  if (inlineFlagCache.value !== null && now - inlineFlagCache.at < 60_000) {
+    return inlineFlagCache.value;
+  }
+  let value = false;
+  try {
+    const file = await readRepoFile(env, "src/_data/site.json");
+    value = !!(file && file.json && file.json.inlineEditor && file.json.inlineEditor.enabled === true);
+  } catch {
+    value = false; // fail closed
+  }
+  inlineFlagCache = { at: now, value };
+  return value;
+}
+
+function editSecret(env) {
+  const secret = env.EDIT_SESSION_SECRET;
+  if (typeof secret !== "string" || secret.length < 32) return null;
+  return secret;
+}
+
+function b64urlEncode(bytes) {
+  let binary = "";
+  for (const b of bytes) binary += String.fromCharCode(b);
+  return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
+function b64urlDecode(str) {
+  const padded = str.replace(/-/g, "+").replace(/_/g, "/") + "===".slice((str.length + 3) % 4);
+  const binary = atob(padded);
+  return Uint8Array.from(binary, c => c.charCodeAt(0));
+}
+
+async function hmacKey(secret) {
+  return crypto.subtle.importKey(
+    "raw", new TextEncoder().encode(secret),
+    { name: "HMAC", hash: "SHA-256" }, false, ["sign", "verify"]
+  );
+}
+
+/**
+ * Mint a capability token. Its entire vocabulary is "replace text at an
+ * allow-listed field on one of three pages, for the next two hours" — it grants
+ * nothing on GitHub. Revoke every outstanding session by rotating
+ * EDIT_SESSION_SECRET in the Cloudflare dashboard; no deploy needed.
+ */
+async function mintEditSession(env, actor) {
+  const secret = editSecret(env);
+  if (!secret) return null;
+  const iat = Math.floor(Date.now() / 1000);
+  const payload = { v: 1, sub: actor, iat, exp: iat + EDIT_SESSION_TTL };
+  const encoded = b64urlEncode(new TextEncoder().encode(JSON.stringify(payload)));
+  const sig = await crypto.subtle.sign("HMAC", await hmacKey(secret), new TextEncoder().encode(encoded));
+  return { token: `tfpe_${encoded}.${b64urlEncode(new Uint8Array(sig))}`, expiresAt: payload.exp };
+}
+
+async function requireEditSession(request, env) {
+  const secret = editSecret(env);
+  if (!secret) return { error: 500, message: "Editing is not configured" };
+
+  const raw = request.headers.get("X-Edit-Session") || "";
+  if (!raw.startsWith("tfpe_")) return { error: 401, message: "Sign in to edit pages" };
+
+  const [encoded, sig] = raw.slice(5).split(".");
+  if (!encoded || !sig) return { error: 401, message: "Sign in to edit pages" };
+
+  let valid = false;
+  try {
+    // Verify over the ENCODED payload, so there is no canonicalisation
+    // ambiguity, and via subtle.verify rather than comparing base64 strings.
+    valid = await crypto.subtle.verify(
+      "HMAC", await hmacKey(secret), b64urlDecode(sig), new TextEncoder().encode(encoded)
+    );
+  } catch {
+    valid = false;
+  }
+  if (!valid) return { error: 401, message: "Your editing session has expired — sign in again" };
+
+  let payload;
+  try {
+    payload = JSON.parse(new TextDecoder().decode(b64urlDecode(encoded)));
+  } catch {
+    return { error: 401, message: "Your editing session has expired — sign in again" };
+  }
+  if (!payload || payload.v !== 1 || typeof payload.exp !== "number") {
+    return { error: 401, message: "Your editing session has expired — sign in again" };
+  }
+  if (payload.exp < Math.floor(Date.now() / 1000)) {
+    return { error: 401, message: "Your editing session has expired — sign in again" };
+  }
+  return { ok: true, actor: payload.sub || "unknown" };
+}
+
+async function handleEditSession(env, auth) {
+  // An X-Admin-Key caller is not a named human, and every inline edit is
+  // attributed by name in its commit message.
+  if (auth.actor === "admin-key") {
+    return json({ error: "Sign in with GitHub to edit pages." }, 403);
+  }
+  const minted = await mintEditSession(env, auth.actor);
+  if (!minted) return json({ error: "Editing is not configured" }, 500);
+
+  return json({
+    session: minted.token,
+    expiresAt: minted.expiresAt,
+    actor: auth.actor,
+    pages: { "/": "homepage", "/about/": "about", "/get-involved/": "getInvolved" }
+  });
+}
+
+/**
+ * The model. Every editable value the client is allowed to touch, read from
+ * HEAD by the worker's own token — the browser never talks to api.github.com.
+ * Because the client makes editable only what this enumerates, the client and
+ * server allow-lists cannot drift: there is only one.
+ */
+async function handleInlinePage(url, env) {
+  const page = url.searchParams.get("page") || "";
+  const file = EDITABLE_PAGES[page];
+  if (!file) return json({ error: "Unknown page" }, 400);
+
+  const refRes = await fetch(
+    `https://api.github.com/repos/${env.GITHUB_REPO}/git/ref/heads/main`,
+    { headers: ghHeaders(env) }
+  );
+  if (!refRes.ok) return json({ error: "Failed to read branch ref" }, 502);
+  const headSha = (await refRes.json()).object.sha;
+
+  const doc = await readRepoFile(env, file, headSha);
+  if (!doc) return json({ error: "Page data not found" }, 404);
+
+  const blocks = doc.json.blocks || [];
+  return json({
+    page,
+    headSha,
+    cmsEntry: CMS_ENTRY[page],
+    fields: enumerateFields(blocks),
+    blocks: blocks.map((b, i) => ({
+      index: i, id: b.id || "", type: b.type,
+      label: blockLabel(b, i), visible: b.visible !== false
+    }))
+  });
+}
+
+/**
+ * Apply a batch of text changes as ONE commit.
+ *
+ * The client never sends a document — only a list of leaves with the value each
+ * one is expected to currently hold. Every leaf is re-verified against a fresh
+ * read pinned to the head being committed on, so a concurrent Decap edit to a
+ * different field merges invisibly, while a concurrent edit to the SAME field
+ * is reported honestly instead of clobbered.
+ */
+async function handleInlineSave(body, env, sess) {
+  const file = EDITABLE_PAGES[body && body.page];
+  if (!file) return json({ error: "Unknown page" }, 400);
+
+  const requested = Array.isArray(body.changes) ? body.changes : null;
+  if (!requested || requested.length === 0) {
+    return json({ error: "No changes supplied" }, 400);
+  }
+  if (requested.length > MAX_INLINE_CHANGES) {
+    return json({ error: `Too many changes at once (max ${MAX_INLINE_CHANGES})` }, 400);
+  }
+  for (const c of requested) {
+    if (!Number.isInteger(c.blockIndex) || c.blockIndex < 0 || c.blockIndex >= 200) {
+      return json({ error: "Bad section reference" }, 400);
+    }
+    if (c.blockId && (typeof c.blockId !== "string" || !/^[A-Za-z0-9_-]{1,64}$/.test(c.blockId))) {
+      return json({ error: "Bad section reference" }, 400);
+    }
+    if (typeof c.field !== "string" || typeof c.value !== "string" || typeof c.expected !== "string") {
+      return json({ error: "Bad change" }, 400);
+    }
+  }
+
+  // Flood guard: one inline publish per 30s, so a burst cannot pile up in the
+  // Pages deploy queue that the weekly scrape shares.
+  const recent = await fetch(
+    `https://api.github.com/repos/${env.GITHUB_REPO}/commits?sha=main&per_page=1`,
+    { headers: ghHeaders(env) }
+  );
+  if (recent.ok) {
+    const [top] = await recent.json();
+    const when = top && top.commit && top.commit.committer && Date.parse(top.commit.committer.date);
+    if (top && /^Inline edit:/.test(top.commit.message || "") && when && Date.now() - when < INLINE_FLOOD_WINDOW_MS) {
+      const wait = Math.ceil((INLINE_FLOOD_WINDOW_MS - (Date.now() - when)) / 1000);
+      return json({ error: "Just a moment — the last change is still publishing.", retryAfterSeconds: wait }, 429);
+    }
+  }
+
+  let applied = [];
+  let conflicts = [];
+
+  const result = await commitWithRetry(env, async (headSha) => {
+    applied = [];
+    conflicts = [];
+    const changes = new Map();
+
+    const current = await readRepoFile(env, file, headSha);
+    if (!current) return changes;
+    const doc = current.json;
+
+    for (const c of requested) {
+      const block = (doc.blocks || [])[c.blockIndex];
+      if (!block) { conflicts.push({ ...c, reason: "section-moved" }); continue; }
+      if (c.blockId && block.id && block.id !== c.blockId) {
+        conflicts.push({ ...c, reason: "section-moved" }); continue;
+      }
+      const slot = resolveLeaf(block, block.type, c.field);
+      if (slot.error) { conflicts.push({ ...c, reason: slot.error }); continue; }
+      if (slot.current !== c.expected) {
+        conflicts.push({ ...c, reason: "changed-elsewhere", current: slot.current }); continue;
+      }
+      const cleaned = cleanValue(c.value, slot.rule.max);
+      if (cleaned.error) { conflicts.push({ ...c, reason: cleaned.error }); continue; }
+
+      slot.parent[slot.key] = cleaned.value;
+      applied.push({ blockIndex: c.blockIndex, field: c.field });
+    }
+
+    if (applied.length === 0) return changes;
+    // Trailing newline matters: Decap writes one, and omitting it would produce
+    // permanent one-line diff churn against the tool this must coexist with.
+    changes.set(file, pretty(doc) + "\n");
+    return changes;
+  }, () => `Inline edit: ${body.page} — ${applied.map(a => `${a.blockIndex}.${a.field}`).join(", ")} (by ${sess.actor})`);
+
+  if (result.error) return result.error;
+
+  if (applied.length === 0) {
+    return json({
+      ok: false, commitSha: null, applied: [],
+      conflicts: conflicts.map(withReasonText)
+    }, 409);
+  }
+  return json({
+    ok: true, commitSha: result.sha, applied,
+    conflicts: conflicts.map(withReasonText)
+  });
+}
+
+function withReasonText(c) {
+  return {
+    blockIndex: c.blockIndex, blockId: c.blockId || "", field: c.field,
+    reason: c.reason, message: REASON_TEXT[c.reason] || "That change could not be saved.",
+    ...(c.current !== undefined ? { current: c.current } : {})
+  };
+}
+
 // ─── Git data API: one atomic commit, conflict-safe ──────────────────────────
 
 /** buildChanges() re-reads every file it touches and returns
@@ -950,14 +1254,12 @@ function stripTimestamps(origin) {
  *  is re-run against the new head, so mutations re-apply cleanly. */
 async function commitWithRetry(env, buildChanges, message, retries = 3) {
   for (let attempt = 0; attempt < retries; attempt++) {
-    const changes = await buildChanges();
-    if (changes.size === 0) {
-      return { sha: null }; // nothing to commit (e.g. everything already-resolved)
-    }
-    if (changes.size > MAX_CHANGED_FILES) {
-      return { error: json({ error: `Too many files in one batch (${changes.size} > ${MAX_CHANGED_FILES}) — split the selection` }, 400) };
-    }
-
+    // The ref and base tree are read BEFORE buildChanges so the sha can be
+    // passed in and any file read pinned to it. Reading them afterwards left a
+    // window where a blob fetched from the cache-backed /contents endpoint
+    // belonged to an older commit than base_tree — the resulting commit is a
+    // legal fast-forward, so the PATCH succeeds and someone else's edit to a
+    // different field in the same file is silently reverted with no 409.
     const refRes = await fetch(
       `https://api.github.com/repos/${env.GITHUB_REPO}/git/ref/heads/main`,
       { headers: ghHeaders(env) }
@@ -975,6 +1277,14 @@ async function commitWithRetry(env, buildChanges, message, retries = 3) {
       return { error: json({ error: "Failed to read head commit" }, 502) };
     }
     const baseTree = (await commitRes.json()).tree.sha;
+
+    const changes = await buildChanges(headSha);
+    if (changes.size === 0) {
+      return { sha: null }; // nothing to commit (e.g. everything already-resolved)
+    }
+    if (changes.size > MAX_CHANGED_FILES) {
+      return { error: json({ error: `Too many files in one batch (${changes.size} > ${MAX_CHANGED_FILES}) — split the selection` }, 400) };
+    }
 
     const tree = [...changes.entries()].map(([path, content]) =>
       content === null
@@ -1035,9 +1345,16 @@ function ghHeaders(env) {
   };
 }
 
-async function readRepoFile(env, path) {
+/**
+ * Read a file from the repo. Pass `ref` (a commit sha) to pin the read — the
+ * /contents endpoint is cache-backed, and an unpinned read can return a blob
+ * from a different commit than the one the tree is built on. Existing callers
+ * omit it and are unaffected.
+ */
+async function readRepoFile(env, path, ref) {
+  const query = ref ? `?ref=${encodeURIComponent(ref)}` : "";
   const res = await fetch(
-    `https://api.github.com/repos/${env.GITHUB_REPO}/contents/${path}`,
+    `https://api.github.com/repos/${env.GITHUB_REPO}/contents/${path}${query}`,
     { headers: ghHeaders(env) }
   );
   if (res.status === 404) return null;
@@ -1137,11 +1454,22 @@ function json(data, status = 200) {
   });
 }
 
-function cors(env, response) {
-  const origin = env.ALLOWED_ORIGIN || "https://thefullestproject.org";
+/**
+ * ALLOWED_ORIGIN may be a comma-separated list (production plus, temporarily, a
+ * localhost origin for manual smoke testing). Access-Control-Allow-Origin only
+ * accepts ONE value, so echo the caller's origin when it is on the list and
+ * fall back to the first entry otherwise.
+ */
+function cors(env, response, request) {
+  const allowed = (env.ALLOWED_ORIGIN || "https://thefullestproject.org")
+    .split(",").map(s => s.trim()).filter(Boolean);
+  const requested = request && request.headers.get("Origin");
+  const origin = requested && allowed.includes(requested) ? requested : allowed[0];
+
   const headers = new Headers(response.headers);
   headers.set("Access-Control-Allow-Origin", origin);
+  headers.set("Vary", "Origin");
   headers.set("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-  headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Admin-Key");
+  headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization, X-Admin-Key, X-Edit-Session");
   return new Response(response.body, { status: response.status, headers });
 }
