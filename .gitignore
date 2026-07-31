@@ -10,3 +10,8 @@ docs/
 __pycache__/
 *.pyc
 .mcp.json
+
+# e2e + baseline artifacts
+.baseline/
+playwright-report/
+test-results/
