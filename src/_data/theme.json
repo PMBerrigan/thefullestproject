@@ -4,8 +4,17 @@
     "secondary": "#D77E5E",
     "accent": "#6A9346",
     "highlight": "#FDB92E",
-    "warm": "#F6EFDC"
+    "warm": "#F6EFDC",
+    "warmSection": "#FCF8EE",
+    "coolSection": "#DAF8FE"
   },
   "headingFont": "Nunito",
-  "bodyFont": "Open Sans"
+  "bodyFont": "Open Sans",
+  "cornerStyle": "soft",
+  "sectionSpacing": "comfortable",
+  "hero": {
+    "style": "gradient",
+    "image": "",
+    "overlay": 45
+  }
 }

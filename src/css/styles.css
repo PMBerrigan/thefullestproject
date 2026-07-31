@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Card component */
 .card {
   background: white;
-  border-radius: 0.75rem;
+  border-radius: var(--radius-card, 0.75rem);
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   transition: box-shadow 0.2s, transform 0.2s;
 }
@@ -93,9 +93,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Hero gradient — blue into green with a warm gold corner (keeps white text
-   over the darker blue/green area readable) */
+   over the darker blue/green area readable).
+   --hero-background is only set when Design & Branding picks the solid or image
+   hero style; otherwise this gradient stands. */
 .hero-gradient {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 65%, var(--color-highlight) 115%);
+  background: var(--hero-background, linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 65%, var(--color-highlight) 115%));
+}
+
+/* Section rhythm — driven by the "Section spacing" setting. Blocks use this
+   instead of a fixed py-16 so the whole page breathes together. */
+.section-pad {
+  padding-top: var(--space-section, 4rem);
+  padding-bottom: var(--space-section, 4rem);
 }
 
 /* Section alternating backgrounds */

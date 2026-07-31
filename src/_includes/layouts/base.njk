@@ -41,17 +41,7 @@
   <link rel="stylesheet" href="/css/output.css">
 
   <!-- Brand overrides — editable in the Content Manager (Design & Branding) -->
-  <style>
-    :root {
-      --color-primary: {{ theme.colors.primary }};
-      --color-secondary: {{ theme.colors.secondary }};
-      --color-accent: {{ theme.colors.accent }};
-      --color-highlight: {{ theme.colors.highlight }};
-      --color-warm: {{ theme.colors.warm }};
-      --font-heading: '{{ theme.headingFont }}', sans-serif;
-      --font-body: '{{ theme.bodyFont }}', sans-serif;
-    }
-  </style>
+  <style>{% include "components/theme-vars.njk" %}</style>
 
   {% if site.googleAnalytics %}
   <!-- Google Analytics -->

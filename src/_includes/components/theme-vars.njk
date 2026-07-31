@@ -1,0 +1,46 @@
+{#
+  The single source of truth for brand CSS custom properties.
+
+  Included by layouts/base.njk (wrapped in a <style> tag) and rendered standalone
+  as /admin/theme-preview.css so the Decap preview pane shows the same brand as
+  the live site. Editing this in one place keeps the two from drifting.
+
+  Presets must stay in sync with the Design & Branding options in src/admin/config.yml.
+#}
+{% set radiusPresets = {
+  "soft":    { "button": "0.5rem",   "card": "0.75rem" },
+  "rounded": { "button": "9999px",   "card": "1.25rem" },
+  "square":  { "button": "0.125rem", "card": "0.25rem" }
+} %}
+{% set spacingPresets = { "compact": "3rem", "comfortable": "4rem", "spacious": "6rem" } %}
+{% set radius = radiusPresets[theme.cornerStyle] or radiusPresets.soft %}
+{% set sectionPad = spacingPresets[theme.sectionSpacing] or spacingPresets.comfortable %}
+:root {
+  --color-primary: {{ theme.colors.primary }};
+  --color-secondary: {{ theme.colors.secondary }};
+  --color-accent: {{ theme.colors.accent }};
+  --color-highlight: {{ theme.colors.highlight }};
+  --color-warm: {{ theme.colors.warm }};
+  --color-warm-light: {{ theme.colors.warmSection }};
+  --color-sky: {{ theme.colors.coolSection }};
+
+  /* Hover/tint variants are derived so changing a brand color above carries
+     through to button hovers instead of leaving a stale hardcoded shade. */
+  --color-primary-dark: color-mix(in srgb, {{ theme.colors.primary }} 82%, #000);
+  --color-primary-light: color-mix(in srgb, {{ theme.colors.primary }} 78%, #fff);
+  --color-secondary-light: color-mix(in srgb, {{ theme.colors.secondary }} 75%, #fff);
+  --color-accent-light: color-mix(in srgb, {{ theme.colors.accent }} 78%, #fff);
+  --color-highlight-dark: color-mix(in srgb, {{ theme.colors.highlight }} 88%, #000);
+
+  --font-heading: '{{ theme.headingFont }}', sans-serif;
+  --font-body: '{{ theme.bodyFont }}', sans-serif;
+
+  --radius-button: {{ radius.button }};
+  --radius-card: {{ radius.card }};
+  --space-section: {{ sectionPad }};
+{% if theme.hero.style == "image" and theme.hero.image %}
+  --hero-background: linear-gradient(rgba(0,0,0,{{ theme.hero.overlay / 100 }}), rgba(0,0,0,{{ theme.hero.overlay / 100 }})), url('{{ theme.hero.image }}') center / cover no-repeat;
+{% elif theme.hero.style == "solid" %}
+  --hero-background: var(--color-primary);
+{% endif %}
+}

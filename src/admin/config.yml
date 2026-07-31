@@ -63,7 +63,7 @@ collections:
     label: "Site Pages"
     delete: false
     editor:
-      preview: false
+      preview: true
     files:
       - label: "Homepage"
         name: "homepage"
@@ -228,12 +228,15 @@ collections:
           - label: "Brand Colors"
             name: "colors"
             widget: "object"
+            hint: "Button hover shades are worked out automatically from these — you don't need to pick them."
             fields:
               - { label: "Primary — headings, primary buttons, links", name: "primary", widget: "color" }
               - { label: "Secondary — warm accent text & links", name: "secondary", widget: "color" }
               - { label: "Accent — tags, focus outline", name: "accent", widget: "color" }
               - { label: "Highlight — call-to-action buttons", name: "highlight", widget: "color" }
-              - { label: "Warm — section backgrounds", name: "warm", widget: "color" }
+              - { label: "Warm — cream panels and highlights", name: "warm", widget: "color" }
+              - { label: "Warm section background", name: "warmSection", widget: "color" }
+              - { label: "Cool section background", name: "coolSection", widget: "color" }
           - label: "Heading Font"
             name: "headingFont"
             widget: "select"
@@ -242,3 +245,46 @@ collections:
             name: "bodyFont"
             widget: "select"
             options: ["Open Sans", "Lato", "Nunito Sans", "Source Sans 3", "Roboto", "Inter"]
+          - label: "Corner style"
+            name: "cornerStyle"
+            widget: "select"
+            default: "soft"
+            hint: "How rounded buttons and cards look across the whole site."
+            options:
+              - { label: "Soft (gently rounded)", value: "soft" }
+              - { label: "Rounded (pill buttons)", value: "rounded" }
+              - { label: "Square (crisp corners)", value: "square" }
+          - label: "Section spacing"
+            name: "sectionSpacing"
+            widget: "select"
+            default: "comfortable"
+            hint: "How much breathing room sits above and below each section."
+            options:
+              - { label: "Compact", value: "compact" }
+              - { label: "Comfortable", value: "comfortable" }
+              - { label: "Spacious", value: "spacious" }
+          - label: "Homepage Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - label: "Banner style"
+                name: "style"
+                widget: "select"
+                default: "gradient"
+                options:
+                  - { label: "Colour blend (default)", value: "gradient" }
+                  - { label: "Solid primary colour", value: "solid" }
+                  - { label: "Photo background", value: "image" }
+              - label: "Banner photo"
+                name: "image"
+                widget: "image"
+                required: false
+                hint: "Only used when Banner style is set to Photo background. Use a wide photo, at least 1600px across."
+              - label: "Photo darkening (%)"
+                name: "overlay"
+                widget: "number"
+                default: 45
+                value_type: "int"
+                min: 0
+                max: 80
+                hint: "Darkens the photo so the white headline stays readable. Higher = darker."
