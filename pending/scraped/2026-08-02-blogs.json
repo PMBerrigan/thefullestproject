@@ -1,0 +1,56 @@
+[
+  {
+    "id": "blg-20260802-684be2e4",
+    "type": "blog",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "blog_content",
+      "submittedAt": "2026-08-02T03:36:30.366513+00:00"
+    },
+    "payload": {
+      "title": "Caregiver burnout is driving demand for better family support - WSOC TV",
+      "source": "WSOC TV",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNDFXQ2FXM0x6R1BIVW4zSmtfM2ZJbC1qcnl0ZFZFMnlRdlFBVG1rRGJ2UjQ0bWpiOXJpT0FiR1dCYXJCVjZObkJrZGxXeVM1TDEwMUJtR3UwZjNrTHJPdTROcUpXZml0M0lTLWRrX05pZjhweDVFUzZ6eWk3TUl4c0hzMF85bXpDNjZkVGpPcS1aU2o1UkVSNzZVcjNnb3PSAZ8BQVVfeXFMUDQxV0NhVzNMekdQSFVuM0prXzNmSWwtanJ5dGRWRTJ5UXZRQVRta0RidlI0NG1qYjlyaU9BYkdXQmFyQlY2Tm5Ca2RsV3lTNUwxMDFCbUd1MGYza0xyT3U0TnFKV2ZpdDNJUy1ka19OaWY4cHg1RVM2enlpN01JeHNIczBfOW16QzY2ZFRqT3EtWlNqNVJFUjc2VXIzZ29z?oc=5",
+      "date": "2026-07-31",
+      "category": "Caregiver Tips",
+      "slug": "caregiver-burnout-is-driving-demand-for-better-family-suppor"
+    }
+  },
+  {
+    "id": "blg-20260802-531a1d0d",
+    "type": "blog",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "blog_content",
+      "submittedAt": "2026-08-02T03:36:30.366536+00:00"
+    },
+    "payload": {
+      "title": "Stumble Guys launches Disability Pride Month charity campaign with SpecialEffect - Pocket Gamer.biz",
+      "source": "Pocket Gamer.biz",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYXZnYzhRSTlOc3BFckRRSThVYzZ6MVNUWGVyZkVnaF9TNnJjdzN4UWVyamRiaFpBMFhnQ2FmRjVxOGVaUDF4bE56cVBXTVFvaVdyeVZQVmVqbUFTemJpTEJiR3AxZDdGQ21tSm1zR1RTMHY5bjVOUmw2TFRXYkxrOFdyNThWTy1QQnl2SFRfSUo3RW5KYkdKVm5DV2szamhOM2RYYUJWY0ZBUDBJOUE?oc=5",
+      "date": "2026-07-27",
+      "category": "Adaptive Technology",
+      "slug": "stumble-guys-launches-disability-pride-month-charity-campaig"
+    }
+  },
+  {
+    "id": "blg-20260802-e6204ad1",
+    "type": "blog",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "blog_content",
+      "submittedAt": "2026-08-02T03:36:30.366547+00:00"
+    },
+    "payload": {
+      "title": "Virginia’s disability services gap persists despite progress, leaves young adults vulnerable - Virginia Mercury",
+      "source": "Virginia Mercury",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVVdvN1g1b3hFZ3pYQVJVR3JqRXNhdE55SVJnazhOLVhCaC1wS1hxaDZ6ekhURjNyb1FuWWhhQThyWjhWYjlkTjEwZDJ3Zmg1WGJNTXFFZ2tQZl9EcnQ2TlhwSnFuRDU2MmhLc3N0X2cwakVWdHFqN1pONF9XaTJ3N3Q3OWhCV2xjeFRONHp2b2ljY3kwZEswWnBMTDJhektFT3NTTjdBMHN3aGZYemZvNlBuVVZfN01sV25KUlJSNVZHSncwR18zV3RB?oc=5",
+      "date": "2026-07-30",
+      "category": "Resources",
+      "slug": "virginias-disability-services-gap-persists-despite-progress"
+    }
+  }
+]

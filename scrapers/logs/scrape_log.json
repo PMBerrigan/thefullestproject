@@ -1,100 +1,6 @@
 [
   {
     "scraper": "spotlight_scraper",
-    "timestamp": "2026-03-29T02:45:43.737265",
-    "entries_found": 2,
-    "entries": [
-      {
-        "action": "added",
-        "name": "EDAN urges greater disability inclusion as CSW70 concludes i",
-        "category": "Community",
-        "website": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWmQ4NGdneTR0NXBoUXFrekRBcko2YTNRT0FsR3NJTTJZejBHTzBtdWhUcVJ2ZlZNRnZHazJMSGNlTGYtNGthNWYzTnVkV0NIWHdXeExFODc1R1dVNm5NdXNMVnZVN0ROUEFoUDJOZXRWaWpfMVVuTnI0TUxsMGo3VmVTcUxpT0dkclhfdVpsZ3lUQnNhOXVlczF1WHVZeUJaMnVF?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "NCED Expands Disability Support Across Nevada - University o",
-        "category": "Education",
-        "website": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ib2oxODZuWUVnVlZaS05SLW0zaDNiazZTQ1ZOQVk4bDFDcmpIeXhmV08wZGN5UzVoa0lCNnFoREZ1bzlRMEo5R3dibGdjZHIzY08xTlltQ05vS283dWFDMlBtSEVLNFA2WlN1ZGwwU25BT2UzWGN0VUNmUExkMmc?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-03-29T02:45:46.524420",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "Misericordia symposium stresses self-care for caregivers - Wilkes-Barre Citizens' Voice",
-        "source": "Wilkes-Barre Citizens' Voice",
-        "slug": "misericordia-symposium-stresses-self-care-for-caregivers-wil"
-      },
-      {
-        "action": "created_post",
-        "title": "Save 88% on a lifetime subscription to Sterling Stock Picker - Neowin",
-        "source": "Neowin",
-        "slug": "save-88-on-a-lifetime-subscription-to-sterling-stock-picker"
-      },
-      {
-        "action": "created_post",
-        "title": "DfE proposes to strip most assistive software out of Disabled Students’ Allowance - Wonkhe",
-        "source": "Wonkhe",
-        "slug": "dfe-proposes-to-strip-most-assistive-software-out-of-disable"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
-    "timestamp": "2026-04-05T02:48:11.967084",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "added",
-        "name": "Ski For Life",
-        "category": "Adventures",
-        "website": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaGVGOWpOOEppS1pjZXdDWHhlSEhVYmdBQ0Y2NGhkU0FxY2RUT3lpeFozZktxb2E2OU13cFhGb1JSSURRV1MxZ2JrTU9sdFp4WGQ5UjRSVzAtRzdHR3J0QzRZMVB4YWxBR0hNY1hReE1vWDA2cnA3MF8xSnhLN1dGWVl3WTZOY25tMThrc0N2eTVYaDVzRU9tRXNBUDhZZ0p5eFlYYzZzZTduNnRkVWZpRldvXzI0QXBKV2Jwcjh6RXZYQ0dCX3ZKVkNld9IB3wFBVV95cUxNYjVzUHZzek84cHJQd2xYR05pOVhKcnVwcHNZRXZETE9EUVJnS2JpMzBrblRLY0t0akRIM2JrX1ZGTGwydWM3dTdBbDkyaFpyRTc4VkRwOUdHanhJN2ZvWFdablRZakM1Qm9NV3ZPa3VJSGg1Snl1X1UzNThFZm1hOTBFeDZWcWxyWFVGbHYwd2Z5bnRnWWVPYmYxOU8wdWc5MWJBd1kyTXN5c2lDX1lpM1BmM25RdnREU1V1Q2w3LWpQUmJVSlIyVGE4M055Z2NPdGJ3eXhnVGl2SDRid193?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Special Growers unveils accessible picnic table, launches pl",
-        "category": "Adventures",
-        "website": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUC1tMlM4dU5RUUZzbVRacFpJYWVYcTZZS2gtZGxnWEVkQ2J4TXRaTk0tQkhLZEVHNTdpWndfVm9pOHkyNV9CY2x0Slhxd1Bxb1dUSG9VWlZUSHNLMjNGWWFzRmVjbFNPV19xSWgzWncwUjFvR3dnM1RaVnJXVGJhaTR5ZWdLTlhZa1RxclZ0NTlZS0VvbjJ0ancwaTd3V05pRjVxNkZDTzJ6cDNlb2QtejBTYXNXa1I3V2ctRVR4ZXNRaXBUaFZLUzh5cE03ZE1neTFKQlFJaVF1QThqUWktN1Z3?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Ski For Life",
-        "category": "Sports",
-        "website": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaGVGOWpOOEppS1pjZXdDWHhlSEhVYmdBQ0Y2NGhkU0FxY2RUT3lpeFozZktxb2E2OU13cFhGb1JSSURRV1MxZ2JrTU9sdFp4WGQ5UjRSVzAtRzdHR3J0QzRZMVB4YWxBR0hNY1hReE1vWDA2cnA3MF8xSnhLN1dGWVl3WTZOY25tMThrc0N2eTVYaDVzRU9tRXNBUDhZZ0p5eFlYYzZzZTduNnRkVWZpRldvXzI0QXBKV2Jwcjh6RXZYQ0dCX3ZKVkNld9IB3wFBVV95cUxNYjVzUHZzek84cHJQd2xYR05pOVhKcnVwcHNZRXZETE9EUVJnS2JpMzBrblRLY0t0akRIM2JrX1ZGTGwydWM3dTdBbDkyaFpyRTc4VkRwOUdHanhJN2ZvWFdablRZakM1Qm9NV3ZPa3VJSGg1Snl1X1UzNThFZm1hOTBFeDZWcWxyWFVGbHYwd2Z5bnRnWWVPYmYxOU8wdWc5MWJBd1kyTXN5c2lDX1lpM1BmM25RdnREU1V1Q2w3LWpQUmJVSlIyVGE4M055Z2NPdGJ3eXhnVGl2SDRid193?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-04-05T02:48:13.940696",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "World Backup Day 2026: Expert Insights from the Field - Solutions Review",
-        "source": "Solutions Review",
-        "slug": "world-backup-day-2026-expert-insights-from-the-field-solutio"
-      },
-      {
-        "action": "created_post",
-        "title": "A practical toolkit for supporting neurodivergent learners - Times Higher Education",
-        "source": "Times Higher Education",
-        "slug": "a-practical-toolkit-for-supporting-neurodivergent-learners-t"
-      },
-      {
-        "action": "created_post",
-        "title": "Autism Never Sleeps: Inside Divjakë’s Community Centre Changing Lives - United Nations Sustainable Development Group",
-        "source": "United Nations Sustainable Development Group",
-        "slug": "autism-never-sleeps-inside-divjakës-community-centre-changin"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
     "timestamp": "2026-04-12T02:53:52.322646",
     "entries_found": 3,
     "entries": [
@@ -954,6 +860,105 @@
     "entries": [
       {
         "action": "no_new_posts"
+      }
+    ]
+  },
+  {
+    "scraper": "osm_overpass",
+    "timestamp": "2026-08-02T03:36:21.071619",
+    "status": "PARTIAL",
+    "targets_attempted": 51,
+    "targets_succeeded": 44,
+    "entries_found": 905,
+    "entries_queued": 4,
+    "entries": [
+      {
+        "action": "error",
+        "name": "SD: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "VA: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "AL: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "DC: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "IL: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "LA: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "MN: HTTP Error 504: Gateway Timeout"
+      }
+    ]
+  },
+  {
+    "scraper": "cms_providers",
+    "timestamp": "2026-08-02T03:36:23.430474",
+    "status": "OK",
+    "targets_attempted": 2,
+    "targets_succeeded": 2,
+    "entries_found": 78,
+    "entries_queued": 2,
+    "entries": []
+  },
+  {
+    "scraper": "spotlight_scraper",
+    "timestamp": "2026-08-02T03:36:28.380674",
+    "entries_found": 3,
+    "entries": [
+      {
+        "action": "queued",
+        "name": "Adaptive Adventure Hike",
+        "category": "Adventures",
+        "website": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVjc2OXY2MDh6UWNYTTNnTXhZdEE3V295VFRGTXcwQ0hqbWFlOGFIQjc3NzlhSUlzWFNYS01zaWh3QnQxOVpQaThlOFc3Q0NUbllXMnQyTEtsTGduY1NOY0lGX0JKYk1qV3hxdFpaaTcwQWhvSWZwMUo5czNPUWJQYVdhS1RqaEozckE?oc=5"
+      },
+      {
+        "action": "queued",
+        "name": "PA Parks And Forests Foundation Celebrates New Accessible Canoe &amp; Kayak Laun",
+        "category": "Adventures",
+        "website": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbGRUZEFoVGdsNDFCZUp2cVRreFhzR09VbXhFRFNWUUJkR0pvajJDMGdJb0dHcUd6R0FHUU9Md2RiSWdObEU3QTdXdV9IaWkwOTZMTE90VW5LVGFiaDI3RVdfbS01T0pwX1NiRG9iYU90bVlndm9Pb2dUZUNUV21Jb1lpcFNSRFdQay1B?oc=5"
+      },
+      {
+        "action": "queued",
+        "name": "Disability inclusion in health systems and emergency management remains uneven a",
+        "category": "Community",
+        "website": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd1NLbk1hcXlxMGlSUVpndTFXMUJZQm5NVzZEUUtpZ09YX1dJR01DbTdhY1RSSlZkZHVsS05vS1YyUy1SS2dhcUlreWVocm43ZFhHcVB6ZDEtaTBMSTZBVl9kWU12Q2Zybk9XQkdCY2ZXMjVZTlBUd0xINVhMcDlkd3ZLZXpaejZOYnpQQU9qT3NwckZzQ05NNTdXMkd0cnE2eWZ6dXpTcGRJSlpUdFc4ZTNiQXdENkpsR0RXRUd3?oc=5"
+      }
+    ]
+  },
+  {
+    "scraper": "blog_content",
+    "timestamp": "2026-08-02T03:36:30.367220",
+    "entries_found": 3,
+    "entries": [
+      {
+        "action": "queued",
+        "title": "Caregiver burnout is driving demand for better family support - WSOC TV",
+        "source": "WSOC TV",
+        "slug": "caregiver-burnout-is-driving-demand-for-better-family-suppor"
+      },
+      {
+        "action": "queued",
+        "title": "Stumble Guys launches Disability Pride Month charity campaign with SpecialEffect - Pocket Gamer.biz",
+        "source": "Pocket Gamer.biz",
+        "slug": "stumble-guys-launches-disability-pride-month-charity-campaig"
+      },
+      {
+        "action": "queued",
+        "title": "Virginia’s disability services gap persists despite progress, leaves young adults vulnerable - Virginia Mercury",
+        "source": "Virginia Mercury",
+        "slug": "virginias-disability-services-gap-persists-despite-progress"
       }
     ]
   }

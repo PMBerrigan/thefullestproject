@@ -1,30 +1,37 @@
-Weekly Scrape Digest — 2026-07-26
+Weekly Scrape Digest — 2026-08-02
 ==================================================
 
 AWAITING REVIEW — approve or reject at https://thefullestproject.org/admin/review/
-  blog: 4 pending
-  resource: 1573 pending (131 new this run)
-  spotlight: 6 pending
-  story: 44 pending
+  blog: 5 pending (3 new this run)
+  resource: 1579 pending (6 new this run)
+  spotlight: 7 pending (3 new this run)
+  story: 41 pending (13 new this run)
   submission: 9 pending
 
 Scraper: osm_overpass
-  Entries processed: 913
-  - [error] OH: HTTP Error 429: Too Many Requests
-  - [error] WA: HTTP Error 429: Too Many Requests
-  - [error] WY: HTTP Error 429: Too Many Requests
-  - [error] AR: HTTP Error 504: Gateway Timeout
-  - [error] IA: HTTP Error 504: Gateway Timeout
-  - [error] NH: HTTP Error 504: Gateway Timeout
+  Entries processed: 905
+  - [error] SD: HTTP Error 429: Too Many Requests
+  - [error] VA: HTTP Error 504: Gateway Timeout
+  - [error] AL: HTTP Error 504: Gateway Timeout
+  - [error] DC: HTTP Error 429: Too Many Requests
+  - [error] IL: HTTP Error 429: Too Many Requests
+  - [error] LA: HTTP Error 504: Gateway Timeout
+  - [error] MN: HTTP Error 504: Gateway Timeout
 
 Scraper: cms_providers
-  Entries processed: 79
+  Entries processed: 78
 
 Scraper: spotlight_scraper
-  Entries processed: 1
+  Entries processed: 3
+  - [queued] Adaptive Adventure Hike
+  - [queued] PA Parks And Forests Foundation Celebrates New Accessible Canoe &amp; Kayak Laun
+  - [queued] Disability inclusion in health systems and emergency management remains uneven a
 
 Scraper: blog_content
-  Entries processed: 1
+  Entries processed: 3
+  - [queued] Caregiver burnout is driving demand for better family support - WSOC TV
+  - [queued] Stumble Guys launches Disability Pride Month charity campaign with SpecialEffect - Pocket Gamer.biz
+  - [queued] Virginia’s disability services gap persists despite progress, leaves young adults vulnerable - Virginia Mercury
 
 —
 The Fullest Project | thefullestproject.org

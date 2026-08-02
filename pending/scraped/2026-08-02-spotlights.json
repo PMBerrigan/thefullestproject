@@ -1,0 +1,86 @@
+[
+  {
+    "id": "spt-20260802-d94a8a98",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-08-02T03:36:28.379877+00:00"
+    },
+    "payload": {
+      "name": "Adaptive Adventure Hike",
+      "description": "Adaptive Adventure Hike - Larimer County (.gov)",
+      "category": "Adventures",
+      "website": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVjc2OXY2MDh6UWNYTTNnTXhZdEE3V295VFRGTXcwQ0hqbWFlOGFIQjc3NzlhSUlzWFNYS01zaWh3QnQxOVpQaThlOFc3Q0NUbllXMnQyTEtsTGduY1NOY0lGX0JKYk1qV3hxdFpaaTcwQWhvSWZwMUo5czNPUWJQYVdhS1RqaEozckE?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/adventures.svg",
+      "location": "National",
+      "tags": [
+        "adventures",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-08-02"
+    }
+  },
+  {
+    "id": "spt-20260802-351c86f9",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-08-02T03:36:28.379903+00:00"
+    },
+    "payload": {
+      "name": "PA Parks And Forests Foundation Celebrates New Accessible Canoe &amp; Kayak Laun",
+      "description": "PA Parks And Forests Foundation Celebrates New Accessible Canoe &amp; Kayak Launch At Locust Lake State Park In Schuylkill County - PA Environment Digest Blog",
+      "category": "Adventures",
+      "website": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbGRUZEFoVGdsNDFCZUp2cVRreFhzR09VbXhFRFNWUUJkR0pvajJDMGdJb0dHcUd6R0FHUU9Md2RiSWdObEU3QTdXdV9IaWkwOTZMTE90VW5LVGFiaDI3RVdfbS01T0pwX1NiRG9iYU90bVlndm9Pb2dUZUNUV21Jb1lpcFNSRFdQay1B?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/adventures.svg",
+      "location": "National",
+      "tags": [
+        "adventures",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-08-02"
+    }
+  },
+  {
+    "id": "spt-20260802-39411cc9",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-08-02T03:36:28.379914+00:00"
+    },
+    "payload": {
+      "name": "Disability inclusion in health systems and emergency management remains uneven a",
+      "description": "Disability inclusion in health systems and emergency management remains uneven across Latin America and the Caribbean, new report finds - PAHO/WHO - Pan American Health Organization (PAHO)",
+      "category": "Community",
+      "website": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd1NLbk1hcXlxMGlSUVpndTFXMUJZQm5NVzZEUUtpZ09YX1dJR01DbTdhY1RSSlZkZHVsS05vS1YyUy1SS2dhcUlreWVocm43ZFhHcVB6ZDEtaTBMSTZBVl9kWU12Q2Zybk9XQkdCY2ZXMjVZTlBUd0xINVhMcDlkd3ZLZXpaejZOYnpQQU9qT3NwckZzQ05NNTdXMkd0cnE2eWZ6dXpTcGRJSlpUdFc4ZTNiQXdENkpsR0RXRUd3?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/community.svg",
+      "location": "National",
+      "tags": [
+        "community",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-08-02"
+    }
+  }
+]

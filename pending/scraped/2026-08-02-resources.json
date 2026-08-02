@@ -1,0 +1,199 @@
+[
+  {
+    "id": "res-20260802-be732490",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-02T03:22:40.163170+00:00"
+    },
+    "payload": {
+      "name": "Advantage Physical Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "Washington",
+      "area": "",
+      "description": "",
+      "phone": "+1-425-883-9630",
+      "website": "https://advantagesportstherapy.com/",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "physiotherapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/4792797642",
+      "lastScraped": "2026-08-02"
+    },
+    "targetFile": "src/_data/resources/states/WA.json"
+  },
+  {
+    "id": "res-20260802-3fc6fd71",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-02T03:22:40.163191+00:00"
+    },
+    "payload": {
+      "name": "Bellingham Physical Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "Washington",
+      "area": "Bellingham",
+      "description": "",
+      "phone": "+1-360-647-0444",
+      "website": "https://bellinghamphysicaltherapy.com/",
+      "address": "306 36th Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "physiotherapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/4797363719",
+      "lastScraped": "2026-08-02"
+    },
+    "targetFile": "src/_data/resources/states/WA.json"
+  },
+  {
+    "id": "res-20260802-99e5523d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-02T03:22:40.163202+00:00"
+    },
+    "payload": {
+      "name": "Greenwood Physical Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "Washington",
+      "area": "Seattle",
+      "description": "",
+      "phone": "+1-206-736-5880",
+      "website": "https://www.greenwoodpt.com",
+      "address": "8750 Greenwood Avenue North",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "physiotherapist",
+        "wheelchair-accessible"
+      ],
+      "source": "https://www.openstreetmap.org/node/4840570409",
+      "lastScraped": "2026-08-02"
+    },
+    "targetFile": "src/_data/resources/states/WA.json"
+  },
+  {
+    "id": "res-20260802-a56788f9",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-02T03:35:40.291540+00:00"
+    },
+    "payload": {
+      "name": "Rochester Manor",
+      "category": [
+        "community"
+      ],
+      "location": "New Hampshire",
+      "area": "Rochester",
+      "description": "",
+      "phone": "+1-603-332-7711",
+      "website": "https://genesishcc.com",
+      "address": "40 Whitehall Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "nursing_home",
+        "disabled",
+        "wheelchair-accessible"
+      ],
+      "source": "https://www.openstreetmap.org/way/184278749",
+      "lastScraped": "2026-08-02"
+    },
+    "targetFile": "src/_data/resources/states/NH.json"
+  },
+  {
+    "id": "res-20260802-cf944d4e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-02T03:36:22.008589+00:00"
+    },
+    "payload": {
+      "name": "ANGELS CARE HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "LEBANON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "1114 E MAIN STREET",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-02"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260802-4151be97",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-02T03:36:22.008606+00:00"
+    },
+    "payload": {
+      "name": "THE MEDICAL TEAM, INC.",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "RESTON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "1896 PRESTON WHITE DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-02"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  }
+]
