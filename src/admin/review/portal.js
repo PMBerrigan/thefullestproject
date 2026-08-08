@@ -707,7 +707,13 @@
     form.querySelectorAll('[data-key]').forEach(function(input) {
       var key = input.dataset.key, kind = input.dataset.kind, value = input.value.trim();
       if (kind === 'category' && Array.isArray(payload[key])) {
-        payload[key] = [value];
+        // The control is a single select bound to category[0], but entries can
+        // carry more slugs — granular ones like apps-communication and
+        // cross-listings like assistive-tech. Replace the primary, keep the rest,
+        // or approving an app here silently strips it off every page but one.
+        payload[key] = [value].concat(payload[key].slice(1).filter(function(c) {
+          return c !== value;
+        }));
       } else if (kind === 'tags') {
         payload[key] = value ? value.split(',').map(function(s) { return s.trim(); }).filter(Boolean) : [];
       } else {

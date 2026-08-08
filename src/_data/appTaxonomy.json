@@ -1,0 +1,45 @@
+{
+  "functions": [
+    {
+      "value": "apps-care-coordination",
+      "label": "Care Coordination",
+      "blurb": "Keep everyone who helps on the same page — shared calendars, task lists, and one place for updates so you're not repeating yourself to five people."
+    },
+    {
+      "value": "apps-medication-health",
+      "label": "Medication & Health Tracking",
+      "blurb": "Dose reminders, refill alerts, and symptom logs you can hand to a doctor instead of trying to remember how the last three months went."
+    },
+    {
+      "value": "apps-routines-schedules",
+      "label": "Daily Routines & Visual Schedules",
+      "blurb": "Picture-based schedules and step-by-step guides that make transitions predictable and build independence with daily tasks."
+    },
+    {
+      "value": "apps-communication",
+      "label": "Communication (AAC)",
+      "blurb": "Augmentative and alternative communication — giving a voice to people with limited or no speech through symbols, text, and synthesized speech."
+    },
+    {
+      "value": "apps-safety-gps",
+      "label": "Safety & Location",
+      "blurb": "Location sharing and alerts for peace of mind, especially when wandering or getting lost is a concern."
+    },
+    {
+      "value": "apps-accessibility-mapping",
+      "label": "Accessibility Mapping",
+      "blurb": "Find out whether a restaurant, park, or restroom is actually accessible before you load up the car."
+    }
+  ],
+  "platforms": {
+    "ios": "iPhone & iPad",
+    "android": "Android",
+    "web": "Web"
+  },
+  "pricing": {
+    "free": "Free",
+    "freemium": "Free with paid upgrade",
+    "subscription": "Subscription",
+    "one-time": "One-time purchase"
+  }
+}

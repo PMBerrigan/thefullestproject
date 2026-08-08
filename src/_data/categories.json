@@ -25,6 +25,7 @@
   { "value": "camps", "label": "Camps & After-School" },
   { "value": "sibling-support", "label": "Sibling Support" },
   { "value": "assistive-tech", "label": "Assistive Technology" },
+  { "value": "apps", "label": "Caregiver Apps" },
   { "value": "sports", "label": "Adaptive Sports & Fitness" },
   { "value": "emergency", "label": "Emergency Preparedness" },
   { "value": "home-modifications", "label": "Home Modifications" },

@@ -58,7 +58,10 @@ the-fullest-project/
 │   │   └── components/         # Reusable partials (nav, footer)
 │   ├── pages/                  # Site pages (.njk)
 │   │   ├── index.njk           # Homepage
-│   │   ├── resources.njk       # Filterable resource directory
+│   │   ├── preview/            # Resource directory (folder name is legacy)
+│   │   │   ├── index.njk       # /resources/ category hub
+│   │   │   └── category.njk    # Paginated /resources/<category>/ pages
+│   │   ├── apps.njk            # /resources/apps/ — dedicated Caregiver Apps page
 │   │   ├── therapy-guide/      # Therapy types reference
 │   │   ├── adaptive-equipment.njk
 │   │   ├── school-iep/         # IEP/504 navigation guide
@@ -78,7 +81,8 @@ the-fullest-project/
 │   │   └── styles.css          # Tailwind input with custom theme and components
 │   ├── js/
 │   │   ├── main.js             # Mobile menu toggle
-│   │   ├── resourceFilter.js   # Client-side search/filter for resource directory
+│   │   ├── categoryFilter.js   # Search/state/city/type filter for category pages
+│   │   ├── appFilter.js        # Function/platform/price filter for the apps page
 │   │   ├── gigFilter.js        # Client-side search/filter for gig board
 │   │   └── gigRespond.js       # Gig response page URL param handler
 │   ├── images/                 # Static images (passthrough copy)
@@ -112,7 +116,7 @@ The site follows a **static-site-with-data-pipeline** architecture. Eleventy rea
 
 Resource data flows through a two-stage pipeline: Python scrapers collect and normalize resource entries into a standard JSON schema, saving to both `scrapers/output/` (raw) and `src/_data/resources/` (consumed by Eleventy). The scraper pipeline runs weekly via GitHub Actions, commits updated data, then triggers a full build and deploy.
 
-Client-side JavaScript is minimal and vanilla — just a mobile nav toggle (`main.js`) and a resource filter/search (`resourceFilter.js`) that reads `data-*` attributes from rendered resource cards.
+Client-side JavaScript is minimal and vanilla — a mobile nav toggle (`main.js`) plus filter/search scripts (`categoryFilter.js`, `appFilter.js`) that read `data-*` attributes from rendered cards. The retired `resourceFilter.js` and `resources.njk` were replaced by the category-hub redesign in `59de543`.
 
 ### Admin Review Pipeline
 
@@ -135,14 +139,17 @@ All NEW content is gated behind admin approval; only updates to already-live ent
 | Resource Data | `src/_data/resources/*.json` | Resource entries keyed by location (nova, portland, national) |
 | Base Scraper | `scrapers/base_scraper.py` | `make_resource()` factory, `save_resources()`, `load_existing()`, `merge_resources()` deduplication |
 | Scraper Runner | `scrapers/run_all.py` | Auto-discovers and executes all `scrape()` functions in `scrapers/sources/` |
-| Resource Filter | `src/js/resourceFilter.js` | Client-side search, location filter, and category filter with URL param support |
+| Directory Data | `src/_data/directory.js` | Unifies every `resources/**/*.json` file; stamps `topCategories` and `facets` on each entry |
+| Category Pages | `src/_data/categoryPages.js` | Categories the paginated `category.njk` should build — excludes slugs with dedicated templates |
+| Category Filter | `src/js/categoryFilter.js` | Client-side search, state, city/region, and type-facet filtering with URL param support |
+| App Filter | `src/js/appFilter.js` | Function, platform, and price filtering for `/resources/apps/` |
 
 ## Development Guidelines
 
 ### File Naming
 - Page files: kebab-case (`adaptive-equipment.njk`, `submit-resource.njk`)
 - Subdirectory pages use `index.njk` (e.g., `pages/school-iep/index.njk`)
-- JS files: camelCase (`resourceFilter.js`, `main.js`)
+- JS files: camelCase (`categoryFilter.js`, `appFilter.js`, `main.js`)
 - Data files: kebab-case JSON (`nova.json`, `national.json`)
 - Python files: snake_case (`base_scraper.py`, `run_all.py`, `nova_resources.py`)
 
@@ -164,7 +171,7 @@ All NEW content is gated behind admin approval; only updates to already-live ent
 
 ### Styling Approach
 - Tailwind 4.x with `@theme` directive for custom design tokens in `src/css/styles.css`
-- Brand colors: primary (teal `#2B6B4F`), secondary (amber `#E8913A`), accent (blue `#5B8DB8`)
+- Brand colors (authoritative source is the `@theme` block in `src/css/styles.css`): primary (blue `#3A668C`), secondary (terracotta `#D77E5E`), accent (green `#6A9346`), highlight (gold `#FDB92E`), warm (cream `#F6EFDC`)
 - Fonts: Nunito (headings), Open Sans (body) via Google Fonts
 - Custom component classes defined in `styles.css`: `.card`, `.tag`, `.btn-primary`, `.btn-secondary`, `.form-input`, `.filter-select`, `.hero-gradient`, `.section-warm`, `.skip-nav`
 - Inline `style` attributes use CSS custom properties for theming (e.g., `style="color: var(--color-primary);"`)
@@ -218,9 +225,40 @@ The audit (June 2026) found the legacy "scrapers" were ~97% hand-curated seed li
   "source": "https://...",
   "lastScraped": "2026-03-06",
   "dateAdded": "2026-06-12",
-  "origin": { "type": "scraper | submission | quick-submit | bulk-import", "detail": "module-or-form-name" }
+  "origin": { "type": "scraper | submission | quick-submit | bulk-import | curated", "detail": "module-or-form-name" }
 }
 ```
+
+**Optional app fields.** Entries in the `apps` category carry five extra fields; every other resource omits them:
+
+```json
+{
+  "format": "app",
+  "platforms": ["ios", "android", "web"],
+  "pricing": "free | freemium | subscription | one-time",
+  "appStore": "https://apps.apple.com/...",
+  "playStore": "https://play.google.com/store/apps/details?id=..."
+}
+```
+
+`format: "app"` drives the **App** badge that appears wherever the entry is rendered, including cross-listed topical category pages. `pricing` is the normalized filter key; the free-form `cost` string stays alongside it for human detail ("$14.99 one-time purchase"). Nothing in the scraper or worker pipeline produces these — they are hand-curated or added by an admin after approval.
+
+### Caregiver Apps (`/resources/apps/`)
+
+Apps live in the normal resource pipeline (`national.json`, `location: "National"`) but render from a dedicated template, because the generic category page filters by **State / City**, which is meaningless for national software. The apps page filters by **Function / Platform / Price** instead.
+
+| Piece | File |
+|---|---|
+| Page | `src/pages/apps.njk` (`permalink: /resources/apps/`) |
+| Card | `src/_includes/components/app-card.njk` |
+| Filter JS | `src/js/appFilter.js` (supports `?function=` `?platform=` `?price=`) |
+| Taxonomy | `src/_data/appTaxonomy.json` — functions, platform labels, pricing labels |
+
+- **Function groups are granular category slugs**, not a field: `category: ["apps", "apps-communication", "assistive-tech"]`. The `apps-` prefix resolves to the `apps` top-level via `directory.js`, and the slug automatically becomes a Type filter chip on the cross-listed page. Labels must be added to **both** `appTaxonomy.json` and `subcategoryLabels.json`.
+  > Slugs must be `apps-*`, with the s. `app-*` fails the `startsWith(top + '-')` prefix test in `directory.js` and falls through to `other`.
+- **Cross-listing** puts an app on a topical page too (`assistive-tech`, `medical`, `community`, `emergency`). Only real top-level slugs from `categories.json` work — `communication` is a *facet* label, not a category, and would silently route to `other`.
+
+> ⚠️ **`categoryPages.js` invariant.** `src/pages/preview/category.njk` paginates over `categoryPages`, not `categories`. `src/_data/categoryPages.js` filters out any slug in `DEDICATED_TEMPLATES` that owns a hand-built template. Add a slug there without building the template and the page vanishes from the site; build a template without adding the slug and the build dies on a duplicate permalink. Keep the two in lockstep.
 
 ### Gig Data Schema
 ```json

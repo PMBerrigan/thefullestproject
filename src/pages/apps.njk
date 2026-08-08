@@ -1,0 +1,155 @@
+---
+layout: layouts/base.njk
+title: Caregiver Apps — Tools for Everyday Care
+description: "Apps that help caregivers coordinate care, track medications, build daily routines, support communication, and find accessible places."
+permalink: /resources/apps/
+---
+
+{#
+  Dedicated template for the "apps" category. The generic paginated page
+  (pages/preview/category.njk) filters by State and City, which is meaningless
+  for national software — apps filter by Function, Platform, and Price instead.
+
+  Because this page owns /resources/apps/, the slug "apps" is excluded from
+  category.njk's pagination via DEDICATED_TEMPLATES in src/_data/categoryPages.js.
+#}
+{% set apps = directory | filterByTopCategory('apps') | sort(attribute='name') %}
+{% set functionSlugs = appTaxonomy.functions | pluck('value') %}
+{% set ungrouped = apps | rejectByCategories(functionSlugs) %}
+
+<section class="py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <nav class="text-sm mb-6" aria-label="Breadcrumb">
+      <a href="/resources/" class="no-underline hover:underline" style="color: var(--color-accent);">&larr; All Categories</a>
+    </nav>
+
+    <h1 class="text-4xl font-bold mb-3" style="color: var(--color-primary);">Caregiver Apps</h1>
+    <p class="mb-8 max-w-3xl" style="color: var(--color-text-light);">
+      {{ apps.length }} app{{ 's' if apps.length != 1 }} that caregivers actually use — for coordinating a care team, keeping medications straight, making daily routines predictable, giving someone a voice, and finding places you can actually get into. Every listing shows what devices it runs on and what it costs, so you know before you download.
+    </p>
+
+    <!-- Filters -->
+    <div class="card p-4 mb-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div>
+          <label for="app-search" class="block text-sm font-semibold mb-2">Search</label>
+          <input type="text" id="app-search" placeholder="Search apps..." class="form-input">
+        </div>
+        <div>
+          <label for="app-function-filter" class="block text-sm font-semibold mb-2">What it helps with</label>
+          <select id="app-function-filter" class="filter-select">
+            <option value="">All Functions</option>
+            {% for fn in appTaxonomy.functions %}
+            <option value="{{ fn.value }}">{{ fn.label }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div>
+          <label for="app-platform-filter" class="block text-sm font-semibold mb-2">Device</label>
+          <select id="app-platform-filter" class="filter-select">
+            <option value="">All Devices</option>
+            {% for key, label in appTaxonomy.platforms %}
+            <option value="{{ key }}">{{ label }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div>
+          <label for="app-price-filter" class="block text-sm font-semibold mb-2">Cost</label>
+          <select id="app-price-filter" class="filter-select">
+            <option value="">Any Cost</option>
+            {% for key, label in appTaxonomy.pricing %}
+            <option value="{{ key }}">{{ label }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+      <p id="app-results-count" class="text-sm mt-3" style="color: var(--color-text-light);" aria-live="polite"></p>
+    </div>
+
+    <!-- Grouped app listings -->
+    {% for fn in appTaxonomy.functions %}
+    {% set groupApps = apps | filterByCategory(fn.value) %}
+    {% if groupApps.length %}
+    <section class="mb-12" data-app-group="{{ fn.value }}" aria-labelledby="group-{{ fn.value }}">
+      <h2 id="group-{{ fn.value }}" class="text-2xl font-bold mb-2" style="color: var(--color-primary);">{{ fn.label }}</h2>
+      <p class="text-sm mb-6 max-w-3xl" style="color: var(--color-text-light);">{{ fn.blurb }}</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for app in groupApps %}
+        {% set appFunction = fn.value %}
+        {% include "components/app-card.njk" %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+    {% endfor %}
+
+    {% if ungrouped.length %}
+    <section class="mb-12" data-app-group="other" aria-labelledby="group-other">
+      <h2 id="group-other" class="text-2xl font-bold mb-2" style="color: var(--color-primary);">More Apps</h2>
+      <p class="text-sm mb-6 max-w-3xl" style="color: var(--color-text-light);">Other apps caregivers have told us about.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for app in ungrouped %}
+        {% set appFunction = 'other' %}
+        {% include "components/app-card.njk" %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- Shown by appFilter.js when every card is filtered out -->
+    <div id="app-no-results" class="card p-8 text-center" hidden>
+      <p style="color: var(--color-text-light);">No apps match those filters. Try widening your search.</p>
+    </div>
+
+    {% if apps.length == 0 %}
+    <div class="card p-8 text-center">
+      <p style="color: var(--color-text-light);">We're building this list — know an app that's helped you? Tell us below.</p>
+    </div>
+    {% endif %}
+
+    <p class="text-xs mb-8" style="color: var(--color-text-light);">
+      Listings are informational only — The Fullest Project isn't affiliated with these apps and doesn't receive anything for listing them. Prices and features change; check the app's own site before you buy.
+    </p>
+
+    <!-- Submit CTA -->
+    <div class="mt-12 text-center card p-8">
+      <h2 class="text-2xl font-bold mb-4" style="color: var(--color-primary);">Is there an app that helps you?</h2>
+      <p class="mb-6" style="color: var(--color-text-light);">If an app has made caregiving easier for your family, tell us — we'll take a look and add it.</p>
+      <a href="/submit-resource/" class="btn-primary no-underline">Submit an App</a>
+    </div>
+  </div>
+</section>
+
+<!-- schema.org CollectionPage + ItemList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Caregiver Apps — The Fullest Project",
+  "description": "{{ description | jsonEscape }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "isPartOf": { "@type": "WebSite", "name": "{{ site.name | jsonEscape }}", "url": "{{ site.url }}" },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ apps.length }},
+    "itemListElement": [
+      {%- for app in apps | limit(50) %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "item": {
+          "@type": "SoftwareApplication",
+          "name": "{{ app.name | jsonEscape }}",
+          "applicationCategory": "HealthApplication"{% if app.website %},
+          "url": "{{ app.website | jsonEscape }}"{% endif %}{% if app.platforms and app.platforms.length %},
+          "operatingSystem": "{% for p in app.platforms %}{{ appTaxonomy.platforms[p] | default(p) | jsonEscape }}{% if not loop.last %}, {% endif %}{% endfor %}"{% endif %}
+        }
+      }{% if not loop.last %},{% endif %}
+      {%- endfor %}
+    ]
+  }
+}
+</script>
+
+<script src="/js/appFilter.js"></script>

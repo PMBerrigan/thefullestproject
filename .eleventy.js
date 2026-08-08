@@ -75,6 +75,20 @@ module.exports = function(eleventyConfig) {
     return resources.filter(r => r.topCategories && r.topCategories.includes(slug));
   });
 
+  // Pull one property off every item in a list (Nunjucks has no `map` filter)
+  eleventyConfig.addFilter("pluck", function(items, key) {
+    if (!items) return [];
+    return items.map(item => item[key]);
+  });
+
+  // Entries matching NONE of the given category slugs. Used by the apps page to
+  // catch apps that carry no apps-* function slug (e.g. a public submission
+  // approved as plain "apps") so they can't silently vanish from the page.
+  eleventyConfig.addFilter("rejectByCategories", function(resources, slugs) {
+    if (!slugs || !slugs.length) return resources;
+    return resources.filter(r => !(r.category || []).some(c => slugs.includes(c)));
+  });
+
   eleventyConfig.addFilter("filterByLocation", function(resources, location) {
     if (!location) return resources;
     return resources.filter(r => r.location === location);

@@ -13,7 +13,7 @@ SITE_CATEGORIES = {
     "community", "government", "early-intervention", "transition", "financial",
     "insurance", "planning", "mental-health", "transportation", "housing",
     "medical", "camps", "sibling-support", "assistive-tech", "sports",
-    "emergency", "home-modifications", "other",
+    "emergency", "home-modifications", "apps", "other",
 }
 
 # US states + DC: code <-> full name. State resource files use the full name

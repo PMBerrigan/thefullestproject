@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 pagination:
-  data: categories
+  data: categoryPages
   size: 1
   alias: cat
 permalink: "/resources/{{ cat.value }}/"
@@ -64,9 +64,13 @@ eleventyComputed:
            data-name="{{ resource.name | lower }}"
            data-description="{{ resource.description | lower }}"
            data-area="{{ resource.area | default('') | lower }}"
-           data-facets="{{ resource.facets | join(',') }}">
-        <div class="flex items-start justify-between mb-3">
+           data-facets="{{ resource.facets | join(',') }}"
+           data-format="{{ resource.format | default('organization') }}">
+        <div class="flex items-start justify-between gap-2 mb-3">
           <h2 class="text-lg font-bold" style="color: var(--color-primary);">{{ resource.name }}</h2>
+          {% if resource.format == 'app' %}
+          <span class="tag shrink-0" style="background-color: var(--color-accent); color: white;">App</span>
+          {% endif %}
         </div>
         {% if resource.description %}
         <p class="text-sm mb-4" style="color: var(--color-text-light);">{{ resource.description }}</p>
