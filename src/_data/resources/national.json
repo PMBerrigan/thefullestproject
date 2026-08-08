@@ -10523,45 +10523,6 @@
     }
   },
   {
-    "name": "Cozi Family Organizer",
-    "category": [
-      "apps",
-      "apps-care-coordination",
-      "community"
-    ],
-    "location": "National",
-    "area": "",
-    "description": "A shared family calendar that color-codes each person, plus shopping lists, to-do lists, and meal planning. Useful when several people rotate through appointments and school pickups.",
-    "phone": "",
-    "website": "https://www.cozi.com/",
-    "address": "",
-    "ageRange": "All ages",
-    "disabilityTypes": [],
-    "cost": "Cozi Gold removes ads and adds extra features",
-    "format": "app",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "pricing": "freemium",
-    "appStore": "https://apps.apple.com/us/app/id407108860",
-    "playStore": "https://play.google.com/store/apps/details?id=com.cozi.androidfree",
-    "tags": [
-      "calendar",
-      "scheduling",
-      "care-coordination",
-      "family"
-    ],
-    "source": "https://www.cozi.com/",
-    "lastScraped": "2026-08-08",
-    "dateAdded": "2026-08-08",
-    "origin": {
-      "type": "curated",
-      "detail": "apps-seed"
-    }
-  },
-  {
     "name": "Medisafe",
     "category": [
       "apps",
@@ -10600,127 +10561,6 @@
     }
   },
   {
-    "name": "Symple Symptom Tracker",
-    "category": [
-      "apps",
-      "apps-medication-health",
-      "medical"
-    ],
-    "location": "National",
-    "area": "",
-    "description": "A symptom and health diary for spotting patterns — track symptoms, medications, sleep, and activity, then bring the charts to an appointment instead of trying to recall the last three months.",
-    "phone": "",
-    "website": "https://www.sympleapp.com/",
-    "address": "",
-    "ageRange": "All ages",
-    "disabilityTypes": [],
-    "cost": "Up to 5 symptoms free; about $9.99 to unlock 10",
-    "format": "app",
-    "platforms": [
-      "ios"
-    ],
-    "pricing": "freemium",
-    "appStore": "https://apps.apple.com/us/app/symple-symptom-tracker/id479818115",
-    "playStore": "",
-    "tags": [
-      "symptom-tracking",
-      "health-tracking",
-      "journal"
-    ],
-    "source": "https://www.sympleapp.com/",
-    "lastScraped": "2026-08-08",
-    "dateAdded": "2026-08-08",
-    "origin": {
-      "type": "curated",
-      "detail": "apps-seed"
-    }
-  },
-  {
-    "name": "First Then Visual Schedule",
-    "category": [
-      "apps",
-      "apps-routines-schedules",
-      "assistive-tech"
-    ],
-    "location": "National",
-    "area": "",
-    "description": "Builds picture-and-audio schedules that walk through a routine one step at a time. Designed to lower anxiety around transitions for people with autism, developmental delays, or communication needs.",
-    "phone": "",
-    "website": "https://www.goodkarmaapplications.com/first-then-visual-schedule.html",
-    "address": "",
-    "ageRange": "All ages",
-    "disabilityTypes": [
-      "autism",
-      "developmental-delay",
-      "intellectual-disabilities"
-    ],
-    "cost": "$14.99, no subscription",
-    "format": "app",
-    "platforms": [
-      "ios"
-    ],
-    "pricing": "one-time",
-    "appStore": "https://apps.apple.com/us/app/first-then-visual-schedule/id355527801",
-    "playStore": "",
-    "tags": [
-      "visual-schedule",
-      "routines",
-      "autism",
-      "transitions"
-    ],
-    "source": "https://www.goodkarmaapplications.com/first-then-visual-schedule.html",
-    "lastScraped": "2026-08-08",
-    "dateAdded": "2026-08-08",
-    "origin": {
-      "type": "curated",
-      "detail": "apps-seed"
-    }
-  },
-  {
-    "name": "MapHabit",
-    "category": [
-      "apps",
-      "apps-routines-schedules",
-      "assistive-tech"
-    ],
-    "location": "National",
-    "area": "",
-    "description": "Visual \"habit maps\" that break daily living tasks into picture-and-audio steps, built for people with cognitive differences, IDD, autism, traumatic brain injury, or dementia — and for the caregivers supporting them.",
-    "phone": "",
-    "website": "https://maphabit.com/",
-    "address": "",
-    "ageRange": "All ages",
-    "disabilityTypes": [
-      "autism",
-      "intellectual-disabilities",
-      "traumatic-brain-injury",
-      "dementia"
-    ],
-    "cost": "Not a self-serve download — access comes through a state Medicaid waiver, an enterprise program, or self-pay. Contact MapHabit for eligibility.",
-    "format": "app",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "pricing": "subscription",
-    "appStore": "https://apps.apple.com/us/app/maphabit/id1466187296",
-    "playStore": "https://play.google.com/store/apps/details?id=com.maphabitmobileapp",
-    "tags": [
-      "visual-schedule",
-      "routines",
-      "independence",
-      "daily-living"
-    ],
-    "source": "https://maphabit.com/",
-    "lastScraped": "2026-08-08",
-    "dateAdded": "2026-08-08",
-    "origin": {
-      "type": "curated",
-      "detail": "apps-seed"
-    }
-  },
-  {
     "name": "Proloquo2Go",
     "category": [
       "apps",
@@ -10740,7 +10580,7 @@
       "apraxia",
       "non-speaking"
     ],
-    "cost": "$299.99 for iPhone, iPad, and Apple Watch; $149.99 for Mac",
+    "cost": "$249.99 for iPhone and iPad; $124.99 for Mac; AAC Essentials bundle $299.99",
     "format": "app",
     "platforms": [
       "ios"
@@ -10755,90 +10595,6 @@
       "assistive-technology"
     ],
     "source": "https://www.assistiveware.com/products/proloquo2go",
-    "lastScraped": "2026-08-08",
-    "dateAdded": "2026-08-08",
-    "origin": {
-      "type": "curated",
-      "detail": "apps-seed"
-    }
-  },
-  {
-    "name": "CoughDrop",
-    "category": [
-      "apps",
-      "apps-communication",
-      "assistive-tech"
-    ],
-    "location": "National",
-    "area": "",
-    "description": "Cloud-based AAC that syncs one vocabulary across every device the user touches, with eye tracking, switch, and head-tracking access plus reporting tools so families and therapists can see what is working.",
-    "phone": "",
-    "website": "https://www.coughdrop.com/",
-    "address": "",
-    "ageRange": "All ages",
-    "disabilityTypes": [
-      "autism",
-      "cerebral-palsy",
-      "down-syndrome",
-      "non-speaking"
-    ],
-    "cost": "Two-month free trial, then month-to-month, annual, or one-time purchase",
-    "format": "app",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "pricing": "subscription",
-    "appStore": "",
-    "playStore": "",
-    "tags": [
-      "aac",
-      "communication",
-      "speech",
-      "eye-tracking",
-      "switch-access"
-    ],
-    "source": "https://www.coughdrop.com/",
-    "lastScraped": "2026-08-08",
-    "dateAdded": "2026-08-08",
-    "origin": {
-      "type": "curated",
-      "detail": "apps-seed"
-    }
-  },
-  {
-    "name": "Life360",
-    "category": [
-      "apps",
-      "apps-safety-gps",
-      "emergency"
-    ],
-    "location": "National",
-    "area": "",
-    "description": "Real-time location sharing for a family circle, with arrival and departure alerts for saved places — often used when wandering or getting lost is a concern. Paid tiers add location history, crash detection, and emergency dispatch.",
-    "phone": "",
-    "website": "https://www.life360.com/",
-    "address": "",
-    "ageRange": "All ages",
-    "disabilityTypes": [],
-    "cost": "Paid plans run about $7.99–$24.99 per month",
-    "format": "app",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "pricing": "freemium",
-    "appStore": "https://apps.apple.com/us/app/life360-find-family-friends/id384830320",
-    "playStore": "https://play.google.com/store/apps/details?id=com.life360.android.safetymapd",
-    "tags": [
-      "gps",
-      "safety",
-      "wandering",
-      "location-sharing"
-    ],
-    "source": "https://www.life360.com/",
     "lastScraped": "2026-08-08",
     "dateAdded": "2026-08-08",
     "origin": {
@@ -10881,6 +10637,50 @@
       "travel"
     ],
     "source": "https://wheelmap.org/",
+    "lastScraped": "2026-08-08",
+    "dateAdded": "2026-08-08",
+    "origin": {
+      "type": "curated",
+      "detail": "apps-seed"
+    }
+  },
+  {
+    "name": "NeuraParent",
+    "category": [
+      "apps",
+      "apps-routines-schedules",
+      "mental-health"
+    ],
+    "location": "National",
+    "area": "",
+    "description": "Parenting support for neurodivergent kids. Describe a hard moment — a refusal, a shutdown, a meltdown — by voice or text and get strategies shaped by your own child’s history, plus pattern tracking that surfaces triggers you had not spotted.",
+    "phone": "",
+    "website": "https://neuraparent.com/",
+    "address": "",
+    "ageRange": "Parents and caregivers of children",
+    "disabilityTypes": [
+      "autism",
+      "adhd",
+      "sensory-processing",
+      "neurodivergent"
+    ],
+    "cost": "Free to try, no credit card required; paid plans listed on their site",
+    "format": "app",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "pricing": "freemium",
+    "appStore": "https://apps.apple.com/us/app/neura-parent/id6756896103",
+    "playStore": "https://play.google.com/store/apps/details?id=com.neuraparent.app",
+    "tags": [
+      "behavior-support",
+      "neurodivergent",
+      "autism",
+      "routines",
+      "caregiver-support"
+    ],
+    "source": "https://neuraparent.com/",
     "lastScraped": "2026-08-08",
     "dateAdded": "2026-08-08",
     "origin": {

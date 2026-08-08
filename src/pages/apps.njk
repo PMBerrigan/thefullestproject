@@ -40,8 +40,13 @@ permalink: /resources/apps/
           <label for="app-function-filter" class="block text-sm font-semibold mb-2">What it helps with</label>
           <select id="app-function-filter" class="filter-select">
             <option value="">All Functions</option>
+            {# Only offer functions that actually have apps — an empty group in
+               the dropdown is a filter that returns nothing. #}
             {% for fn in appTaxonomy.functions %}
+            {% set fnApps = apps | filterByCategory(fn.value) %}
+            {% if fnApps.length %}
             <option value="{{ fn.value }}">{{ fn.label }}</option>
+            {% endif %}
             {% endfor %}
           </select>
         </div>
