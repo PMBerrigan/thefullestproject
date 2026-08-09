@@ -6648,5 +6648,29 @@
       "type": "quick-submit",
       "detail": "bookmarklet"
     }
+  },
+  {
+    "name": "Developmental disabilities | Community Services Board",
+    "category": [
+      "government"
+    ],
+    "location": "Virginia",
+    "area": "Northern Viginia",
+    "description": "Services to help people with developmental disabilities live, work and take part in our community.",
+    "phone": "703-324-4400",
+    "email": "csb@fairfaxcounty.gov",
+    "website": "https://www.fairfaxcounty.gov/community-services-board/developmental-disabilities",
+    "address": "12011 Government Center Parkway, Suite 300 Fairfax, Virginia 22035",
+    "ageRange": "",
+    "disabilityTypes": [],
+    "cost": "",
+    "tags": [],
+    "source": "https://www.fairfaxcounty.gov/community-services-board/developmental-disabilities",
+    "lastScraped": "2026-07-25",
+    "dateAdded": "2026-08-09",
+    "origin": {
+      "type": "quick-submit",
+      "detail": "bookmarklet"
+    }
   }
 ]
