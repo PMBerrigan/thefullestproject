@@ -6518,5 +6518,31 @@
       "type": "quick-submit",
       "detail": "bookmarklet"
     }
+  },
+  {
+    "name": "Summer Camps - Therapeutic Recreation Camps",
+    "category": [
+      "government"
+    ],
+    "location": "Virginia",
+    "area": "Northern Virginia",
+    "description": "Therapeutic Recreation Services' (TRS) elementary and teen camps are traditional day camp programs modified and structured to meet the unique needs of the disability community.  They are designed to engage campers in a variety of leisure activities, develop new leisure interests, socialize with peers, have fun and build independence skills.  \r\n\r\nTRS preschool camp is a structured play program for preschool children with and without developmental delays and/or disabilities",
+    "phone": "703-324-5532",
+    "email": "ncs-tracers@fairfaxcounty.gov",
+    "website": "https://www.fairfaxcounty.gov/neighborhood-community-services/therapeutic-recreation-camp",
+    "address": "12011 Government Center Parkway, 10th Floor Fairfax, VA 22035",
+    "ageRange": "",
+    "disabilityTypes": [],
+    "cost": "",
+    "tags": [
+      "Summer camp"
+    ],
+    "source": "https://www.fairfaxcounty.gov/neighborhood-community-services/therapeutic-recreation-camp",
+    "lastScraped": "2026-07-25",
+    "dateAdded": "2026-08-09",
+    "origin": {
+      "type": "quick-submit",
+      "detail": "bookmarklet"
+    }
   }
 ]
