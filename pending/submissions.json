@@ -27,34 +27,5 @@
       "source": "https://fitiger.net/blog/detail/asd-and-sped-mealtime-choking-risks-what-schools-should-notice-before-an-emergency",
       "lastScraped": "2026-07-03"
     }
-  },
-  {
-    "id": "sub-20260707-179c5347",
-    "type": "submission",
-    "status": "pending",
-    "origin": {
-      "type": "submission",
-      "detail": "submit-resource-form",
-      "submittedAt": "2026-07-07T22:37:05.503Z"
-    },
-    "targetFile": "src/_data/resources/national.json",
-    "payload": {
-      "name": "Special Needs USA",
-      "category": [
-        "other"
-      ],
-      "location": "National",
-      "area": "",
-      "description": "Special Needs USA is a free resource that helps families find special needs schools, therapy providers, and support options with current availability. Families can search by location and need, then connect with relevant providers. We work to keep information current so families can find support faster.",
-      "phone": "",
-      "website": "https://specialneedsusa.com",
-      "address": "",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [],
-      "source": "https://specialneedsusa.com",
-      "lastScraped": "2026-07-07"
-    }
   }
 ]

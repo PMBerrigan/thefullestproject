@@ -10687,5 +10687,28 @@
       "type": "curated",
       "detail": "apps-seed"
     }
+  },
+  {
+    "name": "Special Needs USA",
+    "category": [
+      "other"
+    ],
+    "location": "National",
+    "area": "",
+    "description": "Special Needs USA is a free resource that helps families find special needs schools, therapy providers, and support options with current availability. Families can search by location and need, then connect with relevant providers. We work to keep information current so families can find support faster.",
+    "phone": "",
+    "website": "https://specialneedsusa.com",
+    "address": "",
+    "ageRange": "",
+    "disabilityTypes": [],
+    "cost": "",
+    "tags": [],
+    "source": "https://specialneedsusa.com",
+    "lastScraped": "2026-07-07",
+    "dateAdded": "2026-08-09",
+    "origin": {
+      "type": "submission",
+      "detail": "submit-resource-form"
+    }
   }
 ]
