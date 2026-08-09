@@ -6596,5 +6596,31 @@
       "type": "quick-submit",
       "detail": "bookmarklet"
     }
+  },
+  {
+    "name": "Adaptive Sports - Fairfax Falcons Paralympic Sports Team",
+    "category": [
+      "recreation"
+    ],
+    "location": "Virginia",
+    "area": "Northern Virginia",
+    "description": "The Fairfax Falcons Paralympic Sports Team provides adaptive basketball opportunities for youth with physical disabilities across Northern Virginia and the Washington, DC area. We offer a supportive, inclusive environment where athletes can build skills, stay active, and grow in confidence.",
+    "phone": "",
+    "email": "",
+    "website": "https://fairfaxfalcons.org/",
+    "address": "",
+    "ageRange": "",
+    "disabilityTypes": [],
+    "cost": "",
+    "tags": [
+      "Adaptive basketball"
+    ],
+    "source": "https://fairfaxfalcons.org/",
+    "lastScraped": "2026-07-25",
+    "dateAdded": "2026-08-09",
+    "origin": {
+      "type": "quick-submit",
+      "detail": "bookmarklet"
+    }
   }
 ]
