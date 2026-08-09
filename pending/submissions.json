@@ -120,38 +120,6 @@
     }
   },
   {
-    "id": "sub-20260725-95e58e8e",
-    "type": "submission",
-    "status": "pending",
-    "origin": {
-      "type": "quick-submit",
-      "detail": "bookmarklet",
-      "submittedAt": "2026-07-25T18:09:44.459Z"
-    },
-    "targetFile": "src/_data/resources/states/VA.json",
-    "payload": {
-      "name": "Family Autism Night - F.A.N.tastic Times",
-      "category": [
-        "government"
-      ],
-      "location": "Virginia",
-      "area": "Northern Virginia",
-      "description": "Family Autism Night is a program offered by Therapeutic Recreation Services – a branch of the Department of Neighborhood and Community Services. It is a FREE drop-in program for individuals with disabilities ages 2 to 22 years old and their families. Planned activities provide an opportunity for the community to come together and have fun playing, socializing, and interacting with other families. Activities are held once a month during September through May.",
-      "phone": "703-324-5532",
-      "email": "ncs-tracers@fairfaxcounty.gov",
-      "website": "https://www.fairfaxcounty.gov/neighborhood-community-services/therapeutic-recreation/fantastic-times",
-      "address": "12011 Government Center Parkway, 10th Floor Fairfax, VA 22035",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "Respite"
-      ],
-      "source": "https://www.fairfaxcounty.gov/neighborhood-community-services/therapeutic-recreation/fantastic-times",
-      "lastScraped": "2026-07-25"
-    }
-  },
-  {
     "id": "sub-20260725-4543bc79",
     "type": "submission",
     "status": "pending",
