@@ -86,37 +86,5 @@
       "source": "https://www.fairfaxcounty.gov/community-services-board/developmental-disabilities",
       "lastScraped": "2026-07-25"
     }
-  },
-  {
-    "id": "sub-20260725-5dbe96fa",
-    "type": "submission",
-    "status": "pending",
-    "origin": {
-      "type": "quick-submit",
-      "detail": "bookmarklet",
-      "submittedAt": "2026-07-25T18:03:55.697Z"
-    },
-    "targetFile": "src/_data/resources/states/VA.json",
-    "payload": {
-      "name": "Therapeutic Recreation Services",
-      "category": [
-        "government"
-      ],
-      "location": "Virginia",
-      "area": "Northern Virginia",
-      "description": "NCS Therapeutic Recreation Services (TRS) is committed to providing services, education and resources to meet the needs of participants and assist them on the road toward lifelong participation and enjoyment in recreation and leisure activities. Staff provide support and advocacy to individuals who wish to participate in general recreation activities.",
-      "phone": "703-324-5532",
-      "email": "ncs-tracers@fairfaxcounty.gov",
-      "website": "https://www.fairfaxcounty.gov/neighborhood-community-services/therapeutic-recreation",
-      "address": "12011 Government Center Parkway, 10th Floor Fairfax, VA 22035",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "Summer Camp"
-      ],
-      "source": "https://www.fairfaxcounty.gov/neighborhood-community-services/therapeutic-recreation",
-      "lastScraped": "2026-07-25"
-    }
   }
 ]
