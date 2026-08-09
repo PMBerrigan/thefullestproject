@@ -58,35 +58,6 @@
     }
   },
   {
-    "id": "sub-20260714-5b59881a",
-    "type": "submission",
-    "status": "pending",
-    "origin": {
-      "type": "quick-submit",
-      "detail": "bookmarklet",
-      "submittedAt": "2026-07-14T01:00:22.742Z"
-    },
-    "targetFile": "src/_data/resources/states/VA.json",
-    "payload": {
-      "name": "Community Support of the Piedmont",
-      "category": [
-        "equipment"
-      ],
-      "location": "Virginia",
-      "area": "",
-      "description": "Our medical equipment loan closet provides essential medical equipment\r\nfree of charge to community members in need. We maintain a large inventory of clean, well-maintained equipment ready for immediate use.",
-      "phone": "540-347-5922",
-      "website": "https://communitysupportofthepiedmont.com/",
-      "address": "",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [],
-      "source": "https://communitysupportofthepiedmont.com/",
-      "lastScraped": "2026-07-14"
-    }
-  },
-  {
     "id": "sub-20260725-7a066b6f",
     "type": "submission",
     "status": "pending",
