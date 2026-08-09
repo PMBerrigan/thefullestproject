@@ -1,0 +1,67 @@
+[
+  {
+    "id": "res-20260809-d21685d8",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-09T02:01:05.734787+00:00"
+    },
+    "payload": {
+      "name": "On Eagles’ Wings Therapeutic Horsemanship Center",
+      "category": [
+        "community"
+      ],
+      "location": "West Virginia",
+      "area": "Fairmont",
+      "description": "",
+      "phone": "",
+      "website": "https://www.oneagleswingswv.org",
+      "address": "371 Opekiska Ridge Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "child;disabled;veteran"
+      ],
+      "source": "https://www.openstreetmap.org/node/14069484251",
+      "lastScraped": "2026-08-09"
+    },
+    "targetFile": "src/_data/resources/states/WV.json"
+  },
+  {
+    "id": "res-20260809-59ec144c",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-09T02:02:07.338794+00:00"
+    },
+    "payload": {
+      "name": "Snowy Range Physical Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "Wyoming",
+      "area": "Laramie",
+      "description": "",
+      "phone": "+1-307-399-7233",
+      "website": "https://www.snowyrangept.com/",
+      "address": "214 Ord Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "physiotherapist"
+      ],
+      "source": "https://www.openstreetmap.org/way/1106967445",
+      "lastScraped": "2026-08-09"
+    },
+    "targetFile": "src/_data/resources/states/WY.json"
+  }
+]

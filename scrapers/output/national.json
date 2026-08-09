@@ -111,15 +111,15 @@
     "disabilityTypes": [],
     "cost": "",
     "tags": [
-      "financial",
+      "disability",
       "able-act",
       "financial-planning",
-      "disability",
       "tax-advantaged",
+      "financial",
       "savings"
     ],
     "source": "https://www.ablenrc.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "AbleData",
@@ -139,7 +139,7 @@
       "assistive-tech"
     ],
     "source": "https://abledata.acl.gov/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "AbleGamers Charity",
@@ -484,7 +484,7 @@
       "camps"
     ],
     "source": "https://www.acacamps.org/campers-families/find-a-camp",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "AngelSense GPS Tracker",
@@ -630,7 +630,7 @@
       "assistive-tech"
     ],
     "source": "https://www.at3center.net/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "AssistiveWare - Proloquo2Go",
@@ -1050,14 +1050,14 @@
     "cost": "",
     "tags": [
       "help-desk",
-      "anticipatory-grief",
-      "mental-health",
+      "caregiver",
       "support",
+      "anticipatory-grief",
       "grief",
-      "caregiver"
+      "mental-health"
     ],
     "source": "https://www.caregiveraction.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Carewell",
@@ -1318,7 +1318,7 @@
       "assistive-tech"
     ],
     "source": "https://www.closingthegap.com/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Coalition for Responsible Home Education (CRHE)",
@@ -1610,7 +1610,7 @@
       "early-intervention"
     ],
     "source": "https://ectacenter.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Easterseals",
@@ -1951,7 +1951,7 @@
       "insurance"
     ],
     "source": "https://familyvoices.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Feeding Matters",
@@ -2080,7 +2080,7 @@
       "medical"
     ],
     "source": "https://palfreyassociates.com/disability-friendly-doctor/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Firefly by Leckey",
@@ -2481,7 +2481,7 @@
       "housing"
     ],
     "source": "https://www.hud.gov/program_offices/fair_housing_equal_opp/disability_overview",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "HumanWare - Braille & Low Vision",
@@ -3259,7 +3259,7 @@
       "sports"
     ],
     "source": "https://www.miracleleague.com/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "MobilityWorks",
@@ -3494,7 +3494,7 @@
       "financial"
     ],
     "source": "https://www.ndrn.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "National Down Syndrome Congress",
@@ -3916,7 +3916,7 @@
       "transition"
     ],
     "source": "https://www.pacer.org/transition/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Parent Center Hub (CPIR)",
@@ -4203,7 +4203,7 @@
       "emergency"
     ],
     "source": "https://www.ready.gov/disability",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Rebuilding Together",
@@ -4223,7 +4223,7 @@
       "home-modifications"
     ],
     "source": "https://www.rebuildingtogether.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Rifton Equipment",
@@ -4431,15 +4431,15 @@
     "disabilityTypes": [],
     "cost": "",
     "tags": [
-      "advocacy",
-      "peer",
-      "support",
       "sibling-support",
+      "sibling",
+      "peer",
       "network",
-      "sibling"
+      "advocacy",
+      "support"
     ],
     "source": "https://www.siblingleadership.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Sibling Support Project (Sibshops)",
@@ -4459,7 +4459,7 @@
       "sibling-support"
     ],
     "source": "https://siblingsupport.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Smartbox - Grid AAC",
@@ -4511,7 +4511,7 @@
       "financial"
     ],
     "source": "https://www.ssa.gov/benefits/disability/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Sonic Alert",
@@ -4655,7 +4655,7 @@
       "planning"
     ],
     "source": "https://www.specialneedsalliance.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Special Olympics",
@@ -4675,7 +4675,7 @@
       "sports"
     ],
     "source": "https://www.specialolympics.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "SPED Homeschool",
@@ -5311,7 +5311,7 @@
       "transition"
     ],
     "source": "https://thinkcollege.net/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "This Beach Is Loud!",
@@ -10242,7 +10242,7 @@
       "mental-health"
     ],
     "source": "https://www.nami.org/",
-    "lastScraped": "2026-08-02"
+    "lastScraped": "2026-08-09"
   },
   {
     "name": "Medically Complex Caregiver",
@@ -10442,6 +10442,250 @@
     "origin": {
       "type": "quick-submit",
       "detail": "bookmarklet"
+    }
+  },
+  {
+    "name": "Caring Village",
+    "category": [
+      "apps",
+      "apps-care-coordination",
+      "community"
+    ],
+    "location": "National",
+    "area": "",
+    "description": "Builds a private \"village\" around one person's care: a shared calendar, to-do lists, secure messaging, a medication list, and a folder for medical and legal documents everyone helping can reach.",
+    "phone": "",
+    "website": "https://caringvillage.com/",
+    "address": "",
+    "ageRange": "All ages",
+    "disabilityTypes": [],
+    "cost": "Paid tier adds multiple villages, more members, and extra storage",
+    "format": "app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "pricing": "freemium",
+    "appStore": "https://apps.apple.com/us/app/caring-village/id1093814557",
+    "playStore": "https://play.google.com/store/apps/details?id=com.caringvillage.app",
+    "tags": [
+      "care-coordination",
+      "caregiver-support",
+      "medication",
+      "documents"
+    ],
+    "source": "https://caringvillage.com/",
+    "lastScraped": "2026-08-08",
+    "dateAdded": "2026-08-08",
+    "origin": {
+      "type": "curated",
+      "detail": "apps-seed"
+    }
+  },
+  {
+    "name": "CaringBridge",
+    "category": [
+      "apps",
+      "apps-care-coordination",
+      "community"
+    ],
+    "location": "National",
+    "area": "",
+    "description": "A private, ad-free journal for sharing health updates with family and friends, so you write the news once instead of repeating it twenty times. Includes a planner for coordinating meals, rides, and visits.",
+    "phone": "",
+    "website": "https://www.caringbridge.org/",
+    "address": "",
+    "ageRange": "All ages",
+    "disabilityTypes": [],
+    "cost": "Donor-supported 501(c)(3) nonprofit, no ads",
+    "format": "app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "pricing": "free",
+    "appStore": "https://apps.apple.com/us/app/caringbridge/id365726944",
+    "playStore": "https://play.google.com/store/apps/details?id=com.caringbridge.app",
+    "tags": [
+      "care-coordination",
+      "caregiver-support",
+      "community",
+      "nonprofit"
+    ],
+    "source": "https://www.caringbridge.org/",
+    "lastScraped": "2026-08-08",
+    "dateAdded": "2026-08-08",
+    "origin": {
+      "type": "curated",
+      "detail": "apps-seed"
+    }
+  },
+  {
+    "name": "Medisafe",
+    "category": [
+      "apps",
+      "apps-medication-health",
+      "medical"
+    ],
+    "location": "National",
+    "area": "",
+    "description": "Medication reminders with refill alerts, drug-interaction warnings, and a \"Medfriend\" feature that pings a family member if a dose is missed. Tracks measurements like blood pressure and glucose alongside doses.",
+    "phone": "",
+    "website": "https://www.medisafeapp.com/",
+    "address": "",
+    "ageRange": "All ages",
+    "disabilityTypes": [],
+    "cost": "Optional premium subscription",
+    "format": "app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "pricing": "freemium",
+    "appStore": "https://apps.apple.com/us/app/medisafe-medication-management/id573916946",
+    "playStore": "https://play.google.com/store/apps/details?id=com.medisafe.android.client",
+    "tags": [
+      "medication",
+      "reminders",
+      "health-tracking"
+    ],
+    "source": "https://www.medisafeapp.com/",
+    "lastScraped": "2026-08-08",
+    "dateAdded": "2026-08-08",
+    "origin": {
+      "type": "curated",
+      "detail": "apps-seed"
+    }
+  },
+  {
+    "name": "Proloquo2Go",
+    "category": [
+      "apps",
+      "apps-communication",
+      "assistive-tech"
+    ],
+    "location": "National",
+    "area": "",
+    "description": "Symbol-based AAC that gives non-speaking children and adults a full expressive vocabulary, with natural-sounding voices and a grid that grows with the user. One of the most widely used AAC apps in schools and clinics.",
+    "phone": "",
+    "website": "https://www.assistiveware.com/products/proloquo2go",
+    "address": "",
+    "ageRange": "All ages",
+    "disabilityTypes": [
+      "autism",
+      "cerebral-palsy",
+      "apraxia",
+      "non-speaking"
+    ],
+    "cost": "$249.99 for iPhone and iPad; $124.99 for Mac; AAC Essentials bundle $299.99",
+    "format": "app",
+    "platforms": [
+      "ios"
+    ],
+    "pricing": "one-time",
+    "appStore": "https://apps.apple.com/us/app/proloquo2go/id308368164",
+    "playStore": "",
+    "tags": [
+      "aac",
+      "communication",
+      "speech",
+      "assistive-technology"
+    ],
+    "source": "https://www.assistiveware.com/products/proloquo2go",
+    "lastScraped": "2026-08-08",
+    "dateAdded": "2026-08-08",
+    "origin": {
+      "type": "curated",
+      "detail": "apps-seed"
+    }
+  },
+  {
+    "name": "Wheelmap",
+    "category": [
+      "apps",
+      "apps-accessibility-mapping",
+      "community"
+    ],
+    "location": "National",
+    "area": "",
+    "description": "A crowd-sourced map of wheelchair-accessible places — restaurants, restrooms, shops, bus stops — rated with a simple green/orange/red system. Over 3 million places worldwide, and anyone can add a rating.",
+    "phone": "",
+    "website": "https://wheelmap.org/",
+    "address": "",
+    "ageRange": "All ages",
+    "disabilityTypes": [
+      "mobility",
+      "wheelchair-users"
+    ],
+    "cost": "Run by the German nonprofit SOZIALHELDEN e.V.",
+    "format": "app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "pricing": "free",
+    "appStore": "https://apps.apple.com/us/app/wheelmap/id399239476",
+    "playStore": "https://play.google.com/store/apps/details?id=org.wheelmap.android.online",
+    "tags": [
+      "accessibility",
+      "wheelchair-accessible",
+      "mapping",
+      "travel"
+    ],
+    "source": "https://wheelmap.org/",
+    "lastScraped": "2026-08-08",
+    "dateAdded": "2026-08-08",
+    "origin": {
+      "type": "curated",
+      "detail": "apps-seed"
+    }
+  },
+  {
+    "name": "NeuraParent",
+    "category": [
+      "apps",
+      "apps-routines-schedules",
+      "mental-health"
+    ],
+    "location": "National",
+    "area": "",
+    "description": "Parenting support for neurodivergent kids. Describe a hard moment — a refusal, a shutdown, a meltdown — by voice or text and get strategies shaped by your own child’s history, plus pattern tracking that surfaces triggers you had not spotted.",
+    "phone": "",
+    "website": "https://neuraparent.com/",
+    "address": "",
+    "ageRange": "Parents and caregivers of children",
+    "disabilityTypes": [
+      "autism",
+      "adhd",
+      "sensory-processing",
+      "neurodivergent"
+    ],
+    "cost": "Free to try, no credit card required; paid plans listed on their site",
+    "format": "app",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "pricing": "freemium",
+    "appStore": "https://apps.apple.com/us/app/neura-parent/id6756896103",
+    "playStore": "https://play.google.com/store/apps/details?id=com.neuraparent.app",
+    "tags": [
+      "behavior-support",
+      "neurodivergent",
+      "autism",
+      "routines",
+      "caregiver-support"
+    ],
+    "source": "https://neuraparent.com/",
+    "lastScraped": "2026-08-08",
+    "dateAdded": "2026-08-08",
+    "origin": {
+      "type": "curated",
+      "detail": "apps-seed"
     }
   }
 ]

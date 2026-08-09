@@ -1,37 +1,36 @@
-Weekly Scrape Digest — 2026-08-02
+Weekly Scrape Digest — 2026-08-09
 ==================================================
 
 AWAITING REVIEW — approve or reject at https://thefullestproject.org/admin/review/
-  blog: 5 pending (3 new this run)
-  resource: 1579 pending (6 new this run)
-  spotlight: 7 pending (3 new this run)
-  story: 41 pending (13 new this run)
+  blog: 6 pending (1 new this run)
+  resource: 1581 pending (2 new this run)
+  spotlight: 5 pending (1 new this run)
+  story: 39 pending (13 new this run)
   submission: 9 pending
 
 Scraper: osm_overpass
-  Entries processed: 905
-  - [error] SD: HTTP Error 429: Too Many Requests
-  - [error] VA: HTTP Error 504: Gateway Timeout
-  - [error] AL: HTTP Error 504: Gateway Timeout
-  - [error] DC: HTTP Error 429: Too Many Requests
+  Entries processed: 853
+  - [error] SC: HTTP Error 504: Gateway Timeout
+  - [error] VT: HTTP Error 504: Gateway Timeout
+  - [error] VA: HTTP Error 429: Too Many Requests
+  - [error] AK: HTTP Error 429: Too Many Requests
+  - [error] CO: HTTP Error 429: Too Many Requests
+  - [error] FL: HTTP Error 429: Too Many Requests
   - [error] IL: HTTP Error 429: Too Many Requests
-  - [error] LA: HTTP Error 504: Gateway Timeout
-  - [error] MN: HTTP Error 504: Gateway Timeout
+  - [error] MA: HTTP Error 504: Gateway Timeout
+  - [error] NJ: HTTP Error 429: Too Many Requests
 
 Scraper: cms_providers
   Entries processed: 78
 
 Scraper: spotlight_scraper
-  Entries processed: 3
-  - [queued] Adaptive Adventure Hike
-  - [queued] PA Parks And Forests Foundation Celebrates New Accessible Canoe &amp; Kayak Laun
-  - [queued] Disability inclusion in health systems and emergency management remains uneven a
+  Entries processed: 2
+  - [queued] Valley Stream 13 School District awarded $25,000 Bridgestone grant for adaptive
+  - [queued] Valley Stream 13 School District awarded $25,000 Bridgestone grant for adaptive
 
 Scraper: blog_content
-  Entries processed: 3
-  - [queued] Caregiver burnout is driving demand for better family support - WSOC TV
-  - [queued] Stumble Guys launches Disability Pride Month charity campaign with SpecialEffect - Pocket Gamer.biz
-  - [queued] Virginia’s disability services gap persists despite progress, leaves young adults vulnerable - Virginia Mercury
+  Entries processed: 1
+  - [queued] FG Begins Nigeria’s First National Rehabilitation Technology Strategy - arise.tv
 
 —
 The Fullest Project | thefullestproject.org

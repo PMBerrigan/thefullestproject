@@ -1,0 +1,30 @@
+[
+  {
+    "id": "spt-20260809-d6bd8e6d",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-08-09T02:14:44.629179+00:00"
+    },
+    "payload": {
+      "name": "Valley Stream 13 School District awarded $25,000 Bridgestone grant for adaptive",
+      "description": "Valley Stream 13 School District awarded $25,000 Bridgestone grant for adaptive sports - Herald Community Newspapers",
+      "category": "Adventures",
+      "website": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanExQWo5c1ZXMWFfMzZfb3ZmSjN6UUZ3SjJpdUFTZUFCV1NReWZOUmtxOVFvdTZqbVl6MFV5ZzZwaXlHRWFLX1ZOTGZvSFRkQkhXczRQbUk5SmV6Y19ia2pCMXUxcGxqejZGLWI2R184Q21KNFJjU3VoeWhCVXlxZVdyRXpQNkRlQnUtTlRFQU5rVXUtZjRKOGVyQlBIUl96Yi14SWxqbm5jZ2RBWHduWFBTRE1hQQ?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/adventures.svg",
+      "location": "National",
+      "tags": [
+        "adventures",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-08-09"
+    }
+  }
+]

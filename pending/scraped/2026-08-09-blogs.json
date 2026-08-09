@@ -1,0 +1,20 @@
+[
+  {
+    "id": "blg-20260809-77873aa2",
+    "type": "blog",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "blog_content",
+      "submittedAt": "2026-08-09T02:14:46.679126+00:00"
+    },
+    "payload": {
+      "title": "FG Begins Nigeria’s First National Rehabilitation Technology Strategy - arise.tv",
+      "source": "arise.tv",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa0Y2RlpOY1doSmNWRDBHVGtCcjZfWFBvMEY1UDZBY1BWb003WjRqSWxWbGFUTFZ4TXA4bjdIMndSSFpvVWUwTkdJMDFRc1VLM3dWYlZRUEQzdnM1QTJyN3Vab2ZtUHFQQ1R3MkxPNHNRWkIxS0J6WFRlQnRfMk9maWVqRmE5QTJmZU5acFZrSkhLMXNI?oc=5",
+      "date": "2026-08-06",
+      "category": "Adaptive Technology",
+      "slug": "fg-begins-nigerias-first-national-rehabilitation-technology"
+    }
+  }
+]

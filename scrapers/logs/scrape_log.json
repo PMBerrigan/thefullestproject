@@ -1,106 +1,6 @@
 [
   {
     "scraper": "spotlight_scraper",
-    "timestamp": "2026-04-12T02:53:52.322646",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "added",
-        "name": "Bowling Green nonprofit expands outdoor access for people wi",
-        "category": "Adventures",
-        "website": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNc3RHRFRKazRVR2xCMUNYczYyalZfWXY1bUJ1REE1MVc5emtjUElwWm5ONWxwTUMyRkt3SFVBTm5mNDA0LWR0d1pJVEVkOTQ3YjNOTWVRbmxRVnkwc1VXZUwtUkxaYnpwUEVhZlNSVzNfSWVxcThqVWtOV0RVNmVIeFFBQmVtanBmZU1ydDVRTDRzay1vYzNPYi13c2dqQ1BBZENaY2hPNXNLN1dNRjdZLVVRcDB4VWd5QzlSX29peGxFbVZkX2pDaWl3azRIYVZPenQ1bUlqejM5NjdlVEZiZzlQR2hOZw?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Fello Marks 65 Years of Disability Services, Advocacy, and I",
-        "category": "Community",
-        "website": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORGR1dEJOUUdGd1NjU0lBVEwtenBERk9sODBJX0h4V1RvX2gtNGIyZnU0SkVyS1ZXY2FBdFdMaV82eFFySDM0VkZwd0poUk1nNi12YUllSzZIYmRnWmN6YS1GYjI3cXNKb3VvWGNxNFZ0SE5sQjQ5eGgzalhFck53bDExUTNiNG5lNGp6ZXJtLUpocVZHSjY3SERNZ1NNQkxYNnFIQVpmVzU3dlIwQjNGTXRVUUlVRlcwS1RmeWR6TlZzemJu?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "New Americans with Disabilities Act Title II Accessibility Requirements for Public Colleges and Universities",
-        "category": "Education",
-        "website": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOdTNBUzF2LV9zbkZidWprZjZJaV9nWk10VVBVMU5aQVExbzJ5MU05anBDV1I1UkFlZjVvc2o0Z0N2UnEtN0JXTXRnTl93NFZRbXdKa0dzTWJBcnp1dEY4M1hwTmx5dUFRam5zXzlGRXdreU1lWGY4X2xWNXRvWWdBbGlyT3F6WGYwTGd6cG5BNnNwUW02NDBPNDNsTS00a2JIZHRDR1VDbUdneDVmSlFWMThTUGdoTHpBSEJPb2czQURzMDV6UzlramstYmlVb0Y2Z1cxSmxmM2htam9fLUxuOUdvaFF4aFQ5aUdKeVNXRTRiWFg1Snc?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-04-12T02:53:54.568256",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "One in 5 people with disabilities report bias from financial firms - Stock Titan",
-        "source": "Stock Titan",
-        "slug": "one-in-5-people-with-disabilities-report-bias-from-financial"
-      },
-      {
-        "action": "created_post",
-        "title": "Green Shield Pest Solutions Shares Expert Insights on Specialized Treatments for Stratham, NH Residential and Commercial Properties - InsideNoVa.com",
-        "source": "InsideNoVa.com",
-        "slug": "green-shield-pest-solutions-shares-expert-insights-on-specia"
-      },
-      {
-        "action": "created_post",
-        "title": "Making Tax Digital: HMRC equality review finds possible ‘minor impacts’ based on disability, age and religion - PublicTechnology",
-        "source": "PublicTechnology",
-        "slug": "making-tax-digital-hmrc-equality-review-finds-possible-minor"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
-    "timestamp": "2026-04-19T03:17:10.758845",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "added",
-        "name": "Adaptive sports program visits Southern Arizona P.E. classes",
-        "category": "Adventures",
-        "website": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeFctcmtXSVBDb1hLOV81UUdVMjlOTEhBLUlLUkVDdlY5M3dTRVkybkxuWF9Fb0c1elVXRFFYTy13ampjMjhIUmVBYmoyUXdVQTFxTHM5dEJyMUlmNU1OUGZNMHFrcFlnSVZtNjJxdE9MZGdRcjlpc3gxRVBlTWZLWHpoWEtlNzhWUm9hcnE2U2NQcFItWUJhR3ZRZVlxUFJvRlhWTUtTSzVwQWpMUVAxcHpNdE4?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Launch of the report \"Disability Inclusion in Health Systems",
-        "category": "Community",
-        "website": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQko5UlJfcDMySFljZlZITmIzY1c2UThVakhVR3lSbWsxeF9pa24xNFhVSUpEbXhFeWlURDFfMlVYTzgwbjFmb1NnRUU3dVBSX3BGNGFCUkpwX3dmMDgyVlJaTHJKUkZHQ2FSVDFYcVZiWEl4NUN2Y2FuYmNuY3I2M292NFBKaVVBZmJfYjhybFQ1aEh1dVRWSGM0ZUlPR2pFYXU5S0RaU1ZHNEp2dXhmVHFwdHk5aEhRY3l3T0I2bTA?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Adaptive sports program visits Southern Arizona P.E. classes",
-        "category": "Sports",
-        "website": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeFctcmtXSVBDb1hLOV81UUdVMjlOTEhBLUlLUkVDdlY5M3dTRVkybkxuWF9Fb0c1elVXRFFYTy13ampjMjhIUmVBYmoyUXdVQTFxTHM5dEJyMUlmNU1OUGZNMHFrcFlnSVZtNjJxdE9MZGdRcjlpc3gxRVBlTWZLWHpoWEtlNzhWUm9hcnE2U2NQcFItWUJhR3ZRZVlxUFJvRlhWTUtTSzVwQWpMUVAxcHpNdE4?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-04-19T03:17:12.894615",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "A proposed federal personnel shift could chill whistleblowers long before anyone gets fired - Federal News Network",
-        "source": "Federal News Network",
-        "slug": "a-proposed-federal-personnel-shift-could-chill-whistleblower"
-      },
-      {
-        "action": "created_post",
-        "title": "Innovate Now backs startups designing assistive tech with users - TechCabal",
-        "source": "TechCabal",
-        "slug": "innovate-now-backs-startups-designing-assistive-tech-with-us"
-      },
-      {
-        "action": "created_post",
-        "title": "Make learning accessible to all in higher education - Times Higher Education",
-        "source": "Times Higher Education",
-        "slug": "make-learning-accessible-to-all-in-higher-education-times-hi"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
     "timestamp": "2026-04-26T06:30:09.149882",
     "entries_found": 3,
     "entries": [
@@ -959,6 +859,95 @@
         "title": "Virginia’s disability services gap persists despite progress, leaves young adults vulnerable - Virginia Mercury",
         "source": "Virginia Mercury",
         "slug": "virginias-disability-services-gap-persists-despite-progress"
+      }
+    ]
+  },
+  {
+    "scraper": "osm_overpass",
+    "timestamp": "2026-08-09T02:14:37.441473",
+    "status": "PARTIAL",
+    "targets_attempted": 51,
+    "targets_succeeded": 42,
+    "entries_found": 853,
+    "entries_queued": 2,
+    "entries": [
+      {
+        "action": "error",
+        "name": "SC: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "VT: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "VA: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "AK: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "CO: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "FL: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "IL: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "MA: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "NJ: HTTP Error 429: Too Many Requests"
+      }
+    ]
+  },
+  {
+    "scraper": "cms_providers",
+    "timestamp": "2026-08-09T02:14:39.653861",
+    "status": "OK",
+    "targets_attempted": 2,
+    "targets_succeeded": 2,
+    "entries_found": 78,
+    "entries_queued": 0,
+    "entries": []
+  },
+  {
+    "scraper": "spotlight_scraper",
+    "timestamp": "2026-08-09T02:14:44.629900",
+    "entries_found": 2,
+    "entries": [
+      {
+        "action": "queued",
+        "name": "Valley Stream 13 School District awarded $25,000 Bridgestone grant for adaptive",
+        "category": "Adventures",
+        "website": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanExQWo5c1ZXMWFfMzZfb3ZmSjN6UUZ3SjJpdUFTZUFCV1NReWZOUmtxOVFvdTZqbVl6MFV5ZzZwaXlHRWFLX1ZOTGZvSFRkQkhXczRQbUk5SmV6Y19ia2pCMXUxcGxqejZGLWI2R184Q21KNFJjU3VoeWhCVXlxZVdyRXpQNkRlQnUtTlRFQU5rVXUtZjRKOGVyQlBIUl96Yi14SWxqbm5jZ2RBWHduWFBTRE1hQQ?oc=5"
+      },
+      {
+        "action": "queued",
+        "name": "Valley Stream 13 School District awarded $25,000 Bridgestone grant for adaptive",
+        "category": "Sports",
+        "website": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanExQWo5c1ZXMWFfMzZfb3ZmSjN6UUZ3SjJpdUFTZUFCV1NReWZOUmtxOVFvdTZqbVl6MFV5ZzZwaXlHRWFLX1ZOTGZvSFRkQkhXczRQbUk5SmV6Y19ia2pCMXUxcGxqejZGLWI2R184Q21KNFJjU3VoeWhCVXlxZVdyRXpQNkRlQnUtTlRFQU5rVXUtZjRKOGVyQlBIUl96Yi14SWxqbm5jZ2RBWHduWFBTRE1hQQ?oc=5"
+      }
+    ]
+  },
+  {
+    "scraper": "blog_content",
+    "timestamp": "2026-08-09T02:14:46.679737",
+    "entries_found": 1,
+    "entries": [
+      {
+        "action": "queued",
+        "title": "FG Begins Nigeria’s First National Rehabilitation Technology Strategy - arise.tv",
+        "source": "arise.tv",
+        "slug": "fg-begins-nigerias-first-national-rehabilitation-technology"
       }
     ]
   }
