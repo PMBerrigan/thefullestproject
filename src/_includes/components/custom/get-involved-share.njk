@@ -2,6 +2,28 @@
    confirmation message are wired together by the script below via fixed element
    ids — the script travels with the section so the block can be reordered
    without leaving its behaviour behind. #}
+{%- if inGrid -%}
+<section class="card p-6 flex flex-col text-center h-full" data-block-id="{{ blockId }}" data-block-type="custom" data-block-index="{{ blockIndex }}">
+  <div class="text-4xl mb-2" aria-hidden="true">📣</div>
+  <h2 class="text-xl font-bold mb-2" style="color: var(--color-primary);">Become a Fullest Advocate</h2>
+  <p class="text-sm mb-5" style="color: var(--color-text-light);">
+    Tell the people who'd want to know — friends, therapists, teachers, support groups. The more families who use it, the more complete it becomes.
+  </p>
+  <div class="mt-auto">
+    <div class="flex flex-wrap gap-2 justify-center">
+      <button type="button" id="share-copy" class="btn-primary">Copy link</button>
+      <a href="mailto:?subject=A%20resource%20hub%20for%20the%20disability%20community&body=I%20thought%20you%20might%20find%20The%20Fullest%20Project%20helpful%20%E2%80%94%20a%20free%20directory%20of%20disability%20resources%2C%20programs%2C%20and%20community%3A%20https%3A%2F%2Fthefullestproject.org"
+         class="btn-secondary no-underline">Email</a>
+    </div>
+    <p class="text-xs mt-3">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthefullestproject.org" target="_blank" rel="noopener noreferrer" class="font-semibold" style="color: var(--color-secondary);">Facebook</a>
+      <span style="color: var(--color-text-light);"> &middot; </span>
+      <a href="https://twitter.com/intent/tweet?text=A%20free%20directory%20of%20disability%20resources%2C%20programs%2C%20and%20community%3A&url=https%3A%2F%2Fthefullestproject.org" target="_blank" rel="noopener noreferrer" class="font-semibold" style="color: var(--color-secondary);">X</a>
+    </p>
+    <p id="share-copied" class="text-sm mt-2 font-semibold hidden" style="color: var(--color-primary);">Link copied — thank you! 💛</p>
+  </div>
+</section>
+{%- else -%}
 <section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="custom" data-block-index="{{ blockIndex }}">
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-8">
@@ -26,6 +48,7 @@
     </div>
   </div>
 </section>
+{%- endif -%}
 
 <script>
 // Copy-link share button

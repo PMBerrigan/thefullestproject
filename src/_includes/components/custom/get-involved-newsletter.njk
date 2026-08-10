@@ -1,6 +1,26 @@
 {# Newsletter signup presented as a tier card. Bespoke rather than a tierCard
    block because the card holds a live form: the input id is fixed (the <label>
    points at it) and the form carries the worker/Formspree wiring. #}
+{%- if inGrid -%}
+<section class="card p-6 flex flex-col text-center h-full" data-block-id="{{ blockId }}" data-block-type="custom" data-block-index="{{ blockIndex }}">
+  <div class="text-4xl mb-2" aria-hidden="true">💛</div>
+  <h2 class="text-xl font-bold mb-2" style="color: var(--color-primary);">Become part of the Fullest Community</h2>
+  <p class="text-sm mb-5" style="color: var(--color-text-light);">
+    A few emails a month — new resources, practical guides, and encouragement from families who understand. No spam, unsubscribe anytime.
+  </p>
+  <div class="mt-auto">
+    <form action="https://formspree.io/f/{{ site.formspree.newsletter }}" method="POST" class="flex flex-col gap-2"
+      data-newsletter data-worker-url="{{ site.adminWorkerUrl }}/newsletter">
+      <label for="community-email" class="sr-only">Email address</label>
+      <input type="email" id="community-email" name="email" placeholder="Enter your email" required class="form-input">
+      <button type="submit" class="btn-primary">Subscribe</button>
+    </form>
+    <p class="text-xs mt-3" style="color: var(--color-text-light);">
+      We'll email you a confirmation link first.
+    </p>
+  </div>
+</section>
+{%- else -%}
 <section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="custom" data-block-index="{{ blockIndex }}">
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-8">
@@ -24,3 +44,4 @@
     </div>
   </div>
 </section>
+{%- endif -%}

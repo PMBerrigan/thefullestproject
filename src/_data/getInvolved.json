@@ -4,8 +4,9 @@
       "type": "banner",
       "id": "hero",
       "visible": true,
+      "padding": "small",
       "heading": "Get Involved",
-      "subheading": "The Fullest Project grows stronger with every person who joins in. Whether you have a minute or a mission, here's how you can help families in the disability community find what they need — and add what you know."
+      "subheading": "Four ways to help — pick the one that fits. Whether you have a minute or a mission, here's how you can help families find what they need."
     },
     {
       "type": "custom",
@@ -24,6 +25,7 @@
       "emoji": "🧩",
       "heading": "Become a Fullest Contributor",
       "intro": "The strength of The Fullest Project comes from each of you sharing the resources and information you know, so that everyone can benefit. Come across a program, service, website, or organization that supports individuals with disabilities and isn't in our directory yet? Add it. Every resource you share saves another family hours of searching.",
+      "shortIntro": "Come across a program or organization that isn't in our directory yet? Add it in one click. Every resource you share saves another family hours of searching.",
       "card": {
         "layout": "icon",
         "icon": "📌",
@@ -56,6 +58,7 @@
       "emoji": "🤝",
       "heading": "Become a Fullest Supporter",
       "intro": "Donate to The Fullest Project to help maintain and expand our directory, create educational content, and increase awareness of and accessibility to these resources. Your donation keeps the website running ad-free and accessible to every family who needs it.",
+      "shortIntro": "Your donation keeps the directory growing and the site running ad-free and open to every family who needs it.",
       "card": {
         "layout": "plain",
         "icon": "",

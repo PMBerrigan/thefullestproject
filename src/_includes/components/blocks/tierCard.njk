@@ -4,7 +4,29 @@
    The card has two layouts:
      icon   an emoji beside the card heading, centred body, button in its own row
      plain  centred card, heading straight into body, button directly beneath
-   plus an optional footnote line underneath carrying one inline link. #}
+   plus an optional footnote line underneath carrying one inline link.
+
+   In `inGrid` mode the whole thing collapses into one equal-height card for a
+   grid the page supplies. `shortIntro` is used there when present, because the
+   full intro paragraph is written for a full-width section and would blow out
+   the tile. #}
+{%- if inGrid -%}
+<section class="card p-6 flex flex-col text-center h-full" data-block-id="{{ blockId }}" data-block-type="tierCard" data-block-index="{{ blockIndex }}">
+  <div class="text-4xl mb-2" aria-hidden="true">{{ block.emoji }}</div>
+  <h2 class="text-xl font-bold mb-2" style="color: var(--color-primary);" data-block-field="heading">{{ block.heading }}</h2>
+  <p class="text-sm mb-5" style="color: var(--color-text-light);" data-block-field="shortIntro">
+    {{ block.shortIntro | default(block.intro) }}
+  </p>
+  <div class="mt-auto">
+    <a href="{{ block.card.ctaUrl }}" class="btn-primary no-underline inline-block" data-block-field="card.ctaLabel">{{ block.card.ctaLabel }}</a>
+    {%- if block.footnote and block.footnote.text %}
+    <p class="text-xs mt-3" style="color: var(--color-text-light);" data-block-field="footnote.text">
+      {{ block.footnote.text }} <a href="{{ block.footnote.url }}" class="font-semibold" style="color: var(--color-secondary);">{{ block.footnote.linkLabel }} &rarr;</a>
+    </p>
+    {%- endif %}
+  </div>
+</section>
+{%- else -%}
 <section class="{{ [padClass, bgClass] | join(' ') | trim }}" data-block-id="{{ blockId }}" data-block-type="tierCard" data-block-index="{{ blockIndex }}">
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-8">
@@ -41,3 +63,4 @@
     {%- endif %}
   </div>
 </section>
+{%- endif -%}

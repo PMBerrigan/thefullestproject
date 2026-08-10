@@ -82,6 +82,7 @@ block_types: &block_types
       - { label: "Large emoji", name: "emoji", widget: "string", hint: "Shown big above the heading, e.g. 🧩" }
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Intro text", name: "intro", widget: "text" }
+      - { label: "Short intro (tile view)", name: "shortIntro", widget: "text", required: false, hint: "Used where the sections are tiled side by side, like Get Involved. Keep it to a sentence or two — the full intro is too long for a tile. Leave blank to fall back to the intro above." }
       - label: "The card"
         name: "card"
         widget: "object"

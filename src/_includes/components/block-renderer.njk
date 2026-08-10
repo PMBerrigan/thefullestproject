@@ -33,9 +33,20 @@
   "large": "section-pad-lg"
 } %}
 
+{#- Two optional variables let a page render part of its block list separately,
+    which is how Get Involved tiles its four "ways to help" into a grid:
+
+      indexOffset  added to loop.index0 when stamping data-block-index, so a
+                   page rendering blocks.slice(1) still reports each block's
+                   TRUE position in the JSON array. The inline editor writes
+                   back by that index — get it wrong and edits land on the
+                   wrong section.
+      inGrid       true tells a block to render as an equal-height card with no
+                   section chrome, for a page that supplies its own grid
+                   wrapper. Blocks that don't implement it render as usual. -#}
 {%- for block in blocks -%}
   {%- if block.visible !== false and block.type in BLOCK_TYPES -%}
-    {%- set blockIndex = loop.index0 -%}
+    {%- set blockIndex = loop.index0 + (indexOffset | default(0)) -%}
     {%- set blockId = block.id or (block.type ~ "-" ~ loop.index) -%}
     {%- set bgClass = BG_CLASSES[block.background] | default("") -%}
     {%- set padClass = PAD_CLASSES[block.padding] | default("section-pad") -%}

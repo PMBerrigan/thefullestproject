@@ -1,38 +1,5 @@
 [
   {
-    "id": "res-20260719-43f378f1",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:57:18.496066+00:00"
-    },
-    "payload": {
-      "name": "Pro Ex Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "New Hampshire",
-      "area": "Epping",
-      "description": "",
-      "phone": "",
-      "website": "https://proexpt.com/",
-      "address": "96 Calef Highway",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist",
-        "therapist"
-      ],
-      "source": "https://www.openstreetmap.org/way/226907316",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NH.json"
-  },
-  {
     "id": "res-20260719-f4666d18",
     "type": "resource",
     "status": "pending",
@@ -97,38 +64,6 @@
     "targetFile": "src/_data/resources/states/NH.json"
   },
   {
-    "id": "res-20260719-52d23a24",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:57:18.496109+00:00"
-    },
-    "payload": {
-      "name": "Mountain Center Physical Therapy & Sports Rehab, Inc.",
-      "category": [
-        "therapy"
-      ],
-      "location": "New Hampshire",
-      "area": "Conway",
-      "description": "",
-      "phone": "",
-      "website": "https://www.mtnctrpt.com/index.html",
-      "address": "37 Main Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "therapist"
-      ],
-      "source": "https://www.openstreetmap.org/way/331223851",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NH.json"
-  },
-  {
     "id": "res-20260719-308ea86b",
     "type": "resource",
     "status": "pending",
@@ -156,71 +91,6 @@
         "therapist"
       ],
       "source": "https://www.openstreetmap.org/way/589553318",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NH.json"
-  },
-  {
-    "id": "res-20260719-f184807b",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:57:18.496125+00:00"
-    },
-    "payload": {
-      "name": "WV Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "New Hampshire",
-      "area": "Rochester",
-      "description": "",
-      "phone": "+1-603-335-4700",
-      "website": "https://www.wvphysicaltherapy.com/",
-      "address": "306 North Main Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/way/1038838949",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NH.json"
-  },
-  {
-    "id": "res-20260719-395d516d",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:57:18.496133+00:00"
-    },
-    "payload": {
-      "name": "Project Walk",
-      "category": [
-        "therapy"
-      ],
-      "location": "New Hampshire",
-      "area": "Stratham",
-      "description": "",
-      "phone": "+1-603-583-5119",
-      "website": "https://www.pwboston.com/",
-      "address": "20 Portsmouth Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist",
-        "therapist"
-      ],
-      "source": "https://www.openstreetmap.org/way/1227704024",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/NH.json"
@@ -355,102 +225,6 @@
     "targetFile": "src/_data/resources/states/NJ.json"
   },
   {
-    "id": "res-20260719-5a966f75",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:57:33.897781+00:00"
-    },
-    "payload": {
-      "name": "Pursue Physical Therapy & Performance Training",
-      "category": [
-        "therapy"
-      ],
-      "location": "New Jersey",
-      "area": "Verona",
-      "description": "",
-      "phone": "+1-201-340-4846",
-      "website": "https://pursueptnow.com",
-      "address": "271 Grove Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/10959385928",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NJ.json"
-  },
-  {
-    "id": "res-20260719-9f073e7e",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:57:33.897789+00:00"
-    },
-    "payload": {
-      "name": "Twin Boro Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "New Jersey",
-      "area": "Edison",
-      "description": "",
-      "phone": "",
-      "website": "https://twinboro.com/location/physical-therapy-edison-nj.html",
-      "address": "9 Lincoln Highway",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11037776739",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NJ.json"
-  },
-  {
-    "id": "res-20260719-550e95ec",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:57:33.897798+00:00"
-    },
-    "payload": {
-      "name": "AIM Orthopedics: Physical Therapy & Sports Medicine",
-      "category": [
-        "therapy"
-      ],
-      "location": "New Jersey",
-      "area": "",
-      "description": "",
-      "phone": "+1-973-860-0550",
-      "website": "https://aimorthopedics.com/",
-      "address": "",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11048491964",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NJ.json"
-  },
-  {
     "id": "res-20260719-26508e86",
     "type": "resource",
     "status": "pending",
@@ -483,38 +257,6 @@
     "targetFile": "src/_data/resources/states/NY.json"
   },
   {
-    "id": "res-20260719-16c67c11",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:58:28.242983+00:00"
-    },
-    "payload": {
-      "name": "Southwest Myofascial Release",
-      "category": [
-        "therapy"
-      ],
-      "location": "New York",
-      "area": "",
-      "description": "",
-      "phone": "+1-718-369-0505",
-      "website": "https://www.southwesthealing.com",
-      "address": "255 Windsor Place",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/2562041497",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NY.json"
-  },
-  {
     "id": "res-20260719-7c96989b",
     "type": "resource",
     "status": "pending",
@@ -542,134 +284,6 @@
         "speech_therapist"
       ],
       "source": "https://www.openstreetmap.org/node/2562062439",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NY.json"
-  },
-  {
-    "id": "res-20260719-94836587",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:58:28.243000+00:00"
-    },
-    "payload": {
-      "name": "Jag-One Phyiscal Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "New York",
-      "area": "",
-      "description": "",
-      "phone": "+1-718-221-1022",
-      "website": "https://www.jagpt.com/physical-therapy-clinics/ny/crown-heights/",
-      "address": "887A East New York Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/2566552096",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NY.json"
-  },
-  {
-    "id": "res-20260719-2c6a595d",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:58:28.243008+00:00"
-    },
-    "payload": {
-      "name": "Quality Care Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "New York",
-      "area": "",
-      "description": "",
-      "phone": "+1-718-443-8195",
-      "website": "http://qualitycarephysicaltherapy.com",
-      "address": "",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/2567977194",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NY.json"
-  },
-  {
-    "id": "res-20260719-7b829a30",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:58:28.243016+00:00"
-    },
-    "payload": {
-      "name": "Dynamic Solutions Pediatric Physical & Occupational Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "New York",
-      "area": "",
-      "description": "",
-      "phone": "+1-718-636-0545",
-      "website": "https://www.dynamicsolutionstherapy.com",
-      "address": "",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/2568825612",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NY.json"
-  },
-  {
-    "id": "res-20260719-6ac8590a",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:58:28.243024+00:00"
-    },
-    "payload": {
-      "name": "Good Reps Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "New York",
-      "area": "",
-      "description": "",
-      "phone": "+1-347-881-3696",
-      "website": "https://www.goodrepspt.com",
-      "address": "1010 Dean Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/2568936217",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/NY.json"
@@ -734,38 +348,6 @@
         "rehabilitation"
       ],
       "source": "https://www.openstreetmap.org/node/2717543028",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NY.json"
-  },
-  {
-    "id": "res-20260719-3451a05e",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:58:28.243071+00:00"
-    },
-    "payload": {
-      "name": "Summit Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "New York",
-      "area": "Manlius",
-      "description": "",
-      "phone": "+1-315-682-3387",
-      "website": "https://www.summitphysicaltherapy.net/manlius",
-      "address": "105 West Seneca Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/2758523923",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/NY.json"
@@ -895,39 +477,6 @@
         "rehabilitation"
       ],
       "source": "https://www.openstreetmap.org/node/10832197982",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NC.json"
-  },
-  {
-    "id": "res-20260719-a17c5a56",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:59:05.867152+00:00"
-    },
-    "payload": {
-      "name": "Pivot Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "North Carolina",
-      "area": "Raleigh",
-      "description": "",
-      "phone": "+1 919 322 0042",
-      "website": "https://www.pivotphysicaltherapy.com/locations/raleigh-nc-wake-forest-road/",
-      "address": "4109 Wake Forest Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist",
-        "wheelchair-accessible"
-      ],
-      "source": "https://www.openstreetmap.org/node/11028854357",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/NC.json"
@@ -1065,38 +614,6 @@
     "targetFile": "src/_data/resources/states/NC.json"
   },
   {
-    "id": "res-20260719-262a38ce",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:59:05.867204+00:00"
-    },
-    "payload": {
-      "name": "HPU Pro Bono Physical Therapy Clinic",
-      "category": [
-        "therapy"
-      ],
-      "location": "North Carolina",
-      "area": "High Point",
-      "description": "",
-      "phone": "+1-336-841-2985",
-      "website": "https://www.highpoint.edu/physicaltherapy/pbc/",
-      "address": "1030 Mall Loop Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/12381304743",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NC.json"
-  },
-  {
     "id": "res-20260719-def789a4",
     "type": "resource",
     "status": "pending",
@@ -1225,38 +742,6 @@
     "targetFile": "src/_data/resources/states/NC.json"
   },
   {
-    "id": "res-20260719-2bcfbb56",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:59:05.867240+00:00"
-    },
-    "payload": {
-      "name": "LeBauer Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "North Carolina",
-      "area": "",
-      "description": "",
-      "phone": "+1-336-271-6677",
-      "website": "https://lebauerpt.com/",
-      "address": "319 Smyres Place",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/12966379554",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/NC.json"
-  },
-  {
     "id": "res-20260719-4ca93a62",
     "type": "resource",
     "status": "pending",
@@ -1284,38 +769,6 @@
         "rehabilitation"
       ],
       "source": "https://www.openstreetmap.org/node/9445672697",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/OH.json"
-  },
-  {
-    "id": "res-20260719-120282e4",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T02:59:43.359426+00:00"
-    },
-    "payload": {
-      "name": "First Settlement Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Ohio",
-      "area": "Zanesville",
-      "description": "",
-      "phone": "+1 740-562-4669",
-      "website": "https://www.fspt.org/zanesville.html",
-      "address": "3590 Maple Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9559102035",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/OH.json"
@@ -1353,38 +806,6 @@
     "targetFile": "src/_data/resources/states/OH.json"
   },
   {
-    "id": "res-20260719-8a7410d2",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:00:56.193541+00:00"
-    },
-    "payload": {
-      "name": "Agape Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Pennsylvania",
-      "area": "Delta",
-      "description": "",
-      "phone": "+1 717-456-9170",
-      "website": "https://agapept.com/delta/",
-      "address": "950 Broad Street Extended",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6515374274",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/PA.json"
-  },
-  {
     "id": "res-20260719-0ed67d02",
     "type": "resource",
     "status": "pending",
@@ -1415,135 +836,6 @@
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/PA.json"
-  },
-  {
-    "id": "res-20260719-ce7b7898",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:01:34.296901+00:00"
-    },
-    "payload": {
-      "name": "Movement Solutions Physical Therapy Greenville",
-      "category": [
-        "therapy"
-      ],
-      "location": "South Carolina",
-      "area": "Greenville",
-      "description": "",
-      "phone": "+1-864-558-7346",
-      "website": "https://movementsolutions-sc.com/",
-      "address": "115 Pelham Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/8450508279",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/SC.json"
-  },
-  {
-    "id": "res-20260719-3e678492",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:01:34.296917+00:00"
-    },
-    "payload": {
-      "name": "Path to Progress Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "South Carolina",
-      "area": "Fort Mill",
-      "description": "Path to Progress, LLC is a company that is devoted to helping children and their parents start and stay on the right path for therapy services.",
-      "phone": "+1-803-802-5508",
-      "website": "https://pathtoprogresstherapy.wordpress.com",
-      "address": "2166 Gold Hill Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist",
-        "wheelchair-accessible"
-      ],
-      "source": "https://www.openstreetmap.org/node/8636719894",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/SC.json"
-  },
-  {
-    "id": "res-20260719-7dcf5b8e",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:01:34.296926+00:00"
-    },
-    "payload": {
-      "name": "Apogee Therapy Center",
-      "category": [
-        "therapy"
-      ],
-      "location": "South Carolina",
-      "area": "Spartanburg",
-      "description": "",
-      "phone": "+18645417321",
-      "website": "https://www.atcforme.com/spartanburg/",
-      "address": "435 East Main Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9663660301",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/SC.json"
-  },
-  {
-    "id": "res-20260719-156e8466",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:01:34.296935+00:00"
-    },
-    "payload": {
-      "name": "BenchMark Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "South Carolina",
-      "area": "Columbia",
-      "description": "",
-      "phone": "+1-803-675-5111",
-      "website": "https://www.benchmarkpt.com/locations/columbia-killian-road/",
-      "address": "961 Roberts Branch Parkway",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/10589993098",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/SC.json"
   },
   {
     "id": "res-20260719-836b25a9",
@@ -1642,38 +934,6 @@
     "targetFile": "src/_data/resources/states/SC.json"
   },
   {
-    "id": "res-20260719-9dbd5772",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:01:34.296965+00:00"
-    },
-    "payload": {
-      "name": "Benchmark",
-      "category": [
-        "therapy"
-      ],
-      "location": "South Carolina",
-      "area": "Aiken",
-      "description": "",
-      "phone": "",
-      "website": "https://www.benchmarkpt.com/locations/aiken-west/",
-      "address": "3601 Richland Avenue West",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11624059592",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/SC.json"
-  },
-  {
     "id": "res-20260719-e785ee20",
     "type": "resource",
     "status": "pending",
@@ -1706,39 +966,6 @@
     "targetFile": "src/_data/resources/states/SC.json"
   },
   {
-    "id": "res-20260719-23850de8",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:01:34.296980+00:00"
-    },
-    "payload": {
-      "name": "QC Kinetix",
-      "category": [
-        "therapy"
-      ],
-      "location": "South Carolina",
-      "area": "Greenville",
-      "description": "",
-      "phone": "",
-      "website": "https://qckinetix.com/greenville/",
-      "address": "1757 Woodruff Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist",
-        "therapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11938679895",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/SC.json"
-  },
-  {
     "id": "res-20260719-0dcc080c",
     "type": "resource",
     "status": "pending",
@@ -1766,70 +993,6 @@
         "rehabilitation"
       ],
       "source": "https://www.openstreetmap.org/node/12786903003",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/SC.json"
-  },
-  {
-    "id": "res-20260719-3f698e95",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:01:34.296995+00:00"
-    },
-    "payload": {
-      "name": "Select Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "South Carolina",
-      "area": "Mount Pleasant",
-      "description": "",
-      "phone": "+1-843-800-8655",
-      "website": "https://www.selectphysicaltherapy.com/contact/find-a-location/sc/mount-pleasant/north-mount-pleasant",
-      "address": "2114 SC-41",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/13067661600",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/SC.json"
-  },
-  {
-    "id": "res-20260719-226da9c6",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:01:34.297003+00:00"
-    },
-    "payload": {
-      "name": "Coastal Carolina Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "South Carolina",
-      "area": "Mount Pleasant",
-      "description": "",
-      "phone": "+18432848092",
-      "website": "https://www.coastalcarolinaphysicaltherapy.com/",
-      "address": "3014 South Morgans Point Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/13337521805",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/SC.json"
@@ -1931,167 +1094,6 @@
     "targetFile": "src/_data/resources/states/TN.json"
   },
   {
-    "id": "res-20260719-a1a7c882",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:02:29.861082+00:00"
-    },
-    "payload": {
-      "name": "Summit Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Tennessee",
-      "area": "",
-      "description": "",
-      "phone": "+1-423-362-4378",
-      "website": "https://www.summit-therapy.com/location/hixson/",
-      "address": "1965 Northpoint Boulevard",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist",
-        "wheelchair-accessible"
-      ],
-      "source": "https://www.openstreetmap.org/node/13937491890",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/TN.json"
-  },
-  {
-    "id": "res-20260719-18320720",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:03:11.573757+00:00"
-    },
-    "payload": {
-      "name": "Texas Physical Therapy Specialists",
-      "category": [
-        "therapy"
-      ],
-      "location": "Texas",
-      "area": "Austin",
-      "description": "",
-      "phone": "+1-512-670-3238",
-      "website": "https://www.texpts.com/",
-      "address": "1212 West Parmer Lane",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/8326386004",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/TX.json"
-  },
-  {
-    "id": "res-20260719-0d7f302b",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:03:11.573774+00:00"
-    },
-    "payload": {
-      "name": "All Care Therapies of Georgetown",
-      "category": [
-        "therapy"
-      ],
-      "location": "Texas",
-      "area": "Georgetown",
-      "description": "",
-      "phone": "+1-512-256-7627",
-      "website": "https://www.allcaretherapygt.com/",
-      "address": "4402 Williams Drive",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/8398171207",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/TX.json"
-  },
-  {
-    "id": "res-20260719-87a86096",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:03:11.573783+00:00"
-    },
-    "payload": {
-      "name": "Restore Hyper Wellness & Cryotherapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Texas",
-      "area": "Round Rock",
-      "description": "",
-      "phone": "+1-737-222-6629",
-      "website": "https://restore.com/locations/round-rock-tx/",
-      "address": "110 North Interstate 35",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/8501649236",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/TX.json"
-  },
-  {
-    "id": "res-20260719-5df58ed3",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:03:11.573791+00:00"
-    },
-    "payload": {
-      "name": "Champion Performance Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Texas",
-      "area": "Cedar Park",
-      "description": "Primarily focused on sports medicine.  Hours are by appointment only.",
-      "phone": "+1-512-996-0441",
-      "website": "https://www.cp-pt.com/",
-      "address": "12617 Ridgeline Boulevard",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/8522803100",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/TX.json"
-  },
-  {
     "id": "res-20260719-fb3aaefc",
     "type": "resource",
     "status": "pending",
@@ -2119,38 +1121,6 @@
         "medical_supply"
       ],
       "source": "https://www.openstreetmap.org/node/8534622947",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/TX.json"
-  },
-  {
-    "id": "res-20260719-3d60f4ff",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:03:11.573811+00:00"
-    },
-    "payload": {
-      "name": "Dumas Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Texas",
-      "area": "Dumas",
-      "description": "",
-      "phone": "+1-806-934-2634",
-      "website": "https://dumaspt.com/",
-      "address": "515 East 1st Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/8954675790",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/TX.json"
@@ -2220,38 +1190,6 @@
     "targetFile": "src/_data/resources/states/VA.json"
   },
   {
-    "id": "res-20260719-3e80b154",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:04:03.942866+00:00"
-    },
-    "payload": {
-      "name": "Egoscue",
-      "category": [
-        "therapy"
-      ],
-      "location": "Virginia",
-      "area": "Arlington",
-      "description": "",
-      "phone": "+1 703-652-9426",
-      "website": "https://www.egoscue.com",
-      "address": "4820 31st Street South",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/8129251625",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/VA.json"
-  },
-  {
     "id": "res-20260719-ea4e5658",
     "type": "resource",
     "status": "pending",
@@ -2316,38 +1254,6 @@
     "targetFile": "src/_data/resources/states/WI.json"
   },
   {
-    "id": "res-20260719-a8ce865e",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:05:07.483076+00:00"
-    },
-    "payload": {
-      "name": "Impact Physical Therapy & Performance",
-      "category": [
-        "therapy"
-      ],
-      "location": "Wisconsin",
-      "area": "Verona",
-      "description": "",
-      "phone": "+1-608-284-5287",
-      "website": "https://www.impactptmsn.com",
-      "address": "1155 Clarity Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9203105402",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/WI.json"
-  },
-  {
     "id": "res-20260719-7ebd9bc7",
     "type": "resource",
     "status": "pending",
@@ -2375,102 +1281,6 @@
         "medical_supply"
       ],
       "source": "https://www.openstreetmap.org/node/10219563965",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/WI.json"
-  },
-  {
-    "id": "res-20260719-a9af80f9",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:05:07.483092+00:00"
-    },
-    "payload": {
-      "name": "Tosa Physical Therapy and Wellness",
-      "category": [
-        "therapy"
-      ],
-      "location": "Wisconsin",
-      "area": "Wauwatosa",
-      "description": "",
-      "phone": "+1 414-312-0783",
-      "website": "https://www.tosapt.com/",
-      "address": "9126 West North Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/10224225897",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/WI.json"
-  },
-  {
-    "id": "res-20260719-74178447",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:05:07.483101+00:00"
-    },
-    "payload": {
-      "name": "Orthopaedic Hospital of Wisconsin – Greenfield Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Wisconsin",
-      "area": "Greenfield",
-      "description": "",
-      "phone": "+1-414-282-9590",
-      "website": "https://www.ohow.com/locations/greenfield-physical-therapy/",
-      "address": "4830 South 76th Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/10236334460",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/WI.json"
-  },
-  {
-    "id": "res-20260719-3192d4d1",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:05:07.483109+00:00"
-    },
-    "payload": {
-      "name": "Optimum Therapies",
-      "category": [
-        "therapy"
-      ],
-      "location": "Wisconsin",
-      "area": "Rice Lake",
-      "description": "",
-      "phone": "+1-715-236-3610",
-      "website": "https://www.optimumtherapies.com/",
-      "address": "1507 West Knapp Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/10759409946",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/WI.json"
@@ -2535,70 +1345,6 @@
         "medical_supply"
       ],
       "source": "https://www.openstreetmap.org/node/11524332161",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/WI.json"
-  },
-  {
-    "id": "res-20260719-44bd5129",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:05:07.483131+00:00"
-    },
-    "payload": {
-      "name": "Twin Cities Orthopedics",
-      "category": [
-        "therapy"
-      ],
-      "location": "Wisconsin",
-      "area": "Hudson",
-      "description": "",
-      "phone": "+1 800-423-1088",
-      "website": "https://tcomn.com/locations/hudson/",
-      "address": "2651 Hillcrest Drive",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11882075229",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/WI.json"
-  },
-  {
-    "id": "res-20260719-f27e1a43",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:05:07.483139+00:00"
-    },
-    "payload": {
-      "name": "Training HAUS",
-      "category": [
-        "therapy"
-      ],
-      "location": "Wisconsin",
-      "area": "Hudson",
-      "description": "",
-      "phone": "+1 952-456-7650",
-      "website": "https://traininghaus.com/",
-      "address": "2651 Hillcrest Drive",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11882075230",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/WI.json"
@@ -2700,70 +1446,6 @@
     "targetFile": "src/_data/resources/states/WI.json"
   },
   {
-    "id": "res-20260719-ccb3244c",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:05:07.483167+00:00"
-    },
-    "payload": {
-      "name": "Advanced Physical Therapy Associates - Stevens Point North",
-      "category": [
-        "therapy"
-      ],
-      "location": "Wisconsin",
-      "area": "Stevens Point",
-      "description": "",
-      "phone": "+1-715-345-2797",
-      "website": "https://www.advancedptsm.com/stevens-point-north",
-      "address": "641 Division Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/12189337521",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/WI.json"
-  },
-  {
-    "id": "res-20260719-46229285",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:06:29.245561+00:00"
-    },
-    "payload": {
-      "name": "Spooner",
-      "category": [
-        "therapy"
-      ],
-      "location": "Arizona",
-      "area": "Surprise",
-      "description": "",
-      "phone": "+1-623-400-9000",
-      "website": "https://www.spoonerpt.com/locations/arizona/surprise-city-center/",
-      "address": "15800 North Litchfield Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/10830087221",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/AZ.json"
-  },
-  {
     "id": "res-20260719-e2a356d1",
     "type": "resource",
     "status": "pending",
@@ -2794,70 +1476,6 @@
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/AZ.json"
-  },
-  {
-    "id": "res-20260719-e18aadcd",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:06:52.063947+00:00"
-    },
-    "payload": {
-      "name": "Elite Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Arkansas",
-      "area": "Conway",
-      "description": "",
-      "phone": "+1-501-205-4695",
-      "website": "https://elitetherapypt.com/contact-us/conway/",
-      "address": "635 Dave Ward Drive",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/14022992353",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/AR.json"
-  },
-  {
-    "id": "res-20260719-75a8f956",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:06:52.063964+00:00"
-    },
-    "payload": {
-      "name": "Baptist Health Therapy Center-Heights",
-      "category": [
-        "therapy"
-      ],
-      "location": "Arkansas",
-      "area": "Little Rock",
-      "description": "",
-      "phone": "+15016611555",
-      "website": "https://www.baptist-health.com/location/baptist-health-therapy-center-heights/",
-      "address": "5618 R Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/way/1071238551",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/AR.json"
   },
   {
     "id": "res-20260719-97c7a6da",
@@ -2956,102 +1574,6 @@
     "targetFile": "src/_data/resources/states/AR.json"
   },
   {
-    "id": "res-20260719-f83a3de0",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:06:52.064000+00:00"
-    },
-    "payload": {
-      "name": "GTS Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Arkansas",
-      "area": "Cave City",
-      "description": "",
-      "phone": "+1-870-600-3674",
-      "website": "https://gtsphysicaltherapy.com/physical-therapy-clinic/physical-therapy-cave-city-ar",
-      "address": "520 North Main Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/way/1377307343",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/AR.json"
-  },
-  {
-    "id": "res-20260719-1be09808",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:07:49.771094+00:00"
-    },
-    "payload": {
-      "name": "Lea Seigen Shinraku, MFT",
-      "category": [
-        "therapy"
-      ],
-      "location": "California",
-      "area": "San Francisco",
-      "description": "",
-      "phone": "+1-415-255-2509",
-      "website": "http://www.leaseigenshinraku.com",
-      "address": "459 Fulton Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/2928265302",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/CA.json"
-  },
-  {
-    "id": "res-20260719-fc4d5d42",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:07:49.771111+00:00"
-    },
-    "payload": {
-      "name": "Elevated Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "California",
-      "area": "Pasadena",
-      "description": "",
-      "phone": "+1 626-360-2717",
-      "website": "https://connect.elevatedpt.net",
-      "address": "188 South de Lacey Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/3178418961",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/CA.json"
-  },
-  {
     "id": "res-20260719-6527d8c4",
     "type": "resource",
     "status": "pending",
@@ -3080,38 +1602,6 @@
         "wheelchair-accessible"
       ],
       "source": "https://www.openstreetmap.org/node/3237441970",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/CA.json"
-  },
-  {
-    "id": "res-20260719-9abae27b",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:07:49.771129+00:00"
-    },
-    "payload": {
-      "name": "Select Physical Therapy Asher-Larkspur",
-      "category": [
-        "therapy"
-      ],
-      "location": "California",
-      "area": "Larkspur",
-      "description": "",
-      "phone": "+1 415 461 6412",
-      "website": "https://www.selectphysicaltherapy.com/about/community/center/?id=50320",
-      "address": "2801 Larkspur Landing Circle",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "rehabilitation"
-      ],
-      "source": "https://www.openstreetmap.org/node/3684650480",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/CA.json"
@@ -3149,38 +1639,6 @@
     "targetFile": "src/_data/resources/states/CA.json"
   },
   {
-    "id": "res-20260719-086e0681",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:07:49.771144+00:00"
-    },
-    "payload": {
-      "name": "ATI Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "California",
-      "area": "Palo Alto",
-      "description": "",
-      "phone": "",
-      "website": "https://locations.atipt.com/ca/palo-alto",
-      "address": "3441 Alma Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/3721713643",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/CA.json"
-  },
-  {
     "id": "res-20260719-7129e924",
     "type": "resource",
     "status": "pending",
@@ -3208,38 +1666,6 @@
         "medical_supply"
       ],
       "source": "https://www.openstreetmap.org/node/3771490181",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/CA.json"
-  },
-  {
-    "id": "res-20260719-c5b7aa38",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:07:49.771159+00:00"
-    },
-    "payload": {
-      "name": "Spine & Sport Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "California",
-      "area": "",
-      "description": "",
-      "phone": "",
-      "website": "https://spineandsport.com/",
-      "address": "295 G Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/3804270267",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/CA.json"
@@ -3309,38 +1735,6 @@
     "targetFile": "src/_data/resources/states/CA.json"
   },
   {
-    "id": "res-20260719-b806ae6b",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:07:49.771181+00:00"
-    },
-    "payload": {
-      "name": "San Luis Sports Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "California",
-      "area": "Atascadero",
-      "description": "",
-      "phone": "",
-      "website": "https://www.slsportstherapy.com/location/atascadero/",
-      "address": "7325 El Camino Real",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/3890732883",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/CA.json"
-  },
-  {
     "id": "res-20260719-813e9357",
     "type": "resource",
     "status": "pending",
@@ -3404,102 +1798,6 @@
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/CA.json"
-  },
-  {
-    "id": "res-20260719-e64cff62",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:07:49.771203+00:00"
-    },
-    "payload": {
-      "name": "HealthFit Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "California",
-      "area": "Pasadena",
-      "description": "",
-      "phone": "+1 626-365-1380",
-      "website": "https://healthfitinc.com/",
-      "address": "145 Vista Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/4398389506",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/CA.json"
-  },
-  {
-    "id": "res-20260719-4e668876",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:08:16.697938+00:00"
-    },
-    "payload": {
-      "name": "Physical Therapy Doctors",
-      "category": [
-        "therapy"
-      ],
-      "location": "Colorado",
-      "area": "Berthoud",
-      "description": "",
-      "phone": "+1-970-532-2533",
-      "website": "https://www.physicaltherapydoctors.net",
-      "address": "247 Mountain Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9209812459",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/CO.json"
-  },
-  {
-    "id": "res-20260719-9cbf19b4",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:08:16.697955+00:00"
-    },
-    "payload": {
-      "name": "rebound Sports & Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Colorado",
-      "area": "",
-      "description": "",
-      "phone": "",
-      "website": "https://www.reboundsportspt.com/",
-      "address": "",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9244854458",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/CO.json"
   },
   {
     "id": "res-20260719-347b6471",
@@ -3729,38 +2027,6 @@
     "targetFile": "src/_data/resources/states/CT.json"
   },
   {
-    "id": "res-20260719-66a49bec",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:08:51.196256+00:00"
-    },
-    "payload": {
-      "name": "Mansfield Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Connecticut",
-      "area": "Mansfield Center",
-      "description": "",
-      "phone": "+1 860 456 8869",
-      "website": "https://mansfieldpt.com",
-      "address": "175 Stafford Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/way/886352932",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/CT.json"
-  },
-  {
     "id": "res-20260719-8c7f41fc",
     "type": "resource",
     "status": "pending",
@@ -3955,70 +2221,6 @@
     "targetFile": "src/_data/resources/states/GA.json"
   },
   {
-    "id": "res-20260719-c44e31ce",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:10:12.408946+00:00"
-    },
-    "payload": {
-      "name": "P T Solutions",
-      "category": [
-        "therapy"
-      ],
-      "location": "Georgia",
-      "area": "Cartersville",
-      "description": "",
-      "phone": "+1-678-721-9922",
-      "website": "https://ptsolutions.com/clinics/ga/cartersville/",
-      "address": "650 Henderson Drive",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9828722511",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/GA.json"
-  },
-  {
-    "id": "res-20260719-f5177477",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:10:12.408953+00:00"
-    },
-    "payload": {
-      "name": "Amma Abunyewa MD",
-      "category": [
-        "therapy"
-      ],
-      "location": "Georgia",
-      "area": "Marietta",
-      "description": "Primary Care in Marietta, GA",
-      "phone": "+1-770-973-4749",
-      "website": "https://providencerdprimarycare.com",
-      "address": "4180 Providence Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/10567480661",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/GA.json"
-  },
-  {
     "id": "res-20260719-f6a75a85",
     "type": "resource",
     "status": "pending",
@@ -4046,38 +2248,6 @@
         "rehabilitation"
       ],
       "source": "https://www.openstreetmap.org/node/10834450829",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/GA.json"
-  },
-  {
-    "id": "res-20260719-480d1a1f",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:10:12.408969+00:00"
-    },
-    "payload": {
-      "name": "Venture Physical Therapy & Hand Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Georgia",
-      "area": "",
-      "description": "",
-      "phone": "+1-770-425-2151",
-      "website": "https://www.venturept.com/",
-      "address": "5041 Dallas Highway",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11117562967",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/GA.json"
@@ -4148,135 +2318,6 @@
     "targetFile": "src/_data/resources/states/IL.json"
   },
   {
-    "id": "res-20260719-a177fb4e",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:28.102160+00:00"
-    },
-    "payload": {
-      "name": "Peggy A Supple, M.D.",
-      "category": [
-        "therapy"
-      ],
-      "location": "Illinois",
-      "area": "Downers Grove",
-      "description": "",
-      "phone": "+1 630-969-8090",
-      "website": "https://www.peggysupple.com/",
-      "address": "3800 Highland Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6487644195",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IL.json"
-  },
-  {
-    "id": "res-20260719-1dd4c75c",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:28.102169+00:00"
-    },
-    "payload": {
-      "name": "FYZICAL",
-      "category": [
-        "therapy"
-      ],
-      "location": "Illinois",
-      "area": "Niles",
-      "description": "",
-      "phone": "+1-847-390-0999",
-      "website": "https://fyzicalchicago.com/",
-      "address": "9519 North Milwaukee Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist",
-        "therapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6517626636",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IL.json"
-  },
-  {
-    "id": "res-20260719-5c7406c7",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:28.102178+00:00"
-    },
-    "payload": {
-      "name": "Method Athletics",
-      "category": [
-        "therapy"
-      ],
-      "location": "Illinois",
-      "area": "Frankfort",
-      "description": "",
-      "phone": "+1-815-277-9049",
-      "website": "https://methodathletics.com",
-      "address": "706 Center Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6917344095",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IL.json"
-  },
-  {
-    "id": "res-20260719-69bf5041",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:28.102186+00:00"
-    },
-    "payload": {
-      "name": "ApexNetwork Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Illinois",
-      "area": "Mascoutah",
-      "description": "",
-      "phone": "",
-      "website": "https://apexnetworkpt.com/",
-      "address": "610 South Jefferson Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/7088603196",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IL.json"
-  },
-  {
     "id": "res-20260719-6bc297d1",
     "type": "resource",
     "status": "pending",
@@ -4337,102 +2378,6 @@
         "rehabilitation"
       ],
       "source": "https://www.openstreetmap.org/node/7157676522",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IL.json"
-  },
-  {
-    "id": "res-20260719-d75be84f",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:28.102215+00:00"
-    },
-    "payload": {
-      "name": "Springfield Clinic Rehabilitation Service",
-      "category": [
-        "therapy"
-      ],
-      "location": "Illinois",
-      "area": "Springfield",
-      "description": "",
-      "phone": "+1-217-528-7541",
-      "website": "https://www.springfieldclinic.com/our-locations/springfield-clinic-rehabilitation-service-monroe",
-      "address": "2325 West Monroe Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/7158624426",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IL.json"
-  },
-  {
-    "id": "res-20260719-843ef082",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:28.102222+00:00"
-    },
-    "payload": {
-      "name": "Diamond Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Illinois",
-      "area": "Algonquin",
-      "description": "",
-      "phone": "+1-847-854-0196",
-      "website": "https://dptrehab.com",
-      "address": "1140 East Algonquin Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/7726775214",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IL.json"
-  },
-  {
-    "id": "res-20260719-ab0148a8",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:28.102229+00:00"
-    },
-    "payload": {
-      "name": "Moffet Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Illinois",
-      "area": "Lake in the Hills",
-      "description": "",
-      "phone": "+18476698800",
-      "website": "https://moffettpt.com/",
-      "address": "9551 Ackman Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/7838399585",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/IL.json"
@@ -4567,70 +2512,6 @@
     "targetFile": "src/_data/resources/states/IN.json"
   },
   {
-    "id": "res-20260719-59e98b68",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:46.448580+00:00"
-    },
-    "payload": {
-      "name": "Orthopedic and Balance Therapy Specialists",
-      "category": [
-        "therapy"
-      ],
-      "location": "Indiana",
-      "area": "Valparaiso",
-      "description": "",
-      "phone": "+1 219 300 6280",
-      "website": "https://orthopedicandbalancetherapy.com/location/physical-therapy-valparaiso/",
-      "address": "3125 Calumet Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9322929462",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IN.json"
-  },
-  {
-    "id": "res-20260719-5176cfe3",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:46.448589+00:00"
-    },
-    "payload": {
-      "name": "Miracles Rehabilitation",
-      "category": [
-        "therapy"
-      ],
-      "location": "Indiana",
-      "area": "West Lafayette",
-      "description": "",
-      "phone": "",
-      "website": "https://www.unityhc.com/practice/miracles-rehabilitation/",
-      "address": "307 Sagamore Parkway West",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/10145452879",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IN.json"
-  },
-  {
     "id": "res-20260719-744e8d58",
     "type": "resource",
     "status": "pending",
@@ -4658,38 +2539,6 @@
         "rehabilitation"
       ],
       "source": "https://www.openstreetmap.org/node/10581010857",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IN.json"
-  },
-  {
-    "id": "res-20260719-a8938cfb",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:46.448605+00:00"
-    },
-    "payload": {
-      "name": "Team Rehabilitation Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Indiana",
-      "area": "West Lafayette",
-      "description": "",
-      "phone": "+1-765-250-9660",
-      "website": "https://team-rehab.com/location/west-lafayette/",
-      "address": "500 Sagamore Parkway West",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/10817126633",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/IN.json"
@@ -4888,102 +2737,6 @@
     "targetFile": "src/_data/resources/states/IN.json"
   },
   {
-    "id": "res-20260719-a762ae77",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:46.448656+00:00"
-    },
-    "payload": {
-      "name": "Ivy Rehab Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Indiana",
-      "area": "Winfield",
-      "description": "",
-      "phone": "+1 219 333 5900",
-      "website": "https://www.ivyrehab.com/location/winfield-in/",
-      "address": "10787 Randolph Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "rehabilitation"
-      ],
-      "source": "https://www.openstreetmap.org/node/11139532593",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IN.json"
-  },
-  {
-    "id": "res-20260719-22df3d6f",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:46.448663+00:00"
-    },
-    "payload": {
-      "name": "Results Physiotherapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Indiana",
-      "area": "Jeffersonville",
-      "description": "",
-      "phone": "+1-812-748-8612",
-      "website": "https://www.resultspt.com/results-physiotherapy-jeffersonville-indiana",
-      "address": "3040 Gottbrath Parkway",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11165624649",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IN.json"
-  },
-  {
-    "id": "res-20260719-5ce48305",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:46.448670+00:00"
-    },
-    "payload": {
-      "name": "Rush Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Indiana",
-      "area": "Crown Point",
-      "description": "",
-      "phone": "+1 219 988 1332",
-      "website": "https://www.rushpt.com/contact/find-a-location/in/crown-point/winfield/",
-      "address": "9150 East 109th Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11168403056",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IN.json"
-  },
-  {
     "id": "res-20260719-2c415245",
     "type": "resource",
     "status": "pending",
@@ -5014,102 +2767,6 @@
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/IN.json"
-  },
-  {
-    "id": "res-20260719-e1049475",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:46.448684+00:00"
-    },
-    "payload": {
-      "name": "Ivy Rehab",
-      "category": [
-        "therapy"
-      ],
-      "location": "Indiana",
-      "area": "Valparaiso",
-      "description": "",
-      "phone": "+1 219 280 2034",
-      "website": "https://ivyrehab.com/physical-therapy-location/valparaiso-in/",
-      "address": "2502 Calumet Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/12269726101",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IN.json"
-  },
-  {
-    "id": "res-20260719-ad904554",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:59.530533+00:00"
-    },
-    "payload": {
-      "name": "Athletico Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Iowa",
-      "area": "Des Moines",
-      "description": "",
-      "phone": "+1-515-282-4560",
-      "website": "https://www.athletico.com/locations/ingersoll/?utm_source=google-ingersoll&utm_medium=web&utm_campaign=google-listings",
-      "address": "1704 Ingersoll Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9610097303",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IA.json"
-  },
-  {
-    "id": "res-20260719-cacb01ff",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:59.530550+00:00"
-    },
-    "payload": {
-      "name": "Rock Valley Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Iowa",
-      "area": "Cedar Rapids",
-      "description": "",
-      "phone": "+1-319-362-6994",
-      "website": "https://www.rockvalleypt.com/locations/cedar-rapid-iowa-29th-st/",
-      "address": "1825 29th Street Northeast",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9637243141",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IA.json"
   },
   {
     "id": "res-20260719-8551ca7d",
@@ -5208,70 +2865,6 @@
     "targetFile": "src/_data/resources/states/IA.json"
   },
   {
-    "id": "res-20260719-408f3119",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:59.530583+00:00"
-    },
-    "payload": {
-      "name": "21st Century Rehab",
-      "category": [
-        "therapy"
-      ],
-      "location": "Iowa",
-      "area": "Carlisle",
-      "description": "",
-      "phone": "+1-515-989-0100",
-      "website": "https://21stcenturyrehab.com/location/carlisle/",
-      "address": "125 1st Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/12995130057",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IA.json"
-  },
-  {
-    "id": "res-20260719-a94bb177",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:11:59.530590+00:00"
-    },
-    "payload": {
-      "name": "Agape Performance",
-      "category": [
-        "therapy"
-      ],
-      "location": "Iowa",
-      "area": "Cedar Falls",
-      "description": "",
-      "phone": "+1-319-260-2240",
-      "website": "https://agapetherapy.com/agape-performance/",
-      "address": "918 Viking Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/13951145035",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/IA.json"
-  },
-  {
     "id": "res-20260719-8a002a6e",
     "type": "resource",
     "status": "pending",
@@ -5300,70 +2893,6 @@
         "wheelchair-accessible"
       ],
       "source": "https://www.openstreetmap.org/node/10888125609",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/KS.json"
-  },
-  {
-    "id": "res-20260719-e5b1eb49",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:12:20.818974+00:00"
-    },
-    "payload": {
-      "name": "Empowered Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Kansas",
-      "area": "",
-      "description": "",
-      "phone": "+1 913-912-0069",
-      "website": "https://www.empoweredpt-kc.com",
-      "address": "",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11469195259",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/KS.json"
-  },
-  {
-    "id": "res-20260719-a6c952cd",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:12:20.818984+00:00"
-    },
-    "payload": {
-      "name": "Herrman Physical Therapy & Wellness",
-      "category": [
-        "therapy"
-      ],
-      "location": "Kansas",
-      "area": "Hays",
-      "description": "",
-      "phone": "+1-785-621-5888",
-      "website": "https://herrmanpt.com/",
-      "address": "2514 Vine Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11708195101",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/KS.json"
@@ -5429,38 +2958,6 @@
         "child;disabled;juvenile"
       ],
       "source": "https://www.openstreetmap.org/node/13256924803",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/KS.json"
-  },
-  {
-    "id": "res-20260719-babe342f",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:12:20.819008+00:00"
-    },
-    "payload": {
-      "name": "Physical Therapy by Phoenix",
-      "category": [
-        "therapy"
-      ],
-      "location": "Kansas",
-      "area": "",
-      "description": "",
-      "phone": "+1-316-260-3311",
-      "website": "https://physicaltherapybyphoenix.com/physical-therapy-clinic/physical-therapy-hutchinson-ks/",
-      "address": "1627 North Lorraine Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/13968760273",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/KS.json"
@@ -5789,38 +3286,6 @@
     "targetFile": "src/_data/resources/states/LA.json"
   },
   {
-    "id": "res-20260719-bc119508",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:13:01.910396+00:00"
-    },
-    "payload": {
-      "name": "Hands On Health Physical Therapy and Wellness",
-      "category": [
-        "therapy"
-      ],
-      "location": "Louisiana",
-      "area": "",
-      "description": "",
-      "phone": "+1-504-481-9688",
-      "website": "https://handsonhealthnola.com/",
-      "address": "3001 22nd Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/13906097501",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/LA.json"
-  },
-  {
     "id": "res-20260719-9acac0d4",
     "type": "resource",
     "status": "pending",
@@ -5976,38 +3441,6 @@
         "rehabilitation"
       ],
       "source": "https://www.openstreetmap.org/way/777377843",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/LA.json"
-  },
-  {
-    "id": "res-20260719-eac532ff",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:13:01.910440+00:00"
-    },
-    "payload": {
-      "name": "Lewy Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Louisiana",
-      "area": "",
-      "description": "",
-      "phone": "+1 225-263-6443",
-      "website": "https://lewypt.com/",
-      "address": "8448 Siegen Lane",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/way/1037843745",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/LA.json"
@@ -6207,102 +3640,6 @@
     "targetFile": "src/_data/resources/states/ME.json"
   },
   {
-    "id": "res-20260719-9bbfbf7f",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:13:52.078322+00:00"
-    },
-    "payload": {
-      "name": "Rehab At Work",
-      "category": [
-        "therapy"
-      ],
-      "location": "Maryland",
-      "area": "",
-      "description": "",
-      "phone": "+1-301-620-9111",
-      "website": "https://www.rehabatwork.com/locations/frederick-md/",
-      "address": "183 Thomas Johnson Drive",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/3989089002",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MD.json"
-  },
-  {
-    "id": "res-20260719-3b2650be",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:13:52.078339+00:00"
-    },
-    "payload": {
-      "name": "LifeBridge Health Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Maryland",
-      "area": "Bel Air",
-      "description": "",
-      "phone": "",
-      "website": "https://www.novacare.com/",
-      "address": "2120 Blue Spruce Drive",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/4742321356",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MD.json"
-  },
-  {
-    "id": "res-20260719-5616b2b9",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:13:52.078348+00:00"
-    },
-    "payload": {
-      "name": "Glackin Physiotherapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Maryland",
-      "area": "Columbia",
-      "description": "",
-      "phone": "+1-908-328-3074",
-      "website": "http://glackinpt.com/",
-      "address": "9159 Red Branch Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/5529846331",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MD.json"
-  },
-  {
     "id": "res-20260719-430acab3",
     "type": "resource",
     "status": "pending",
@@ -6365,166 +3702,6 @@
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/MD.json"
-  },
-  {
-    "id": "res-20260719-d18b6abb",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:13:52.078371+00:00"
-    },
-    "payload": {
-      "name": "Align Rehabilitation",
-      "category": [
-        "therapy"
-      ],
-      "location": "Maryland",
-      "area": "Abingdon",
-      "description": "",
-      "phone": "",
-      "website": "https://www.alignrehab-pt.com/",
-      "address": "3435 Box Hill Corporate Center Drive",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6375090251",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MD.json"
-  },
-  {
-    "id": "res-20260719-95cb037a",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:13:52.078378+00:00"
-    },
-    "payload": {
-      "name": "Kidnetic Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Maryland",
-      "area": "Bel Air",
-      "description": "",
-      "phone": "+1-443-752-4711",
-      "website": "https://kidneticpt.com/",
-      "address": "2227 Old Emmorton Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6465949663",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MD.json"
-  },
-  {
-    "id": "res-20260719-1c3372a4",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:13:52.078385+00:00"
-    },
-    "payload": {
-      "name": "Drayer Physical Therapy Institute",
-      "category": [
-        "therapy"
-      ],
-      "location": "Maryland",
-      "area": "Edgewood",
-      "description": "",
-      "phone": "+1-443-372-5300",
-      "website": "https://drayerpt.com/locations/edgewood/",
-      "address": "1401 Pulaski Highway",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6536154173",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MD.json"
-  },
-  {
-    "id": "res-20260719-06181efc",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:13:52.078393+00:00"
-    },
-    "payload": {
-      "name": "College Park Physical Therapy & Hand Rehabilitation",
-      "category": [
-        "therapy"
-      ],
-      "location": "Maryland",
-      "area": "Riverdale Park",
-      "description": "",
-      "phone": "+1 301-592-8200",
-      "website": "http://www.collegeparktherapy.com/",
-      "address": "4595 Van Buren Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6549605270",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MD.json"
-  },
-  {
-    "id": "res-20260719-42f6bd2d",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:27.059954+00:00"
-    },
-    "payload": {
-      "name": "Boston Sports Medicine",
-      "category": [
-        "therapy"
-      ],
-      "location": "Massachusetts",
-      "area": "Somerville",
-      "description": "",
-      "phone": "+1-800-346-9153",
-      "website": "https://www.bostonsportsmed.com/",
-      "address": "259 Elm Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9723569702",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MA.json"
   },
   {
     "id": "res-20260719-0786d542",
@@ -6618,38 +3795,6 @@
         "rehabilitation"
       ],
       "source": "https://www.openstreetmap.org/node/11002771964",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MA.json"
-  },
-  {
-    "id": "res-20260719-4bd18a0f",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:27.059995+00:00"
-    },
-    "payload": {
-      "name": "Bay State Physical Therapy - Porter Square",
-      "category": [
-        "therapy"
-      ],
-      "location": "Massachusetts",
-      "area": "Cambridge",
-      "description": "",
-      "phone": "+1-617-915-8082",
-      "website": "https://locations.baystatept.com/ma/cambridge/2172-mass-ave",
-      "address": "2172 Massachusetts Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/11218786213",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/MA.json"
@@ -6751,38 +3896,6 @@
     "targetFile": "src/_data/resources/states/MA.json"
   },
   {
-    "id": "res-20260719-084fa636",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:27.060025+00:00"
-    },
-    "payload": {
-      "name": "Select Physical Therapy - Millbury",
-      "category": [
-        "therapy"
-      ],
-      "location": "Massachusetts",
-      "area": "Millbury",
-      "description": "",
-      "phone": "+15085818703",
-      "website": "https://www.selectphysicalt.herapy.com/contact/find-a-location/ma/millbury/millbury/?ty=xt",
-      "address": "73 Canal Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/13483825162",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MA.json"
-  },
-  {
     "id": "res-20260719-b5a41bc7",
     "type": "resource",
     "status": "pending",
@@ -6810,102 +3923,6 @@
         "medical_supply"
       ],
       "source": "https://www.openstreetmap.org/node/13648599397",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MA.json"
-  },
-  {
-    "id": "res-20260719-f84a1fea",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:27.060039+00:00"
-    },
-    "payload": {
-      "name": "Connections Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Massachusetts",
-      "area": "",
-      "description": "",
-      "phone": "+1-508-859-7207",
-      "website": "https://connectionspt.com/physical-therapy-clinic/worcester/",
-      "address": "",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "rehabilitation"
-      ],
-      "source": "https://www.openstreetmap.org/node/13703764483",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MA.json"
-  },
-  {
-    "id": "res-20260719-ae27c952",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:27.060066+00:00"
-    },
-    "payload": {
-      "name": "Professional Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Massachusetts",
-      "area": "Salem",
-      "description": "",
-      "phone": "+19787912577",
-      "website": "https://www.professionalpt.com/office/salem/",
-      "address": "84 Highland Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/13764579933",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MA.json"
-  },
-  {
-    "id": "res-20260719-a7db6ba5",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:27.060074+00:00"
-    },
-    "payload": {
-      "name": "Elliott Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Massachusetts",
-      "area": "",
-      "description": "",
-      "phone": "+1 781 347 3107",
-      "website": "https://elliottphysicaltherapy.com/physical-therapy-clinic/hanover-ma/",
-      "address": "2053 Washington Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/14016497537",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/MA.json"
@@ -6976,70 +3993,6 @@
     "targetFile": "src/_data/resources/states/MA.json"
   },
   {
-    "id": "res-20260719-1b59fbb6",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:27.060096+00:00"
-    },
-    "payload": {
-      "name": "ProRehab Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Massachusetts",
-      "area": "Chelmsford",
-      "description": "",
-      "phone": "+1 978-256-3300",
-      "website": "https://www.prorehabinc.com/",
-      "address": "227 Chelmsford Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/way/212358421",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MA.json"
-  },
-  {
-    "id": "res-20260719-a7e83f4f",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591348+00:00"
-    },
-    "payload": {
-      "name": "Body Mechanix",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "",
-      "description": "",
-      "phone": "",
-      "website": "http://www.bmxpt.com/",
-      "address": "901 South Lincoln Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/2871632402",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
     "id": "res-20260719-3309cf9c",
     "type": "resource",
     "status": "pending",
@@ -7072,38 +4025,6 @@
     "targetFile": "src/_data/resources/states/MI.json"
   },
   {
-    "id": "res-20260719-48133644",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591374+00:00"
-    },
-    "payload": {
-      "name": "Progress Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "Hale",
-      "description": "",
-      "phone": "+1-989-728-0242",
-      "website": "https://www.progressptclinics.com/",
-      "address": "3076 Northridge Drive",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/3331232214",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
     "id": "res-20260719-325e755b",
     "type": "resource",
     "status": "pending",
@@ -7131,38 +4052,6 @@
         "speech_therapist"
       ],
       "source": "https://www.openstreetmap.org/node/4550306052",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
-    "id": "res-20260719-07998d88",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591389+00:00"
-    },
-    "payload": {
-      "name": "ATI Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "",
-      "description": "",
-      "phone": "",
-      "website": "https://www.atipt.com",
-      "address": "121 East Liberty Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/4837688326",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/MI.json"
@@ -7232,38 +4121,6 @@
     "targetFile": "src/_data/resources/states/MI.json"
   },
   {
-    "id": "res-20260719-24b16416",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591411+00:00"
-    },
-    "payload": {
-      "name": "Athletico Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "Trenton",
-      "description": "",
-      "phone": "",
-      "website": "https://www.athletico.com/locations/trenton-woodhaven/",
-      "address": "3343 West Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6519208303",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
     "id": "res-20260719-954d6282",
     "type": "resource",
     "status": "pending",
@@ -7291,38 +4148,6 @@
         "rehabilitation"
       ],
       "source": "https://www.openstreetmap.org/node/6612236667",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
-    "id": "res-20260719-db79ca3b",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591426+00:00"
-    },
-    "payload": {
-      "name": "KinetaCare",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "Hudsonville",
-      "description": "",
-      "phone": "",
-      "website": "https://www.kcarephysio.com/",
-      "address": "4676 32nd Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6762361263",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/MI.json"
@@ -7360,38 +4185,6 @@
     "targetFile": "src/_data/resources/states/MI.json"
   },
   {
-    "id": "res-20260719-7d2bfc2e",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591441+00:00"
-    },
-    "payload": {
-      "name": "Hands-On Physical Therapy and Athletic Rehabilitation Center",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "Lathrup Village",
-      "description": "",
-      "phone": "+1-248-552-0205",
-      "website": "https://www.hands-onpt.com/",
-      "address": "18899 West 12 Mile Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/8638213099",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
     "id": "res-20260719-a55aa592",
     "type": "resource",
     "status": "pending",
@@ -7424,134 +4217,6 @@
     "targetFile": "src/_data/resources/states/MI.json"
   },
   {
-    "id": "res-20260719-510a4c20",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591455+00:00"
-    },
-    "payload": {
-      "name": "Ivy Rehab",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "Reed City",
-      "description": "",
-      "phone": "+1-231-456-4289",
-      "website": "https://www.ivyrehab.com/location/reedcity-mi/",
-      "address": "204 West Upton Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9119950390",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
-    "id": "res-20260719-7af9a7c1",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591462+00:00"
-    },
-    "payload": {
-      "name": "Prime Rehabilitation",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "Dearborn",
-      "description": "",
-      "phone": "",
-      "website": "https://mi-physical-therapy.com/",
-      "address": "4953 Schaefer Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9544158956",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
-    "id": "res-20260719-03912d46",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591469+00:00"
-    },
-    "payload": {
-      "name": "Top Rehab - Dearborn",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "Dearborn",
-      "description": "",
-      "phone": "",
-      "website": "https://toprehabdearborn.com/",
-      "address": "15001 Michigan Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9664830185",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
-    "id": "res-20260719-418c5bda",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591476+00:00"
-    },
-    "payload": {
-      "name": "Advance Pain Care, PLLC.",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "Southfield",
-      "description": "",
-      "phone": "+1-248-809-6402",
-      "website": "https://advancepaincare.net",
-      "address": "23077 Greenfield Road",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9677055251",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
     "id": "res-20260719-3586ea4d",
     "type": "resource",
     "status": "pending",
@@ -7579,102 +4244,6 @@
         "speech_therapist"
       ],
       "source": "https://www.openstreetmap.org/node/9695214360",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
-    "id": "res-20260719-ad01fa12",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591490+00:00"
-    },
-    "payload": {
-      "name": "Plymouth Physical Therapy Specialists",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "Saline",
-      "description": "",
-      "phone": "+1-734-944-1005",
-      "website": "https://www.plymouthpts.com/",
-      "address": "505 East Michigan Avenue",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9871345886",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
-    "id": "res-20260719-90232e5a",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591497+00:00"
-    },
-    "payload": {
-      "name": "Ivyrehab Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "",
-      "description": "",
-      "phone": "",
-      "website": "https://www.ivyrehab.com/",
-      "address": "",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/9982230656",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MI.json"
-  },
-  {
-    "id": "res-20260719-202cd73e",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:14:54.591504+00:00"
-    },
-    "payload": {
-      "name": "Ivyrehab",
-      "category": [
-        "therapy"
-      ],
-      "location": "Michigan",
-      "area": "",
-      "description": "",
-      "phone": "+1 734 489 6254",
-      "website": "https://ivyrehab.com",
-      "address": "47635",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/10834020457",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/MI.json"
@@ -8028,38 +4597,6 @@
         "medical_supply"
       ],
       "source": "https://www.openstreetmap.org/node/6636537911",
-      "lastScraped": "2026-07-19"
-    },
-    "targetFile": "src/_data/resources/states/MN.json"
-  },
-  {
-    "id": "res-20260719-d9a4af47",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-19T03:15:10.720152+00:00"
-    },
-    "payload": {
-      "name": "Viverant",
-      "category": [
-        "therapy"
-      ],
-      "location": "Minnesota",
-      "area": "Saint Louis Park",
-      "description": "",
-      "phone": "+19528354512",
-      "website": "https://viverant.com/location/st-louis-park-mn/",
-      "address": "3912 Excelsior Boulevard",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/6701050773",
       "lastScraped": "2026-07-19"
     },
     "targetFile": "src/_data/resources/states/MN.json"

@@ -55,12 +55,38 @@ permalink: /podcast/
 <section class="py-16 section-warm">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 class="text-3xl font-bold text-center mb-4" style="color: var(--color-primary);">Podcasts We Love</h2>
-    <p class="text-center mb-12" style="color: var(--color-text-light);">
-      While we get our podcast off the ground, check out these great disability and accessibility podcasts from the community.
+    <p class="text-center mb-8" style="color: var(--color-text-light);">
+      While we get our podcast off the ground, here are {{ featuredPodcasts.length }} podcasts from the disability and caregiving community — hosted by parents, caregivers, and disabled adults who have been where you are.
     </p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    {# With this many shows, browsing the whole list is not realistic — filter first. #}
+    <div class="card p-4 mb-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+          <label for="podcast-search" class="block text-sm font-semibold mb-2">Search</label>
+          <input type="text" id="podcast-search" placeholder="Search by name or topic..." class="form-input">
+        </div>
+        <div>
+          <label for="podcast-category" class="block text-sm font-semibold mb-2">Topic</label>
+          <select id="podcast-category" class="filter-select">
+            <option value="">All Topics</option>
+            {% set cats = featuredPodcasts | pluck('category') | unique | sort %}
+            {% for c in cats %}
+            <option value="{{ c }}">{{ c }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+      <p id="podcast-results-count" class="text-sm mt-3" style="color: var(--color-text-light);" aria-live="polite"></p>
+    </div>
+
+    <div id="podcast-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6">
       {% for podcast in featuredPodcasts %}
-      <article class="card p-6">
+      <article class="card p-6 podcast-card"
+               data-name="{{ podcast.name | lower }}"
+               data-description="{{ podcast.description | lower }}"
+               data-hosts="{{ podcast.hosts | lower }}"
+               data-category="{{ podcast.category }}">
         <span class="tag" style="background-color: var(--color-warm); color: var(--color-primary);">{{ podcast.category }}</span>
         <h3 class="text-lg font-bold mt-3 mb-1" style="color: var(--color-text);">{{ podcast.name }}</h3>
         {% if podcast.hosts %}
@@ -80,6 +106,12 @@ permalink: /podcast/
       </article>
       {% endfor %}
     </div>
+
+    <div id="podcast-no-results" class="card p-8 text-center" hidden>
+      <p style="color: var(--color-text-light);">No podcasts match that search. Try a different word or topic.</p>
+    </div>
   </div>
 </section>
+
+<script src="/js/podcastFilter.js"></script>
 {% endif %}

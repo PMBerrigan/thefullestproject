@@ -8,6 +8,24 @@ permalink: /get-involved/
 {# Section order, visibility and styling come from src/_data/getInvolved.json,
    editable under Site Pages → Get Involved in the Content Manager. The newsletter
    and share sections are "custom" blocks — reorderable and hideable, but their
-   internals live in components/custom/ because they carry forms and scripts. #}
-{% set blocks = getInvolved.blocks %}
+   internals live in components/custom/ because they carry forms and scripts.
+
+   The four ways to help are tiled 2x2 rather than stacked, so someone can take in
+   every option without scrolling and pick the one that fits. The banner renders
+   first, full-bleed; everything after it becomes a card in the grid below.
+
+   indexOffset keeps data-block-index pointing at each block's real position in
+   the JSON array — the inline editor writes back by that number. #}
+{% set blocks = [getInvolved.blocks[0]] %}
 {% include "components/block-renderer.njk" %}
+
+{# 4-across on large screens puts all four options above the fold; 2x2 on tablet,
+   stacked on phones. #}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+    {% set blocks = getInvolved.blocks.slice(1) %}
+    {% set indexOffset = 1 %}
+    {% set inGrid = true %}
+    {% include "components/block-renderer.njk" %}
+  </div>
+</div>

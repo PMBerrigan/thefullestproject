@@ -31,37 +31,5 @@
       "lastScraped": "2026-08-09"
     },
     "targetFile": "src/_data/resources/states/WV.json"
-  },
-  {
-    "id": "res-20260809-59ec144c",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-08-09T02:02:07.338794+00:00"
-    },
-    "payload": {
-      "name": "Snowy Range Physical Therapy",
-      "category": [
-        "therapy"
-      ],
-      "location": "Wyoming",
-      "area": "Laramie",
-      "description": "",
-      "phone": "+1-307-399-7233",
-      "website": "https://www.snowyrangept.com/",
-      "address": "214 Ord Street",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "physiotherapist"
-      ],
-      "source": "https://www.openstreetmap.org/way/1106967445",
-      "lastScraped": "2026-08-09"
-    },
-    "targetFile": "src/_data/resources/states/WY.json"
   }
 ]

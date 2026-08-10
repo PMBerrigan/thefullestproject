@@ -75,6 +75,12 @@ module.exports = function(eleventyConfig) {
     return resources.filter(r => r.topCategories && r.topCategories.includes(slug));
   });
 
+  // De-duplicate a list, preserving order (Nunjucks has no `unique` filter)
+  eleventyConfig.addFilter("unique", function(items) {
+    if (!items) return [];
+    return [...new Set(items)];
+  });
+
   // Pull one property off every item in a list (Nunjucks has no `map` filter)
   eleventyConfig.addFilter("pluck", function(items, key) {
     if (!items) return [];

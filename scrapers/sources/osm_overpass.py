@@ -38,11 +38,18 @@ OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 USER_AGENT = ("TheFullestProjectBot/1.0 (+https://thefullestproject.org/about/; "
              "disability resource directory)")
 
+# NOTE: `physiotherapist` is deliberately absent from the healthcare regex below.
+# It returned general sports and orthopaedic PT clinics by the hundred — every
+# town has several — which buried the review queue without adding
+# disability-specific resources. Blocklisting them downstream never kept up,
+# because each week's sweep finds different ones. OT and speech therapists are
+# still queried: caregivers of children with disabilities actively look for those.
+# Braces in this string are .format() placeholders — do not add literal braces.
 QUERY_TEMPLATE = """[out:json][timeout:90];
 area["ISO3166-2"="US-{code}"][admin_level=4]->.a;
 (
   nwr["social_facility:for"~"disabled|autism",i](area.a);
-  nwr["healthcare"~"^(rehabilitation|physiotherapist|occupational_therapist|speech_therapist)$"](area.a);
+  nwr["healthcare"~"^(rehabilitation|occupational_therapist|speech_therapist)$"](area.a);
   nwr["office"="therapist"](area.a);
   nwr["shop"~"^(mobility|medical_supply)$"](area.a);
 );
