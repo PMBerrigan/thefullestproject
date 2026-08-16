@@ -1,0 +1,20 @@
+[
+  {
+    "id": "blg-20260816-447f3a23",
+    "type": "blog",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "blog_content",
+      "submittedAt": "2026-08-16T01:44:49.903035+00:00"
+    },
+    "payload": {
+      "title": "Conference aims to help Spanish-speaking families navigate services for autism, other developmental disabilities - UC Davis Health",
+      "source": "UC Davis Health",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVzl2X0dRUTduWVljbkVCcWQzenBuNXNxamw4YjJZU1o2U3pnSFR4NkxRNnp2dXhWLU9kcjJocmUtbDFHY0p1SG85N1VlaVBkVXNTVTk0N0NybW5EY0tlVGE1bDN0bWRyZHR5Q282blhsenpxeVpyMlVEY3RMbm5DTmNEOTdCUndyeWRMYmZlSEI2aEs4WkkwVWM4ZEZmXzZYZDE2QnktOVFHclpLZ0dWRDRzVzY1Ynl2NElybUlCRGktWVVwY3hfTTFZS3dHbExtV2huZEc3Sm4yY3gxNy01TXFPTnI5cXJ2YldoWVlwR0VYeE0?oc=5",
+      "date": "2026-08-11",
+      "category": "Resources",
+      "slug": "conference-aims-to-help-spanish-speaking-families-navigate-s"
+    }
+  }
+]

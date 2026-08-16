@@ -1,36 +1,33 @@
-Weekly Scrape Digest — 2026-08-09
+Weekly Scrape Digest — 2026-08-16
 ==================================================
 
 AWAITING REVIEW — approve or reject at https://thefullestproject.org/admin/review/
-  blog: 6 pending (1 new this run)
-  resource: 1581 pending (2 new this run)
+  blog: 5 pending (1 new this run)
+  resource: 966 pending (251 new this run)
   spotlight: 5 pending (1 new this run)
-  story: 39 pending (13 new this run)
-  submission: 9 pending
+  story: 41 pending (15 new this run)
 
 Scraper: osm_overpass
-  Entries processed: 853
-  - [error] SC: HTTP Error 504: Gateway Timeout
-  - [error] VT: HTTP Error 504: Gateway Timeout
-  - [error] VA: HTTP Error 429: Too Many Requests
+  Entries processed: 710
+  - [error] TN: HTTP Error 429: Too Many Requests
+  - [error] TX: HTTP Error 504: Gateway Timeout
+  - [error] WI: HTTP Error 504: Gateway Timeout
   - [error] AK: HTTP Error 429: Too Many Requests
-  - [error] CO: HTTP Error 429: Too Many Requests
-  - [error] FL: HTTP Error 429: Too Many Requests
-  - [error] IL: HTTP Error 429: Too Many Requests
-  - [error] MA: HTTP Error 504: Gateway Timeout
-  - [error] NJ: HTTP Error 429: Too Many Requests
+  - [error] DC: HTTP Error 504: Gateway Timeout
+  - [error] HI: HTTP Error 429: Too Many Requests
+  - [error] MD: HTTP Error 429: Too Many Requests
+  - [error] MO: HTTP Error 429: Too Many Requests
 
 Scraper: cms_providers
   Entries processed: 78
 
 Scraper: spotlight_scraper
-  Entries processed: 2
-  - [queued] Valley Stream 13 School District awarded $25,000 Bridgestone grant for adaptive
-  - [queued] Valley Stream 13 School District awarded $25,000 Bridgestone grant for adaptive
+  Entries processed: 1
+  - [queued] Vermont Adaptive expanding summer outdoor recreation access
 
 Scraper: blog_content
   Entries processed: 1
-  - [queued] FG Begins Nigeria’s First National Rehabilitation Technology Strategy - arise.tv
+  - [queued] Conference aims to help Spanish-speaking families navigate services for autism, other developmental disabilities - UC Davis Health
 
 —
 The Fullest Project | thefullestproject.org

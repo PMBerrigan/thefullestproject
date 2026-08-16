@@ -1,76 +1,6 @@
 [
   {
     "scraper": "spotlight_scraper",
-    "timestamp": "2026-04-26T06:30:09.149882",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "added",
-        "name": "Adaptive sports program visits Southern Arizona P.E. classes, wheelchairs in tow",
-        "category": "Adventures",
-        "website": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeFctcmtXSVBDb1hLOV81UUdVMjlOTEhBLUlLUkVDdlY5M3dTRVkybkxuWF9Fb0c1elVXRFFYTy13ampjMjhIUmVBYmoyUXdVQTFxTHM5dEJyMUlmNU1OUGZNMHFrcFlnSVZtNjJxdE9MZGdRcjlpc3gxRVBlTWZLWHpoWEtlNzhWUm9hcnE2U2NQcFItWUJhR3ZRZVlxUFJvRlhWTUtTSzVwQWpMUVAxcHpNdE4?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Preview of the report \"Disability Inclusion in Health Systems and Emergency Mana",
-        "category": "Community",
-        "website": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM2JDWjRYNG9oRlVfdjVfU0VGMG1VRmFoWjhfTllJeUJMR2RnUDBTZW9kaDRKOC0zOWh2UUFTOUdhNGtpenNlU2F6VlZSZ0tYcWRuMi1mRE16LW9XVVJMckJOMnFnRjBPdVdRRXptc2ZYek5UOHU3QzZfbzdoYkdiMjFKN0pGZ2d2LWR3eFh4cDJhME9EOVY2ak9tSUJYTjdaSWYydXlzYU1WOHdvNlM4MTNYZy1DSmo3WWthRQ?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Veterans Affairs Offers $16M in Grants for Adaptive Sports Programs",
-        "category": "Sports",
-        "website": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQWtWem9HaTNLZVN6SWZsaFFCS0FMUlVnMHJLUGlzeFRBSDM1QW5TV01jd0E5NUFULXlBNkRYWE5iMzhZV29WN0J1YUNXaGo2dVBYSkRUSDg1dHl5MlgxTkR3T0ZjNzJSZEZWMDJOMDN0aWQ5aVU3bmEtRklrU1ZSQWoxQnd2SzhTZHMwQm1YTXBqSEVDRXNOdEZ4OXl0MFEtbjFwUWg4SVZmTXBPVTJ1Y2xDWVd4S044?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-04-26T06:30:11.152050",
-    "entries_found": 1,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "What M-PESA did for fintech, Bernard Chiira wants for assistive tech - TechCabal",
-        "source": "TechCabal",
-        "slug": "what-m-pesa-did-for-fintech-bernard-chiira-wants-for-assisti"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
-    "timestamp": "2026-05-03T07:31:03.172980",
-    "entries_found": 2,
-    "entries": [
-      {
-        "action": "added",
-        "name": "Officials open new accessible kayak launch, dog beach at Idaho State Park near B",
-        "category": "Adventures",
-        "website": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTVZZZkQ0YUtOMHVEeUNob3RhU1d0V3NxSmVmVUdwcWtITEdub2FvaTBNZkp6NmJDVVJtTUNoSHA2Y0Fyc2J2WUs3bTRySlRnYkNjTVUySEdXaE96RHhFUUVmYzZHX2Uta2RoNHZqR1Z6OEdlem1yNVd1bDhzSGR3NVJkc3hYeU0wRGdDTjNvdldPbTZuZExkY2pBZzFYa2F1d3FoLVBxZmxveEh6WWdfdmJJMkY5cUZYbVhzR1pnQnc?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Accessible by Design",
-        "category": "Education",
-        "website": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdHdJZDVaWHpBaHItOEJrZWF6QVV5STAtOWtNc285WjV1djVmQmZZb05vTjNsSHN5UTktNzFvbXV0V2Z1SDMzWndCR2pvQjhHTnNmcWtLTjM3TFN5aGM5eEJrWHBGWGpVVXhUZlpEREZTSzJSWFpxN3BZMmNLZjlXWl91bkFWWGo0UnlyV0loR1pCSVFZZDZKb3VVcExXdw?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-05-03T07:31:05.741458",
-    "entries_found": 1,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "For disabled employees, financial security depends on benefits and guidance - Employee Benefit News",
-        "source": "Employee Benefit News",
-        "slug": "for-disabled-employees-financial-security-depends-on-benefit"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
     "timestamp": "2026-05-10T07:49:23.401954",
     "entries_found": 1,
     "entries": [
@@ -948,6 +878,85 @@
         "title": "FG Begins Nigeria’s First National Rehabilitation Technology Strategy - arise.tv",
         "source": "arise.tv",
         "slug": "fg-begins-nigerias-first-national-rehabilitation-technology"
+      }
+    ]
+  },
+  {
+    "scraper": "osm_overpass",
+    "timestamp": "2026-08-16T01:44:39.865921",
+    "status": "PARTIAL",
+    "targets_attempted": 48,
+    "targets_succeeded": 40,
+    "entries_found": 710,
+    "entries_queued": 251,
+    "entries": [
+      {
+        "action": "error",
+        "name": "TN: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "TX: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "WI: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "AK: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "DC: HTTP Error 504: Gateway Timeout"
+      },
+      {
+        "action": "error",
+        "name": "HI: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "MD: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "MO: HTTP Error 429: Too Many Requests"
+      }
+    ]
+  },
+  {
+    "scraper": "cms_providers",
+    "timestamp": "2026-08-16T01:44:41.915117",
+    "status": "OK",
+    "targets_attempted": 2,
+    "targets_succeeded": 2,
+    "entries_found": 78,
+    "entries_queued": 0,
+    "entries": []
+  },
+  {
+    "scraper": "spotlight_scraper",
+    "timestamp": "2026-08-16T01:44:47.899825",
+    "entries_found": 1,
+    "entries": [
+      {
+        "action": "queued",
+        "name": "Vermont Adaptive expanding summer outdoor recreation access",
+        "category": "Adventures",
+        "website": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTWd5T2REa2lDQVhwMDd5N1BBeHUzbHpjTHBkS2Y1Q2RvV21Id0FGQzcyWnd6LTZqUjFuNHB3c0lLbFh1ek5oMzhDYU9Gd1d1OVdzajYxUXBtS2tZYnZ0SWFiRzZtR2M3Qi10VXZWY2NkTFVBQ3RkV3d6d0dvdmpRY0gtQnY2R2hmTzJ4TWFpWlRfa1dER3dn0gGrAUFVX3lxTFB4ZS1zbmVRM01UUDJyS1BhcldXVnMzWEFIQ25MSU5IYnJIazRfRm1nNXhMdW5WU2FXUUtuUFpwTHNmZUtrZF93ZUtBakpPRFh0Y2NieENXbUpWalcxdDctd2RMMjdIN3VzeEF0MVJOb2duLU0yTDMwTDk1bFBOYjFEVUhVZFJucUR3dGdtSnA4QXZYNW9SUWc4S1F2Q1FRdkRRb3Z1MENpdXdwcw?oc=5"
+      }
+    ]
+  },
+  {
+    "scraper": "blog_content",
+    "timestamp": "2026-08-16T01:44:49.903756",
+    "entries_found": 1,
+    "entries": [
+      {
+        "action": "queued",
+        "title": "Conference aims to help Spanish-speaking families navigate services for autism, other developmental disabilities - UC Davis Health",
+        "source": "UC Davis Health",
+        "slug": "conference-aims-to-help-spanish-speaking-families-navigate-s"
       }
     ]
   }

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "spt-20260816-49620dfd",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-08-16T01:44:47.899130+00:00"
+    },
+    "payload": {
+      "name": "Vermont Adaptive expanding summer outdoor recreation access",
+      "description": "Vermont Adaptive expanding summer outdoor recreation access - WCAX",
+      "category": "Adventures",
+      "website": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTWd5T2REa2lDQVhwMDd5N1BBeHUzbHpjTHBkS2Y1Q2RvV21Id0FGQzcyWnd6LTZqUjFuNHB3c0lLbFh1ek5oMzhDYU9Gd1d1OVdzajYxUXBtS2tZYnZ0SWFiRzZtR2M3Qi10VXZWY2NkTFVBQ3RkV3d6d0dvdmpRY0gtQnY2R2hmTzJ4TWFpWlRfa1dER3dn0gGrAUFVX3lxTFB4ZS1zbmVRM01UUDJyS1BhcldXVnMzWEFIQ25MSU5IYnJIazRfRm1nNXhMdW5WU2FXUUtuUFpwTHNmZUtrZF93ZUtBakpPRFh0Y2NieENXbUpWalcxdDctd2RMMjdIN3VzeEF0MVJOb2duLU0yTDMwTDk1bFBOYjFEVUhVZFJucUR3dGdtSnA4QXZYNW9SUWc4S1F2Q1FRdkRRb3Z1MENpdXdwcw?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/adventures.svg",
+      "location": "National",
+      "tags": [
+        "adventures",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-08-16"
+    }
+  }
+]
