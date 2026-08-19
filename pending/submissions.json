@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "sub-20260819-c63e9bf1",
+    "type": "submission",
+    "status": "pending",
+    "origin": {
+      "type": "quick-submit",
+      "detail": "bookmarklet",
+      "submittedAt": "2026-08-19T03:08:41.624Z"
+    },
+    "targetFile": "src/_data/resources/national.json",
+    "payload": {
+      "name": "Kane and Kash Adapt",
+      "category": [
+        "other"
+      ],
+      "location": "National",
+      "area": "",
+      "description": "Kane and Kash Adapt modifies popular, culturally relevant toys so children with physical disabilities and special needs can enjoy the same play experiences as their peers — not different toys, but the sameones, made accessible.\r\n\r\nEvery toy we adapt is switch-modified with care, tested for safety, and made available at prices families can actually afford. Because accessibility shouldn't come with a luxury price tag.",
+      "phone": "",
+      "email": "",
+      "website": "https://kaneandkashadapt.co/",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "adapted toys",
+        "Switch adapted toys"
+      ],
+      "source": "https://kaneandkashadapt.co/",
+      "lastScraped": "2026-08-19"
+    }
+  }
+]
