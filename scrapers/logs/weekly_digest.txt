@@ -1,33 +1,29 @@
-Weekly Scrape Digest — 2026-08-16
+Weekly Scrape Digest — 2026-08-23
 ==================================================
 
 AWAITING REVIEW — approve or reject at https://thefullestproject.org/admin/review/
-  blog: 5 pending (1 new this run)
-  resource: 966 pending (251 new this run)
-  spotlight: 5 pending (1 new this run)
-  story: 41 pending (15 new this run)
+  blog: 6 pending (1 new this run)
+  resource: 1045 pending (200 new this run)
+  spotlight: 7 pending (2 new this run)
+  story: 53 pending (12 new this run)
+  submission: 1 pending
 
 Scraper: osm_overpass
-  Entries processed: 710
+  Entries processed: 869
   - [error] TN: HTTP Error 429: Too Many Requests
-  - [error] TX: HTTP Error 504: Gateway Timeout
-  - [error] WI: HTTP Error 504: Gateway Timeout
-  - [error] AK: HTTP Error 429: Too Many Requests
-  - [error] DC: HTTP Error 504: Gateway Timeout
-  - [error] HI: HTTP Error 429: Too Many Requests
-  - [error] MD: HTTP Error 429: Too Many Requests
-  - [error] MO: HTTP Error 429: Too Many Requests
 
 Scraper: cms_providers
   Entries processed: 78
 
 Scraper: spotlight_scraper
-  Entries processed: 1
-  - [queued] Vermont Adaptive expanding summer outdoor recreation access
+  Entries processed: 3
+  - [queued] Middleburg Heights, Brook Park team up to bring more adaptive sports to families
+  - [queued] Creating health systems that work for everyone
+  - [queued] Middleburg Heights, Brook Park team up to bring more adaptive sports to families
 
 Scraper: blog_content
   Entries processed: 1
-  - [queued] Conference aims to help Spanish-speaking families navigate services for autism, other developmental disabilities - UC Davis Health
+  - [queued] 16 support groups for caregivers that offer connection, help and hope - Care.com
 
 —
 The Fullest Project | thefullestproject.org

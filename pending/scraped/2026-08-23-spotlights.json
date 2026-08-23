@@ -1,0 +1,58 @@
+[
+  {
+    "id": "spt-20260823-56d9bdda",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-08-23T02:02:08.814077+00:00"
+    },
+    "payload": {
+      "name": "Middleburg Heights, Brook Park team up to bring more adaptive sports to families",
+      "description": "Middleburg Heights, Brook Park team up to bring more adaptive sports to families - Cleveland.com",
+      "category": "Adventures",
+      "website": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS0IzMXlCZlozYjM4N0FVVHdiVDJ2WHJSdndUUXFMaUpWWE45bUFjODd1WHk0Um83YUgwX0RVRUNmSjJjOFd3bGFuYlFKdlRzOVpvcEtoeVFLMFJhRWNKb1RoVUUxYkVyMHh6T2JwdXo5SU1XR1h1MV9KX0wyZWt6U0FTY2NBeDdXVzlCS2xkMlM4cW1tMnU2N3NJVTVLa3BBaVNlLWhMbHBiUGR1LWdRaFJSQWdJYUFnWVBOT2psTkQ?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/adventures.svg",
+      "location": "National",
+      "tags": [
+        "adventures",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-08-23"
+    }
+  },
+  {
+    "id": "spt-20260823-d1bd5048",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-08-23T02:02:08.814104+00:00"
+    },
+    "payload": {
+      "name": "Creating health systems that work for everyone",
+      "description": "Creating health systems that work for everyone: an online course on disability-inclusive health care - World Bank Group",
+      "category": "Community",
+      "website": "https://news.google.com/rss/articles/CBMivwJBVV95cUxORjdCaHpDRlVxMFZtekR0NXBVODBfdzVWeWV5OXlUb3pLZkpILWE2SXhHRkl4RmplX3kwY2g3VUdCaGpybWtrMTZGellTM2JONGJaY0FFTXRtQWxKQVlLTDNKb0w2NkhRVzUyZnl4c2phV1cwc2MtVHdfVDYyX09BTGo1MU1zWHdMbjV6djFmTlNJczFBcHRvSGpxeG9oazhrMHRZOVpBS1NTWkNsV3J5aXZ1Mjk0OVVsakNNY2FGNW4tZmtXWlFPaVBPWDE5d2wxRmhxbXl0ZEhyMVhYcTdtYjAtd0xQdmIyVWJhRGZYTHQtaHZndDBBNXJ4THBLc1JuRU12eXd1WWpUUVlkYjNxRFJYa0xONXo2R3FCYnA1YllSOFZheG44VEI4b1RYRXU4MTVWU0FZOWtBa3dVOFpn?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/community.svg",
+      "location": "National",
+      "tags": [
+        "community",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-08-23"
+    }
+  }
+]

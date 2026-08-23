@@ -1,88 +1,6 @@
 [
   {
     "scraper": "spotlight_scraper",
-    "timestamp": "2026-05-10T07:49:23.401954",
-    "entries_found": 1,
-    "entries": [
-      {
-        "action": "added",
-        "name": "Disability-inclusive infrastructure foundational to community life for millions",
-        "category": "Community",
-        "website": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbU5GcmZqbExCSXM3QmxzZlFzUVhMQjVzV2IxT1JyYTVMMDM2NjJFVnZKMUViaUM4d1cydHdTd0tLcENES2ZITHNxTnc0NUZTaWRYZzhsUTRtVjBNSkVGWUR5clh3NmFhUzZCV3I2dG1KRE9jUnEwZ2tfMjc5Ti1YTDN5OFZBRU9hbldDdzJuX1dIQ24tREY5cGJqSGROQXEtMWtqZUw2QTNHa3pZV19yd0dkVQ?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-05-10T07:49:25.228635",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "KARE Supports Kinship Caregivers and Connects Them to Resources - Fairfax County (.gov)",
-        "source": "Fairfax County (.gov)",
-        "slug": "kare-supports-kinship-caregivers-and-connects-them-to-resour"
-      },
-      {
-        "action": "created_post",
-        "title": "Abilities Expo in Edison brings resources, technology and advocacy to the disability community - News12 | Long Island",
-        "source": "News12 | Long Island",
-        "slug": "abilities-expo-in-edison-brings-resources-technology-and-adv"
-      },
-      {
-        "action": "created_post",
-        "title": "National Hotline For IDD Caregivers Proposed - Disability Scoop",
-        "source": "Disability Scoop",
-        "slug": "national-hotline-for-idd-caregivers-proposed-disability-scoo"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
-    "timestamp": "2026-05-17T08:34:22.513027",
-    "entries_found": 2,
-    "entries": [
-      {
-        "action": "added",
-        "name": "Army Veteran finds new purpose through VA Adaptive Sports",
-        "category": "Adventures",
-        "website": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YZXc3MXgzNlRmcThFaWttdFdEQ2luYmhVcjlRYXhjUWxfR1ZsaVpLUVA0b2FtOWlVbmc0NkUtVVhrS1RzbHlIRVpwUFNkTTU3UEVtS2Y4SlFIa0FrV3JyWlIyb3lmaHNfbF9LRUZ2ekFtY2dvZmhTblpYOA?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Wired for Equity",
-        "category": "Education",
-        "website": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNW9JNGx6VmRFZVNyMVhJLVNmVEdONXpVVE1fb1ZzU1dWV01hN0dqYzJrOXUydUxIdVpHaGlPQmpsUGpZR0NlckljeWFUTlpxUzktdDU3dzJhX0EwSVBTbExqYVNZUjlkcTZpTTd0NEo3OWNnQkxEaHM1dDBRMG5vdklTZHV6bzVDREcyTFNULTRfMDlVcTYtSw?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-05-17T08:34:24.580555",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "Together We Can: Building Relief and Inclusion for Families - Il Mattino",
-        "source": "Il Mattino",
-        "slug": "together-we-can-building-relief-and-inclusion-for-families-i"
-      },
-      {
-        "action": "created_post",
-        "title": "Applause Report: 78% of Organizations Leverage AI for Accessibility Testing, but Apps Still Stumble With Assistive Tech - Business Wire",
-        "source": "Business Wire",
-        "slug": "applause-report-78-of-organizations-leverage-ai-for-accessib"
-      },
-      {
-        "action": "created_post",
-        "title": "Wealthy Students More Likely to Get Disability Accommodations, Study Finds - The 74",
-        "source": "The 74",
-        "slug": "wealthy-students-more-likely-to-get-disability-accommodation"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
     "timestamp": "2026-05-24T03:55:58.399009",
     "entries_found": 2,
     "entries": [
@@ -957,6 +875,69 @@
         "title": "Conference aims to help Spanish-speaking families navigate services for autism, other developmental disabilities - UC Davis Health",
         "source": "UC Davis Health",
         "slug": "conference-aims-to-help-spanish-speaking-families-navigate-s"
+      }
+    ]
+  },
+  {
+    "scraper": "osm_overpass",
+    "timestamp": "2026-08-23T02:02:01.533667",
+    "status": "PARTIAL",
+    "targets_attempted": 51,
+    "targets_succeeded": 50,
+    "entries_found": 869,
+    "entries_queued": 124,
+    "entries": [
+      {
+        "action": "error",
+        "name": "TN: HTTP Error 429: Too Many Requests"
+      }
+    ]
+  },
+  {
+    "scraper": "cms_providers",
+    "timestamp": "2026-08-23T02:02:03.079651",
+    "status": "OK",
+    "targets_attempted": 2,
+    "targets_succeeded": 2,
+    "entries_found": 78,
+    "entries_queued": 76,
+    "entries": []
+  },
+  {
+    "scraper": "spotlight_scraper",
+    "timestamp": "2026-08-23T02:02:08.814824",
+    "entries_found": 3,
+    "entries": [
+      {
+        "action": "queued",
+        "name": "Middleburg Heights, Brook Park team up to bring more adaptive sports to families",
+        "category": "Adventures",
+        "website": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS0IzMXlCZlozYjM4N0FVVHdiVDJ2WHJSdndUUXFMaUpWWE45bUFjODd1WHk0Um83YUgwX0RVRUNmSjJjOFd3bGFuYlFKdlRzOVpvcEtoeVFLMFJhRWNKb1RoVUUxYkVyMHh6T2JwdXo5SU1XR1h1MV9KX0wyZWt6U0FTY2NBeDdXVzlCS2xkMlM4cW1tMnU2N3NJVTVLa3BBaVNlLWhMbHBiUGR1LWdRaFJSQWdJYUFnWVBOT2psTkQ?oc=5"
+      },
+      {
+        "action": "queued",
+        "name": "Creating health systems that work for everyone",
+        "category": "Community",
+        "website": "https://news.google.com/rss/articles/CBMivwJBVV95cUxORjdCaHpDRlVxMFZtekR0NXBVODBfdzVWeWV5OXlUb3pLZkpILWE2SXhHRkl4RmplX3kwY2g3VUdCaGpybWtrMTZGellTM2JONGJaY0FFTXRtQWxKQVlLTDNKb0w2NkhRVzUyZnl4c2phV1cwc2MtVHdfVDYyX09BTGo1MU1zWHdMbjV6djFmTlNJczFBcHRvSGpxeG9oazhrMHRZOVpBS1NTWkNsV3J5aXZ1Mjk0OVVsakNNY2FGNW4tZmtXWlFPaVBPWDE5d2wxRmhxbXl0ZEhyMVhYcTdtYjAtd0xQdmIyVWJhRGZYTHQtaHZndDBBNXJ4THBLc1JuRU12eXd1WWpUUVlkYjNxRFJYa0xONXo2R3FCYnA1YllSOFZheG44VEI4b1RYRXU4MTVWU0FZOWtBa3dVOFpn?oc=5"
+      },
+      {
+        "action": "queued",
+        "name": "Middleburg Heights, Brook Park team up to bring more adaptive sports to families",
+        "category": "Sports",
+        "website": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS0IzMXlCZlozYjM4N0FVVHdiVDJ2WHJSdndUUXFMaUpWWE45bUFjODd1WHk0Um83YUgwX0RVRUNmSjJjOFd3bGFuYlFKdlRzOVpvcEtoeVFLMFJhRWNKb1RoVUUxYkVyMHh6T2JwdXo5SU1XR1h1MV9KX0wyZWt6U0FTY2NBeDdXVzlCS2xkMlM4cW1tMnU2N3NJVTVLa3BBaVNlLWhMbHBiUGR1LWdRaFJSQWdJYUFnWVBOT2psTkQ?oc=5"
+      }
+    ]
+  },
+  {
+    "scraper": "blog_content",
+    "timestamp": "2026-08-23T02:02:10.806238",
+    "entries_found": 1,
+    "entries": [
+      {
+        "action": "queued",
+        "title": "16 support groups for caregivers that offer connection, help and hope - Care.com",
+        "source": "Care.com",
+        "slug": "16-support-groups-for-caregivers-that-offer-connection-help"
       }
     ]
   }

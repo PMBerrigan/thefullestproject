@@ -1,0 +1,6516 @@
+[
+  {
+    "id": "res-20260823-7212af57",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:34:06.852284+00:00"
+    },
+    "payload": {
+      "name": "CorVent Medical",
+      "category": [
+        "equipment"
+      ],
+      "location": "North Dakota",
+      "area": "",
+      "description": "",
+      "phone": "",
+      "website": "https://corventmedical.com",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/13063465429",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/ND.json"
+  },
+  {
+    "id": "res-20260823-b1b67166",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:34:06.852306+00:00"
+    },
+    "payload": {
+      "name": "PAM Rehabilitation Hospital Of Fargo",
+      "category": [
+        "therapy"
+      ],
+      "location": "North Dakota",
+      "area": "",
+      "description": "",
+      "phone": "",
+      "website": "https://pamhealth.com/facilities/find-facility/rehabilitation-hospitals/pam-rehabilitation-hospital-fargo",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/way/1047744204",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/ND.json"
+  },
+  {
+    "id": "res-20260823-e8b58a91",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:34:06.852317+00:00"
+    },
+    "payload": {
+      "name": "Red River Human Services Foundation",
+      "category": [
+        "community"
+      ],
+      "location": "North Dakota",
+      "area": "Fargo",
+      "description": "",
+      "phone": "",
+      "website": "https://rrhsf.org",
+      "address": "4302 17th Avenue South",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "outreach",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/way/1412475202",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/ND.json"
+  },
+  {
+    "id": "res-20260823-6de8585e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:35:29.082651+00:00"
+    },
+    "payload": {
+      "name": "Pediatric Sensory Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "Oregon",
+      "area": "Portland",
+      "description": "",
+      "phone": "",
+      "website": "https://www.pdxpediatrics.com/",
+      "address": "6635 North Baltimore Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/3985055189",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-c166912b",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:37:42.091851+00:00"
+    },
+    "payload": {
+      "name": "Cryo: Sports Cryotherapy of The Woodlands",
+      "category": [
+        "therapy"
+      ],
+      "location": "Texas",
+      "area": "The Woodlands",
+      "description": "",
+      "phone": "+1 281 755 1321",
+      "website": "https://www.sportscryoofthewoodlands.com/",
+      "address": "8101 Kuykendahl Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "occupational_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/9295062222",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/TX.json"
+  },
+  {
+    "id": "res-20260823-7f4fa0ad",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:37:42.091870+00:00"
+    },
+    "payload": {
+      "name": "Behavioral Innovations",
+      "category": [
+        "therapy"
+      ],
+      "location": "Texas",
+      "area": "The Woodlands",
+      "description": "",
+      "phone": "+1 855 782 7822",
+      "website": "https://behavioral-innovations.com/",
+      "address": "8101 Kuykendahl Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "occupational_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/9295077436",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/TX.json"
+  },
+  {
+    "id": "res-20260823-f1055694",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:37:42.091878+00:00"
+    },
+    "payload": {
+      "name": "Choice Medical Equipment",
+      "category": [
+        "equipment"
+      ],
+      "location": "Texas",
+      "area": "Denton",
+      "description": "",
+      "phone": "+19403800455",
+      "website": "https://www.choicemedicalequipment.com/",
+      "address": "2436 South Interstate 35E",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/9494754766",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/TX.json"
+  },
+  {
+    "id": "res-20260823-8d54fd3e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:37:42.091886+00:00"
+    },
+    "payload": {
+      "name": "Moody Neurorehabilitation Institute",
+      "category": [
+        "therapy"
+      ],
+      "location": "Texas",
+      "area": "Galveston",
+      "description": "",
+      "phone": "+1-409-741-3266",
+      "website": "https://moodyneuro.org/location/tideway/",
+      "address": "6444 Central City Boulevard",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/9648004101",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/TX.json"
+  },
+  {
+    "id": "res-20260823-0472aa80",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:37:42.091893+00:00"
+    },
+    "payload": {
+      "name": "Therapy OPS",
+      "category": [
+        "therapy"
+      ],
+      "location": "Texas",
+      "area": "Red Oak",
+      "description": "",
+      "phone": "+1 469-917-0805",
+      "website": "https://therapyopstx.com/",
+      "address": "200 North Interstate 35E",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "occupational_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/9892595574",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/TX.json"
+  },
+  {
+    "id": "res-20260823-242334f9",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:37:42.091900+00:00"
+    },
+    "payload": {
+      "name": "West Texas Medical Specialties",
+      "category": [
+        "equipment"
+      ],
+      "location": "Texas",
+      "area": "El Paso",
+      "description": "",
+      "phone": "+1-915-532-8223",
+      "website": "https://westtexasmedicalspecialties.com",
+      "address": "1320 Texas Ave",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/10248251008",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/TX.json"
+  },
+  {
+    "id": "res-20260823-0297934f",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:37:42.091907+00:00"
+    },
+    "payload": {
+      "name": "Encompass Health Rehabilitation Hospital of Waco",
+      "category": [
+        "therapy"
+      ],
+      "location": "Texas",
+      "area": "Robinson",
+      "description": "",
+      "phone": "+1-254-523-2200",
+      "website": "https://www.encompasshealth.com/locations/waco-rehab?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "address": "3600 South Loop 340",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/10306534660",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/TX.json"
+  },
+  {
+    "id": "res-20260823-b6151c31",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:37:42.091915+00:00"
+    },
+    "payload": {
+      "name": "Virtue Recovery Center Killeen Texas",
+      "category": [
+        "therapy"
+      ],
+      "location": "Texas",
+      "area": "Killeen",
+      "description": "LUXURY INPATIENT DRUG & ALCOHOL TREATMENT IN KILLEEN TEXAS Safely and comfortably manage withdrawal symptoms and recover from drug addiction, alcoholism, and dual diagnosis at our beautiful Killeen Texas addiction treatment facility.",
+      "phone": "+1 254-434-6764",
+      "website": "https://www.virtuerecoverycenter.com/killeen-texas-treatment-center",
+      "address": "5200 South W.S. Young Drive",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/10679859798",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/TX.json"
+  },
+  {
+    "id": "res-20260823-a06ee204",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:37:42.091922+00:00"
+    },
+    "payload": {
+      "name": "Vietnam Home Health Care",
+      "category": [
+        "therapy"
+      ],
+      "location": "Texas",
+      "area": "Garland",
+      "description": "",
+      "phone": "+1 214-221-5399",
+      "website": "https://vietnamhomehealthcare.com",
+      "address": "3538 W. Walnut St",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "occupational_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/10777224220",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/TX.json"
+  },
+  {
+    "id": "res-20260823-fd658377",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:38:17.970388+00:00"
+    },
+    "payload": {
+      "name": "Mosaic Pediatric Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "Virginia",
+      "area": "Blacksburg",
+      "description": "",
+      "phone": "+1-980-785-1113",
+      "website": "https://mosaictherapy.com/location/blacksburg-2-va/",
+      "address": "106 Faculty Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "occupational_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/936995101",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-09d160f1",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:38:17.970406+00:00"
+    },
+    "payload": {
+      "name": "Solutions Medical Supplies",
+      "category": [
+        "equipment"
+      ],
+      "location": "Virginia",
+      "area": "Blacksburg",
+      "description": "",
+      "phone": "+1-540-552-4455",
+      "website": "https://solutionsmedicalsupplies.com/",
+      "address": "1419 North Main Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/937143649",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-5792b28e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:38:17.970415+00:00"
+    },
+    "payload": {
+      "name": "Advanced Aeromedical, Inc.",
+      "category": [
+        "equipment"
+      ],
+      "location": "Virginia",
+      "area": "Virginia Beach",
+      "description": "",
+      "phone": "+1-800-346-3556",
+      "website": "https://www.aeromedic.com/",
+      "address": "3429 Chandler Creek Rd",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply",
+        "wheelchair-accessible"
+      ],
+      "source": "https://www.openstreetmap.org/node/2575192527",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-5e8d257a",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:38:17.970422+00:00"
+    },
+    "payload": {
+      "name": "Charlottesville Psychological Associates",
+      "category": [
+        "therapy"
+      ],
+      "location": "Virginia",
+      "area": "",
+      "description": "",
+      "phone": "",
+      "website": "https://cpatherapy.com",
+      "address": "100 South Street East",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/3888561114",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-a2877358",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:38:17.970429+00:00"
+    },
+    "payload": {
+      "name": "Northwest Center",
+      "category": [
+        "therapy"
+      ],
+      "location": "Virginia",
+      "area": "Reston",
+      "description": "",
+      "phone": "+1 703-481-4100",
+      "website": "https://www.fairfaxcounty.gov/contact/ProgramDetail.aspx?agId=4313",
+      "address": "1850 Cameron Glen Drive",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/5189281604",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-3c171aa8",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.815943+00:00"
+    },
+    "payload": {
+      "name": "Geromove Physical Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "Wisconsin",
+      "area": "Milwaukee",
+      "description": "",
+      "phone": "+1 414 856 7044",
+      "website": "https://www.geromove.com/contact-downtown-milwaukee",
+      "address": "763 North Broadway",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "occupational_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/3966671173",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-31c0ec98",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.815961+00:00"
+    },
+    "payload": {
+      "name": "SMILES",
+      "category": [
+        "community"
+      ],
+      "location": "Wisconsin",
+      "area": "Darien",
+      "description": "",
+      "phone": "",
+      "website": "https://smilestherapeuticriding.org",
+      "address": "N2666 County Road K",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/12200419154",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-be50a3fc",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.815970+00:00"
+    },
+    "payload": {
+      "name": "Trinity Equestrian Center",
+      "category": [
+        "community"
+      ],
+      "location": "Wisconsin",
+      "area": "Eau Claire",
+      "description": "",
+      "phone": "",
+      "website": "https://www.trinity-ec.com/",
+      "address": "S5300 WI-37",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled;veteran"
+      ],
+      "source": "https://www.openstreetmap.org/node/12354238745",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-61e27b95",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.815978+00:00"
+    },
+    "payload": {
+      "name": "Communication & Feeding Specialist of Southeast Wisconsin",
+      "category": [
+        "therapy"
+      ],
+      "location": "Wisconsin",
+      "area": "Wauwatosa",
+      "description": "",
+      "phone": "+1 414-208-0753",
+      "website": "https://www.communicationandfeeding.com/",
+      "address": "8707 West North Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "speech_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/12623919668",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-00b7c351",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.815986+00:00"
+    },
+    "payload": {
+      "name": "HART Equine Therapeutic Center",
+      "category": [
+        "community"
+      ],
+      "location": "Wisconsin",
+      "area": "Auburndale",
+      "description": "",
+      "phone": "",
+      "website": "https://hartetc.com",
+      "address": "10198 Brookside Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "child;disabled;juvenile"
+      ],
+      "source": "https://www.openstreetmap.org/node/12813141866",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-494e56c6",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.815993+00:00"
+    },
+    "payload": {
+      "name": "Hazelden Betty Ford",
+      "category": [
+        "therapy"
+      ],
+      "location": "Wisconsin",
+      "area": "Hudson",
+      "description": "",
+      "phone": "",
+      "website": "https://www.hazeldenbettyford.org/locations/hudson",
+      "address": "900 Crest View Drive",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/12915654032",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-2c1a34a5",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.816001+00:00"
+    },
+    "payload": {
+      "name": "Rides and Reins Therapeutic Riding Center",
+      "category": [
+        "community"
+      ],
+      "location": "Wisconsin",
+      "area": "Slinger",
+      "description": "",
+      "phone": "",
+      "website": "https://www.ridesandreins.org/",
+      "address": "4371 Arthur Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/13115535178",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-61dea94f",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.816008+00:00"
+    },
+    "payload": {
+      "name": "h.e.l.p corner",
+      "category": [
+        "equipment"
+      ],
+      "location": "Wisconsin",
+      "area": "West Bend",
+      "description": "",
+      "phone": "+1-262-429-1161",
+      "website": "https://www.helpcorner.org/",
+      "address": "2354A West Washington Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/13256958040",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-f53ba7ac",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.816015+00:00"
+    },
+    "payload": {
+      "name": "Exceptional Equestrians",
+      "category": [
+        "community"
+      ],
+      "location": "Wisconsin",
+      "area": "De Pere",
+      "description": "",
+      "phone": "",
+      "website": "https://www.exceptionalequestrians.org",
+      "address": "1130 Orlando Drive",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/13358556373",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-32263f4d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.816022+00:00"
+    },
+    "payload": {
+      "name": "Baraboo River Equine-Assisted Therapies, Inc.",
+      "category": [
+        "community"
+      ],
+      "location": "Wisconsin",
+      "area": "Baraboo",
+      "description": "",
+      "phone": "",
+      "website": "https://barabooriverequineassistedtherapies.org/",
+      "address": "Moon Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "child;disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/14069301762",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-cf3d5fee",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.816029+00:00"
+    },
+    "payload": {
+      "name": "UW Health University Ave Rehabilitation Clinic",
+      "category": [
+        "therapy"
+      ],
+      "location": "Wisconsin",
+      "area": "Middleton",
+      "description": "",
+      "phone": "",
+      "website": "https://www.uwhealth.org/locations/rehabilitation-clinic-138",
+      "address": "6330 University Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/way/97601544",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-ce479aa2",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.816036+00:00"
+    },
+    "payload": {
+      "name": "Arlington Court",
+      "category": [
+        "community"
+      ],
+      "location": "Wisconsin",
+      "area": "Milwaukee",
+      "description": "",
+      "phone": "+1 414 286 8850",
+      "website": "https://www.hacm.org/Home/Components/FacilityDirectory/FacilityDirectory/1014/",
+      "address": "1633 North Arlington Place",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "group_home",
+        "senior;disabled"
+      ],
+      "source": "https://www.openstreetmap.org/way/117754281",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-a4cd31d2",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.816042+00:00"
+    },
+    "payload": {
+      "name": "The Salvation Army Adult Rehabilitation Center",
+      "category": [
+        "housing"
+      ],
+      "location": "Wisconsin",
+      "area": "Milwaukee",
+      "description": "",
+      "phone": "+1 414 276 4316",
+      "website": "https://centralusa.salvationarmy.org/milwaukee/combat-addiction/",
+      "address": "324 North Jackson Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "group_home",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/way/190295318",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-856dbae6",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.816049+00:00"
+    },
+    "payload": {
+      "name": "Central Wisconsin Center",
+      "category": [
+        "community"
+      ],
+      "location": "Wisconsin",
+      "area": "Madison",
+      "description": "",
+      "phone": "+1 608 301 9200",
+      "website": "https://www.dhs.wisconsin.gov/cwc/",
+      "address": "317 Knutson Drive",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "group_home",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/way/250070853",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-5fec3e15",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.816056+00:00"
+    },
+    "payload": {
+      "name": "MARC",
+      "category": [
+        "community"
+      ],
+      "location": "Wisconsin",
+      "area": "Madison",
+      "description": "",
+      "phone": "",
+      "website": "https://marc-inc.org/",
+      "address": "901 Post Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "outreach",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/way/316829156",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-bbd4e5e7",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:39:08.816062+00:00"
+    },
+    "payload": {
+      "name": "Trollen Therapies",
+      "category": [
+        "therapy"
+      ],
+      "location": "Wisconsin",
+      "area": "",
+      "description": "",
+      "phone": "+1 7153778514",
+      "website": "http://trollentherapies.com",
+      "address": "Third Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "therapist"
+      ],
+      "source": "https://www.openstreetmap.org/way/428375223",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/WI.json"
+  },
+  {
+    "id": "res-20260823-a1391b73",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:43:54.641430+00:00"
+    },
+    "payload": {
+      "name": "First Physical Therapy & Functional Rehabilitation Center",
+      "category": [
+        "therapy"
+      ],
+      "location": "Hawaii",
+      "area": "Wahiawa",
+      "description": "",
+      "phone": "+1-808-628-9988",
+      "website": "https://www.firstphysical.com/",
+      "address": "735 California Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/13897955201",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/HI.json"
+  },
+  {
+    "id": "res-20260823-ec1dbdad",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:44:35.710435+00:00"
+    },
+    "payload": {
+      "name": "Small Talk",
+      "category": [
+        "therapy"
+      ],
+      "location": "Indiana",
+      "area": "Bloomington",
+      "description": "",
+      "phone": "",
+      "website": "https://smalltalk-clinic.com/",
+      "address": "4505 East 3rd Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "speech_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/way/932671149",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/IN.json"
+  },
+  {
+    "id": "res-20260823-dffa20b8",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025288+00:00"
+    },
+    "payload": {
+      "name": "Hart To Heart Transportation",
+      "category": [
+        "equipment"
+      ],
+      "location": "Maryland",
+      "area": "Forest Hill",
+      "description": "",
+      "phone": "",
+      "website": "https://www.harttoheartambulance.com/",
+      "address": "355 Granary Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/6577647651",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-9a2a37ff",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025308+00:00"
+    },
+    "payload": {
+      "name": "UM SRH Rehabilitation",
+      "category": [
+        "therapy"
+      ],
+      "location": "Maryland",
+      "area": "Denton",
+      "description": "UM Shore Rehabilitation Center at Denton",
+      "phone": "",
+      "website": "https://www.umms.org/shore/locations/rehabilitation-center-denton",
+      "address": "1140 Blades Farm Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/6906275486",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-af884a19",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025317+00:00"
+    },
+    "payload": {
+      "name": "Brain Builders",
+      "category": [
+        "therapy"
+      ],
+      "location": "Maryland",
+      "area": "Abingdon",
+      "description": "",
+      "phone": "+1-410-929-2088",
+      "website": "https://www.mybrainbuilders.com/",
+      "address": "57 Kensington Parkway",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "speech_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/7140431686",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-6792df61",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025325+00:00"
+    },
+    "payload": {
+      "name": "B.W. Surgical",
+      "category": [
+        "equipment"
+      ],
+      "location": "Maryland",
+      "area": "Kensington",
+      "description": "",
+      "phone": "+1 301 946 1888",
+      "website": "https://www.bwmedi.com/",
+      "address": "10556 Metropolitan Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/7313712496",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-b1a67f02",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025332+00:00"
+    },
+    "payload": {
+      "name": "Walden Speech Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "Maryland",
+      "area": "Bel Air",
+      "description": "",
+      "phone": "+1-443-567-6611",
+      "website": "https://www.waldenspeechtherapy.com/",
+      "address": "323 Williams Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "speech_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/8623303201",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-ab50c307",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025340+00:00"
+    },
+    "payload": {
+      "name": "St. Paul & Biddle Pacific Rehab - South Baltimore / Cherry Hill",
+      "category": [
+        "therapy"
+      ],
+      "location": "Maryland",
+      "area": "Baltimore",
+      "description": "",
+      "phone": "",
+      "website": "https://stpaulbiddle.com/directory/locations/show/south-baltimore-cherry-hill",
+      "address": "2830 South Hanover Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/9501647313",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-c6742f60",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025347+00:00"
+    },
+    "payload": {
+      "name": "Penn North Recovery",
+      "category": [
+        "therapy"
+      ],
+      "location": "Maryland",
+      "area": "Baltimore",
+      "description": "",
+      "phone": "+1 410-728-2080",
+      "website": "http://www.penn-north.com/",
+      "address": "2410 Pennsylvania Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/9686988563",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-fd6a485d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025354+00:00"
+    },
+    "payload": {
+      "name": "Johns Hopkins Homecare Group",
+      "category": [
+        "equipment"
+      ],
+      "location": "Maryland",
+      "area": "",
+      "description": "",
+      "phone": "+1-410-288-8150",
+      "website": "https://www.hopkinsmedicine.org/home-care-group/",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/10731000731",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-43aa012d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025361+00:00"
+    },
+    "payload": {
+      "name": "Encompass Health Rehab Hospital Of Salisbury",
+      "category": [
+        "therapy"
+      ],
+      "location": "Maryland",
+      "area": "Salisbury",
+      "description": "",
+      "phone": "+1 410 546 4600",
+      "website": "https://encompasshealth.com/locations/salisburyrehab",
+      "address": "220 Tilghman Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/10832075153",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-5bfdc221",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025368+00:00"
+    },
+    "payload": {
+      "name": "Jubilee",
+      "category": [
+        "community"
+      ],
+      "location": "Maryland",
+      "area": "Kensington",
+      "description": "",
+      "phone": "+1 301 949 8626",
+      "website": "https://www.jubileemd.org/",
+      "address": "10408 Montgomery Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/10924617975",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-4849166c",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025375+00:00"
+    },
+    "payload": {
+      "name": "Frederick County 4H Therapeutic Riding Program",
+      "category": [
+        "community"
+      ],
+      "location": "Maryland",
+      "area": "Thurmont",
+      "description": "",
+      "phone": "",
+      "website": "https://www.fc4htrp.org/",
+      "address": "11515 Angleberger Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/11687100063",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-470aae72",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025381+00:00"
+    },
+    "payload": {
+      "name": "Circle of Hope Therapeutic Riding",
+      "category": [
+        "community"
+      ],
+      "location": "Maryland",
+      "area": "Barnesville",
+      "description": "",
+      "phone": "",
+      "website": "https://www.chtr.org/",
+      "address": "22500 West Harris Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/11687942986",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-389f8d63",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025388+00:00"
+    },
+    "payload": {
+      "name": "Wellspring of Life Farm",
+      "category": [
+        "community"
+      ],
+      "location": "Maryland",
+      "area": "Monkton",
+      "description": "",
+      "phone": "",
+      "website": "https://www.wellspringlifefarm.org/",
+      "address": "16312 Old York Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled;veteran;child"
+      ],
+      "source": "https://www.openstreetmap.org/node/11764987422",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-c3c4396c",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025395+00:00"
+    },
+    "payload": {
+      "name": "Madison Fields Therapeutic Riding Program",
+      "category": [
+        "community"
+      ],
+      "location": "Maryland",
+      "area": "Dickerson",
+      "description": "",
+      "phone": "",
+      "website": "https://madisonfields.org/",
+      "address": "21355 Big Woods Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/11773859064",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-a3a0a512",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025402+00:00"
+    },
+    "payload": {
+      "name": "Chesapeake Therapeutic Riding",
+      "category": [
+        "community"
+      ],
+      "location": "Maryland",
+      "area": "",
+      "description": "",
+      "phone": "",
+      "website": "https://ctrchanginglives.org/services/horses-and-heroes/",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled;veteran;senior"
+      ],
+      "source": "https://www.openstreetmap.org/node/11774472091",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-bce67b9e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025408+00:00"
+    },
+    "payload": {
+      "name": "Talisman Therapeutic Riding",
+      "category": [
+        "community"
+      ],
+      "location": "Maryland",
+      "area": "Grasonville",
+      "description": "",
+      "phone": "",
+      "website": "https://talismantherapeuticriding.org/",
+      "address": "172 Blue Ribbon Lane",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled;veteran"
+      ],
+      "source": "https://www.openstreetmap.org/node/11776523547",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-ad2fd969",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025415+00:00"
+    },
+    "payload": {
+      "name": "Kent Association of Riding Therapy (KART)",
+      "category": [
+        "community"
+      ],
+      "location": "Maryland",
+      "area": "Worton",
+      "description": "Kent Association of Riding Therapy, Inc. (KART) was founded in 1984 to help children and adults with special needs enhance their social and developmental growth.",
+      "phone": "",
+      "website": "https://kentridingtherapy.org/",
+      "address": "11570 Still Pond Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/11979387648",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-7843d6fe",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025422+00:00"
+    },
+    "payload": {
+      "name": "Jessa Medical Supply",
+      "category": [
+        "equipment"
+      ],
+      "location": "Maryland",
+      "area": "Gaithersburg",
+      "description": "",
+      "phone": "+1 301-990-8706",
+      "website": "https://jessamedical.com/",
+      "address": "235 Kentlands Boulevard",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/12240814392",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-f0a7c2d3",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025428+00:00"
+    },
+    "payload": {
+      "name": "Health Vitality Clinic",
+      "category": [
+        "equipment"
+      ],
+      "location": "Maryland",
+      "area": "Crofton",
+      "description": "At Health Vitality Clinic, we offer a wide range of services designed to help you achieve optimal health and wellness. Our weight loss clinic, near Crofton, MD, provides customized weight loss plans, including weight loss injections.",
+      "phone": "+1-240-780-1007",
+      "website": "https://healthvitalityclinic.com/",
+      "address": "2411 Crofton Ln",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/12390097669",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-63c12d01",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:45:55.025435+00:00"
+    },
+    "payload": {
+      "name": "Laurel Orthopedic and Medical Supply Store",
+      "category": [
+        "equipment"
+      ],
+      "location": "Maryland",
+      "area": "Laurel",
+      "description": "",
+      "phone": "",
+      "website": "https://www.shoploms.com/",
+      "address": "374 Main Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/12414040453",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MD.json"
+  },
+  {
+    "id": "res-20260823-1ade9a7f",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:47:54.172850+00:00"
+    },
+    "payload": {
+      "name": "North Mississippi Regional Center",
+      "category": [
+        "community"
+      ],
+      "location": "Mississippi",
+      "area": "Oxford",
+      "description": "",
+      "phone": "+1 662 234 1476",
+      "website": "http://www.nmrc.state.ms.us/",
+      "address": "967 Regional Center Drive",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "group_home",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/357965744",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MS.json"
+  },
+  {
+    "id": "res-20260823-ec26f544",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:47:54.172869+00:00"
+    },
+    "payload": {
+      "name": "Institute for Disability Studies",
+      "category": [
+        "community"
+      ],
+      "location": "Mississippi",
+      "area": "",
+      "description": "",
+      "phone": "+1 228 214 3400",
+      "website": "https://www.usm.edu/ids/index.php",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "outreach",
+        "disabled",
+        "educational_institution"
+      ],
+      "source": "https://www.openstreetmap.org/node/9183727179",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MS.json"
+  },
+  {
+    "id": "res-20260823-cc5bd0e9",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:47:54.172878+00:00"
+    },
+    "payload": {
+      "name": "Mississippi State Equine Assisted Services",
+      "category": [
+        "community"
+      ],
+      "location": "Mississippi",
+      "area": "Starkville",
+      "description": "",
+      "phone": "",
+      "website": "https://extension.msstate.edu/family/equine-assisted-therapy-programs",
+      "address": "869 Poor House Road E",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled;veteran"
+      ],
+      "source": "https://www.openstreetmap.org/node/12236608795",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MS.json"
+  },
+  {
+    "id": "res-20260823-111bcdf0",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:50:20.972936+00:00"
+    },
+    "payload": {
+      "name": "Heritage Medical Products Inc.",
+      "category": [
+        "equipment"
+      ],
+      "location": "Missouri",
+      "area": "West Plains",
+      "description": "",
+      "phone": "+1-888-256-8748",
+      "website": "https://sonobed.com/",
+      "address": "10380 County Road 6310",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/5693435848",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MO.json"
+  },
+  {
+    "id": "res-20260823-48397112",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:50:20.972955+00:00"
+    },
+    "payload": {
+      "name": "Doctors Equipment Service",
+      "category": [
+        "equipment"
+      ],
+      "location": "Missouri",
+      "area": "Kansas City",
+      "description": "",
+      "phone": "",
+      "website": "https://www.drsequip.net/",
+      "address": "6021 Troost Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/way/531553882",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MO.json"
+  },
+  {
+    "id": "res-20260823-e832cef7",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:50:20.972964+00:00"
+    },
+    "payload": {
+      "name": "Villages of St. Peters",
+      "category": [
+        "community"
+      ],
+      "location": "Missouri",
+      "area": "Saint Peters",
+      "description": "",
+      "phone": "+1 636-922-7600",
+      "website": "http://www.vofsp.com/",
+      "address": "5400 Executive Centre Parkway",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "nursing_home; assisted_living",
+        "senior; disabled"
+      ],
+      "source": "https://www.openstreetmap.org/way/547988369",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MO.json"
+  },
+  {
+    "id": "res-20260823-d9a7a3e8",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:50:20.972971+00:00"
+    },
+    "payload": {
+      "name": "Villages of St. Peters Memory Care",
+      "category": [
+        "community"
+      ],
+      "location": "Missouri",
+      "area": "Saint Peters",
+      "description": "",
+      "phone": "+1 636-477-6955",
+      "website": "http://vofspmemorycare.com/",
+      "address": "5300 Executive Centre Parkway",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "nursing_home; assisted_living",
+        "senior; disabled"
+      ],
+      "source": "https://www.openstreetmap.org/way/608223353",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MO.json"
+  },
+  {
+    "id": "res-20260823-93c100be",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:50:20.972978+00:00"
+    },
+    "payload": {
+      "name": "Lafayette Habilitation Center",
+      "category": [
+        "therapy"
+      ],
+      "location": "Missouri",
+      "area": "Saint Louis",
+      "description": "",
+      "phone": "+13147714777",
+      "website": "https://www.lafayettehabilitation.org/",
+      "address": "2701 Henrietta Place",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/way/640172138",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MO.json"
+  },
+  {
+    "id": "res-20260823-07295512",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:50:20.972986+00:00"
+    },
+    "payload": {
+      "name": "Children's Center Campus",
+      "category": [
+        "community"
+      ],
+      "location": "Missouri",
+      "area": "",
+      "description": "",
+      "phone": "",
+      "website": "https://abilitykc.org/",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "day_care",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/way/1526646538",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MO.json"
+  },
+  {
+    "id": "res-20260823-510848a9",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:50:20.972992+00:00"
+    },
+    "payload": {
+      "name": "Rusk Rehabilitation Hospital",
+      "category": [
+        "therapy"
+      ],
+      "location": "Missouri",
+      "area": "Columbia",
+      "description": "",
+      "phone": "",
+      "website": "https://encompasshealth.com/locations/ruskrehab",
+      "address": "315 Business Loop 70 West",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/relation/5762261",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MO.json"
+  },
+  {
+    "id": "res-20260823-d1dfacfe",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:50:26.286058+00:00"
+    },
+    "payload": {
+      "name": "Orchard View",
+      "category": [
+        "community"
+      ],
+      "location": "Montana",
+      "area": "Polson",
+      "description": "",
+      "phone": "",
+      "website": "https://www.mmeempowerspeople.org/",
+      "address": "115 13th Avenue West",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "group_home",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/357983028",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MT.json"
+  },
+  {
+    "id": "res-20260823-d3abcb00",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:50:26.286077+00:00"
+    },
+    "payload": {
+      "name": "Summit Independent Living",
+      "category": [
+        "community"
+      ],
+      "location": "Montana",
+      "area": "Hamilton",
+      "description": "",
+      "phone": "+1 406 363 5242",
+      "website": "https://www.summitilc.org/",
+      "address": "299 Fairgrounds Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "outreach",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/357985518",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/MT.json"
+  },
+  {
+    "id": "res-20260823-e90be7c5",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:52:33.852648+00:00"
+    },
+    "payload": {
+      "name": "Aster Hill Assisted Living Facility",
+      "category": [
+        "therapy"
+      ],
+      "location": "Nebraska",
+      "area": "Lincoln",
+      "description": "",
+      "phone": "+1-402-475-3854",
+      "website": "https://asterhillcare.wixsite.com/my-site",
+      "address": "2328 A Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/357792871",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NE.json"
+  },
+  {
+    "id": "res-20260823-0497bb05",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:52:33.852666+00:00"
+    },
+    "payload": {
+      "name": "The Rehabilitation Center of Omaha",
+      "category": [
+        "therapy"
+      ],
+      "location": "Nebraska",
+      "area": "Omaha",
+      "description": "",
+      "phone": "+1-402-342-2015",
+      "website": "http://www.genesishcc.com/rehabcenterofomaha",
+      "address": "910 South 40th Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/357793649",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NE.json"
+  },
+  {
+    "id": "res-20260823-202cf6c3",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:52:33.852676+00:00"
+    },
+    "payload": {
+      "name": "Let's Talk",
+      "category": [
+        "therapy"
+      ],
+      "location": "Nebraska",
+      "area": "Omaha",
+      "description": "",
+      "phone": "+1 402-671-8591",
+      "website": "http://letstalktodani.com",
+      "address": "319 South 17th Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/6066210771",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NE.json"
+  },
+  {
+    "id": "res-20260823-367cbc45",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:52:33.852684+00:00"
+    },
+    "payload": {
+      "name": "Alfie Packers, Inc",
+      "category": [
+        "equipment"
+      ],
+      "location": "Nebraska",
+      "area": "Omaha",
+      "description": "",
+      "phone": "+1-402-592-9102",
+      "website": "http://alfiepackers.com",
+      "address": "8901 J Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/6417427656",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NE.json"
+  },
+  {
+    "id": "res-20260823-e36ce319",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:52:33.852691+00:00"
+    },
+    "payload": {
+      "name": "Douglas County Hospital",
+      "category": [
+        "therapy"
+      ],
+      "location": "Nebraska",
+      "area": "Omaha",
+      "description": "",
+      "phone": "+1-402-444-7000",
+      "website": "https://dchc.douglascounty-ne.gov/",
+      "address": "4102 Woolworth Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/7546103679",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NE.json"
+  },
+  {
+    "id": "res-20260823-68f2b550",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:52:33.852697+00:00"
+    },
+    "payload": {
+      "name": "Azria Health Midtown",
+      "category": [
+        "therapy"
+      ],
+      "location": "Nebraska",
+      "area": "Omaha",
+      "description": "",
+      "phone": "+1-402-342-2015",
+      "website": "https://www.azriahealth.com/",
+      "address": "910 South 40th Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/7546123995",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NE.json"
+  },
+  {
+    "id": "res-20260823-46378d39",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:52:33.852704+00:00"
+    },
+    "payload": {
+      "name": "The Lymphedema Clinic",
+      "category": [
+        "therapy"
+      ],
+      "location": "Nebraska",
+      "area": "Lincoln",
+      "description": "",
+      "phone": "+1-402-904-4474",
+      "website": "https://llotnebraska.com",
+      "address": "4101 Pioneer Woods Drive",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "occupational_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/11035662428",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NE.json"
+  },
+  {
+    "id": "res-20260823-23c92dc7",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:54:40.574078+00:00"
+    },
+    "payload": {
+      "name": "Harmony Manor Skilled Nursing Facility",
+      "category": [
+        "community"
+      ],
+      "location": "Nevada",
+      "area": "Winnemucca",
+      "description": "",
+      "phone": "+1-775-623-5222",
+      "website": "https://www.hghospital.org/services/long-term-care/",
+      "address": "118 East Haskell Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "nursing_home",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/357565080",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NV.json"
+  },
+  {
+    "id": "res-20260823-417c4295",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:54:40.574097+00:00"
+    },
+    "payload": {
+      "name": "Alpine Skilled Nursing And Rehabilitation Center",
+      "category": [
+        "therapy"
+      ],
+      "location": "Nevada",
+      "area": "Reno",
+      "description": "",
+      "phone": "+1 775-433-2700",
+      "website": "https://www.alpinenursingandrehab.com/",
+      "address": "3101 Plumas Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/10570299330",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NV.json"
+  },
+  {
+    "id": "res-20260823-6f14daf6",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:54:40.574106+00:00"
+    },
+    "payload": {
+      "name": "Virtue Recovery Center Las Vegas",
+      "category": [
+        "therapy"
+      ],
+      "location": "Nevada",
+      "area": "Las Vegas",
+      "description": "Safely and comfortably manage withdrawal symptoms and recover from drug addiction, alcoholism, and eating disorders.",
+      "phone": "+1-702-323-5017",
+      "website": "https://www.virtuerecoverycenter.com",
+      "address": "8225 West Robindale Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/10679957963",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NV.json"
+  },
+  {
+    "id": "res-20260823-6bbddc9d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:56:48.627053+00:00"
+    },
+    "payload": {
+      "name": "The Couples Center PLLC",
+      "category": [
+        "therapy"
+      ],
+      "location": "New Hampshire",
+      "area": "Portsmouth",
+      "description": "",
+      "phone": "+1 603-431-7131",
+      "website": "https://susanlager.com/",
+      "address": "118 Maplewood Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/5913200818",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NH.json"
+  },
+  {
+    "id": "res-20260823-0af80d60",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:56:48.627071+00:00"
+    },
+    "payload": {
+      "name": "Charron",
+      "category": [
+        "equipment"
+      ],
+      "location": "New Hampshire",
+      "area": "Nashua",
+      "description": "",
+      "phone": "+1-603-889-7220",
+      "website": "https://charronmed.com/",
+      "address": "222 Main Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/8773566904",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NH.json"
+  },
+  {
+    "id": "res-20260823-1bd1f63e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941415+00:00"
+    },
+    "payload": {
+      "name": "Crystal Lake Healthcare & Rehabilitation",
+      "category": [
+        "therapy"
+      ],
+      "location": "New Jersey",
+      "area": "Bayville",
+      "description": "",
+      "phone": "+1 732 269 0500",
+      "website": "https://crystallakehealth.com/",
+      "address": "395 Lakeside Boulevard",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/357716768",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-197ed21a",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941433+00:00"
+    },
+    "payload": {
+      "name": "Arc of Monmouth",
+      "category": [
+        "community"
+      ],
+      "location": "New Jersey",
+      "area": "Tinton Falls",
+      "description": "",
+      "phone": "",
+      "website": "https://arcofmonmoth.org",
+      "address": "1158 Wayside Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/357751446",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-c32f65fe",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941442+00:00"
+    },
+    "payload": {
+      "name": "Priority Nursing Services",
+      "category": [
+        "medical"
+      ],
+      "location": "New Jersey",
+      "area": "Hackensack",
+      "description": "",
+      "phone": "+1 201-343-6160",
+      "website": "https://www.prioritynursingservices.com/",
+      "address": "286 Union St, 2nd Floor",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "ambulatory_care",
+        "senior;for=disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/4678258548",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-69afcb3f",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941450+00:00"
+    },
+    "payload": {
+      "name": "Kessler Rehabilition Center",
+      "category": [
+        "therapy"
+      ],
+      "location": "New Jersey",
+      "area": "Budd Lake",
+      "description": "",
+      "phone": "+1 973-691-4244",
+      "website": "https://www.kesslerrehabilitationcenter.com/contact/find-a-location/nj/budd-lake/budd-lake/",
+      "address": "135 US-46",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/11263876358",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-bf00200b",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941457+00:00"
+    },
+    "payload": {
+      "name": "Central Medical Supply Inc",
+      "category": [
+        "equipment"
+      ],
+      "location": "New Jersey",
+      "area": "Flanders",
+      "description": "",
+      "phone": "+1-973-927-3032",
+      "website": "https://centralmedsupply.com/",
+      "address": "240 US 206",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/11476161469",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-408a3157",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941465+00:00"
+    },
+    "payload": {
+      "name": "New Jersey Recovery Solutions",
+      "category": [
+        "therapy"
+      ],
+      "location": "New Jersey",
+      "area": "Florham Park",
+      "description": "",
+      "phone": "+1 908-460-8909",
+      "website": "https://njrecoverysolutions.com",
+      "address": "83 Hanover Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/11883084889",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-281d20fb",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941473+00:00"
+    },
+    "payload": {
+      "name": "Fallsview Rehabilitation and Nursing",
+      "category": [
+        "therapy"
+      ],
+      "location": "New Jersey",
+      "area": "Boonton Township",
+      "description": "",
+      "phone": "+1-973-334-2454",
+      "website": "https://fallsviewhc.com/",
+      "address": "199 Powerville Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/11909343815",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-507052ee",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941480+00:00"
+    },
+    "payload": {
+      "name": "Mane Stream",
+      "category": [
+        "community"
+      ],
+      "location": "New Jersey",
+      "area": "Oldwick",
+      "description": "",
+      "phone": "",
+      "website": "https://www.manestreamnj.org/",
+      "address": "83 Old Turnpike Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/12004771637",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-cb175f06",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941487+00:00"
+    },
+    "payload": {
+      "name": "Equine Assisted Therapy of NJ",
+      "category": [
+        "community"
+      ],
+      "location": "New Jersey",
+      "area": "Mannington",
+      "description": "",
+      "phone": "",
+      "website": "https://www.equineassistedtherapyofnj.org/",
+      "address": "32 Swedes Bridge Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "family;disabled;veterans"
+      ],
+      "source": "https://www.openstreetmap.org/node/12004785957",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-17e47980",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941494+00:00"
+    },
+    "payload": {
+      "name": "Rocking Horse Rehab - Lord Stirling Stables",
+      "category": [
+        "community"
+      ],
+      "location": "New Jersey",
+      "area": "Basking Ridge",
+      "description": "",
+      "phone": "",
+      "website": "https://rockinghorserehab.com/",
+      "address": "256 S Maple Ave",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled"
+      ],
+      "source": "https://www.openstreetmap.org/node/12004793560",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-8d811b97",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:58:57.941501+00:00"
+    },
+    "payload": {
+      "name": "Stratford Manor Rehabilitation & Care Center",
+      "category": [
+        "therapy"
+      ],
+      "location": "New Jersey",
+      "area": "West Orange",
+      "description": "",
+      "phone": "",
+      "website": "https://stratfordrehab.com/",
+      "address": "787 Northfield Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/12138981715",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NJ.json"
+  },
+  {
+    "id": "res-20260823-01e8d065",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:05.181208+00:00"
+    },
+    "payload": {
+      "name": "A&R Medical Supply",
+      "category": [
+        "equipment"
+      ],
+      "location": "New Mexico",
+      "area": "Santa Fe",
+      "description": "",
+      "phone": "",
+      "website": "https://www.armedical.com/index.htm",
+      "address": "730 Saint Michaels Drive",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/4691581637",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NM.json"
+  },
+  {
+    "id": "res-20260823-6a1b334e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:05.181227+00:00"
+    },
+    "payload": {
+      "name": "Hale Corporate Office",
+      "category": [
+        "equipment"
+      ],
+      "location": "New Mexico",
+      "area": "Albuquerque",
+      "description": "",
+      "phone": "",
+      "website": "http://hale-life.com",
+      "address": "5201 Constitution Avenue Northeast",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/6465323211",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NM.json"
+  },
+  {
+    "id": "res-20260823-e5df74b2",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:05.181235+00:00"
+    },
+    "payload": {
+      "name": "HME Specialists",
+      "category": [
+        "equipment"
+      ],
+      "location": "New Mexico",
+      "area": "Albuquerque",
+      "description": "",
+      "phone": "+1-866-690-6500",
+      "website": "https://hmespecialists.com/",
+      "address": "10801 Golf Course Road Northwest",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/way/743175809",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NM.json"
+  },
+  {
+    "id": "res-20260823-0fedf445",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955296+00:00"
+    },
+    "payload": {
+      "name": "Insight House",
+      "category": [
+        "housing"
+      ],
+      "location": "New York",
+      "area": "Utica",
+      "description": "",
+      "phone": "+1-315-724-5168",
+      "website": "http://insighthouse.com/",
+      "address": "500 Whitesboro Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "group_home",
+        "drug_addicted",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/357577904",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-02ebd807",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955314+00:00"
+    },
+    "payload": {
+      "name": "AigleMed",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "",
+      "description": "",
+      "phone": "+1-877-520-5502",
+      "website": "http://www.aiglemed.com",
+      "address": "1072 Westminster Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/2338268055",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-33b73d9f",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955323+00:00"
+    },
+    "payload": {
+      "name": "New York Art Therapists",
+      "category": [
+        "therapy"
+      ],
+      "location": "New York",
+      "area": "Brooklyn",
+      "description": "",
+      "phone": "+1-917-293-4642",
+      "website": "https://nycreativetherapists.com",
+      "address": "190 North 10th Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/2842592330",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-98c0477f",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955330+00:00"
+    },
+    "payload": {
+      "name": "MoPro",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "DeWitt",
+      "description": "",
+      "phone": "+1-315-472-0707",
+      "website": "http://www.moprocorp.com/locateus.asp",
+      "address": "3232 Erie Boulevard East",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/3303127367",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-fd48c4db",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955337+00:00"
+    },
+    "payload": {
+      "name": "Fayetteville Home Health Products",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "Fayetteville",
+      "description": "",
+      "phone": "+1-315-637-2307",
+      "website": "http://www.fayhealth.com",
+      "address": "511 East Genesee Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/3317231536",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-91aed2d0",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955344+00:00"
+    },
+    "payload": {
+      "name": "Meadow Park Rehabilitation and Healthcare Center",
+      "category": [
+        "therapy"
+      ],
+      "location": "New York",
+      "area": "",
+      "description": "",
+      "phone": "+1-718-591-8300",
+      "website": "https://www.meadowparkrehab.com/",
+      "address": "78-10 164th Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/5344116667",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-524da67b",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955351+00:00"
+    },
+    "payload": {
+      "name": "Mark Medical Care",
+      "category": [
+        "therapy"
+      ],
+      "location": "New York",
+      "area": "Woodside",
+      "description": "",
+      "phone": "+1-877-673-4818",
+      "website": "https://markmedicalcare.com/",
+      "address": "64-05 Woodside Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/5400452800",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-02947055",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955357+00:00"
+    },
+    "payload": {
+      "name": "Multisport Physical Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "New York",
+      "area": "Liverpool",
+      "description": "",
+      "phone": "+1-315-451-2270",
+      "website": "http://www.multisportpt.com/",
+      "address": "304 1st Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/5608264971",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-962ecdfe",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955364+00:00"
+    },
+    "payload": {
+      "name": "Lynbrook Restorative Therapy and Nursing",
+      "category": [
+        "therapy"
+      ],
+      "location": "New York",
+      "area": "Lynbrook",
+      "description": "",
+      "phone": "+1-516-634-1400",
+      "website": "https://www.lynbrookrehab.com/",
+      "address": "243 Atlantic Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/5760568274",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-be6515e7",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955371+00:00"
+    },
+    "payload": {
+      "name": "Mutual Orthopedics",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "Brooklyn",
+      "description": "",
+      "phone": "+1-718-499-4535",
+      "website": "https://mutualortho.com/",
+      "address": "702-704 8th Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/5874357354",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-43100eb7",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955378+00:00"
+    },
+    "payload": {
+      "name": "Park Slope Speech Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "New York",
+      "area": "",
+      "description": "",
+      "phone": "+1-718-768-3526",
+      "website": "http://parkslopespeechtherapy.com",
+      "address": "258 6th Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "speech_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/6028073870",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-7d0370e7",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955384+00:00"
+    },
+    "payload": {
+      "name": "Fonte Surgical Supply",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "Rochester",
+      "description": "Medical and surgical supply store.",
+      "phone": "+1 585-338-1000",
+      "website": "https://www.fontesurgical.com/",
+      "address": "82 East Ridge Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply",
+        "wheelchair-accessible"
+      ],
+      "source": "https://www.openstreetmap.org/node/6056096369",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-8cde9b88",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955391+00:00"
+    },
+    "payload": {
+      "name": "Bipad Footcare Center",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "Jamaica",
+      "description": "",
+      "phone": "+1-929-335-0400",
+      "website": "https://www.bipadcenter.com",
+      "address": "163-10 89th Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/6324141177",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-76b37453",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955398+00:00"
+    },
+    "payload": {
+      "name": "New England Orthotic & Prostetic Systems",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "",
+      "description": "",
+      "phone": "+1-212-682-9313",
+      "website": "https://www.neops.com/",
+      "address": "235 East 38th Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/6572834963",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-c0913715",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955404+00:00"
+    },
+    "payload": {
+      "name": "Danlee Medical Products, Inc.",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "Syracuse",
+      "description": "",
+      "phone": "+1-315-431-0143",
+      "website": "https://www.danleemedical.com",
+      "address": "6075 East Molloy Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/6895214295",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-d5631601",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955411+00:00"
+    },
+    "payload": {
+      "name": "Hometown Healthcare",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "",
+      "description": "",
+      "phone": "+1 518 5000000",
+      "website": "https://www.hometownhealthrx.com/",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/8169191529",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-dbff9351",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955417+00:00"
+    },
+    "payload": {
+      "name": "Saint Peter's Addiction Recovery Center",
+      "category": [
+        "therapy"
+      ],
+      "location": "New York",
+      "area": "Guilderland",
+      "description": "",
+      "phone": "+1 518 452 6701",
+      "website": "https://www.sphcs.org/inpatientrehabilitation",
+      "address": "2 Mercycare Lane",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/8399579107",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-54ffc126",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955424+00:00"
+    },
+    "payload": {
+      "name": "Cortland Medical Supply",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "Cortland",
+      "description": "",
+      "phone": "+1-607-756-3880",
+      "website": "https://www.guthrie.org/locations/med-supply-depot-cortland",
+      "address": "160 Homer Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/8774880389",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-8b1f3264",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955431+00:00"
+    },
+    "payload": {
+      "name": "Crouse Hospital - Commonwealth Place",
+      "category": [
+        "therapy"
+      ],
+      "location": "New York",
+      "area": "Syracuse",
+      "description": "",
+      "phone": "+1 315 434 2470",
+      "website": "https://crouse.org",
+      "address": "6010 East Molloy Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/8787493097",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-5da7d89c",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955437+00:00"
+    },
+    "payload": {
+      "name": "Pullano Physical Therapy",
+      "category": [
+        "therapy"
+      ],
+      "location": "New York",
+      "area": "Endicott",
+      "description": "",
+      "phone": "+1 607 748 7369",
+      "website": "https://pullanopt.com/",
+      "address": "3125 East Main Street",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/8793508568",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-bd6c28e7",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T01:59:18.955444+00:00"
+    },
+    "payload": {
+      "name": "Cayuga Medical Equipment",
+      "category": [
+        "equipment"
+      ],
+      "location": "New York",
+      "area": "Ithaca",
+      "description": "",
+      "phone": "+1-607-339-0414",
+      "website": "https://cayugahealth.org/hospital/medical-equipment/",
+      "address": "40 Catherwood Road",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/8796618905",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NY.json"
+  },
+  {
+    "id": "res-20260823-51d2bdf5",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T02:02:01.528845+00:00"
+    },
+    "payload": {
+      "name": "Wilmington Treatment Center",
+      "category": [
+        "therapy"
+      ],
+      "location": "North Carolina",
+      "area": "Wilmington",
+      "description": "",
+      "phone": "+1 910 758 2023",
+      "website": "https://www.wilmingtontreatment.com/",
+      "address": "2520 Troy Drive",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "rehabilitation"
+      ],
+      "source": "https://www.openstreetmap.org/node/367908049",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NC.json"
+  },
+  {
+    "id": "res-20260823-f11bf967",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T02:02:01.528864+00:00"
+    },
+    "payload": {
+      "name": "Family Medical Supply",
+      "category": [
+        "equipment"
+      ],
+      "location": "North Carolina",
+      "area": "",
+      "description": "",
+      "phone": "+1 919 233 0202",
+      "website": "http://www.familymedsupply.com/Contact-Us.aspx",
+      "address": "311-A Ashville Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply",
+        "wheelchair-accessible"
+      ],
+      "source": "https://www.openstreetmap.org/node/2103238247",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NC.json"
+  },
+  {
+    "id": "res-20260823-e3140f8e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T02:02:01.528873+00:00"
+    },
+    "payload": {
+      "name": "Cary Spinal Decompression Center",
+      "category": [
+        "therapy"
+      ],
+      "location": "North Carolina",
+      "area": "",
+      "description": "",
+      "phone": "+1 919 467 3362",
+      "website": "http://www.caryspinaldecompression.com/",
+      "address": "",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/2272176255",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NC.json"
+  },
+  {
+    "id": "res-20260823-eb6bac06",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T02:02:01.528881+00:00"
+    },
+    "payload": {
+      "name": "Speakability, Inc.",
+      "category": [
+        "therapy"
+      ],
+      "location": "North Carolina",
+      "area": "Mooresville",
+      "description": "",
+      "phone": "+1-704-663-2115",
+      "website": "https://speakability.biz",
+      "address": "510 Carpenter Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "speech_therapist"
+      ],
+      "source": "https://www.openstreetmap.org/node/4059297270",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NC.json"
+  },
+  {
+    "id": "res-20260823-e0740b2d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T02:02:01.528889+00:00"
+    },
+    "payload": {
+      "name": "NC Therapeutic Riding Center",
+      "category": [
+        "community"
+      ],
+      "location": "North Carolina",
+      "area": "Mebane",
+      "description": "",
+      "phone": "",
+      "website": "https://www.nctrcriders.org/",
+      "address": "6900 Havenview Trail",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "equine_assisted_centre",
+        "disabled;veteran;child"
+      ],
+      "source": "https://www.openstreetmap.org/node/5732318667",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NC.json"
+  },
+  {
+    "id": "res-20260823-5fce9b26",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T02:02:01.528897+00:00"
+    },
+    "payload": {
+      "name": "Bleep Sleep",
+      "category": [
+        "equipment"
+      ],
+      "location": "North Carolina",
+      "area": "Chapel Hill",
+      "description": "",
+      "phone": "+19196197170",
+      "website": "https://bleepsleep.com/",
+      "address": "11312 US 15-501 North",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/5785579422",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NC.json"
+  },
+  {
+    "id": "res-20260823-57264aee",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T02:02:01.528904+00:00"
+    },
+    "payload": {
+      "name": "Dove Medical Supply",
+      "category": [
+        "equipment"
+      ],
+      "location": "North Carolina",
+      "area": "",
+      "description": "",
+      "phone": "+1-336-574-1489",
+      "website": "https://www.mydovestore.com/",
+      "address": "2172 Lawndale Drive",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/5788900526",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NC.json"
+  },
+  {
+    "id": "res-20260823-f661ac35",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T02:02:01.528911+00:00"
+    },
+    "payload": {
+      "name": "Asaasa Medical Supply & Home Oxygen",
+      "category": [
+        "equipment"
+      ],
+      "location": "North Carolina",
+      "area": "Charlotte",
+      "description": "",
+      "phone": "+1 704-526-0426",
+      "website": "https://www.asaasamedicalsupply.com/",
+      "address": "7401 The Plaza",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/5951389737",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NC.json"
+  },
+  {
+    "id": "res-20260823-1a12205e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "osm_overpass",
+      "submittedAt": "2026-08-23T02:02:01.528918+00:00"
+    },
+    "payload": {
+      "name": "The Good Feet Store",
+      "category": [
+        "equipment"
+      ],
+      "location": "North Carolina",
+      "area": "Greensboro",
+      "description": "",
+      "phone": "+1-336-854-6202",
+      "website": "https://www.goodfeet.com/locations/nc/greensboro",
+      "address": "3334 West Wendover Avenue",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "osm",
+        "medical_supply"
+      ],
+      "source": "https://www.openstreetmap.org/node/6403071234",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/NC.json"
+  },
+  {
+    "id": "res-20260823-249f3b3c",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691484+00:00"
+    },
+    "payload": {
+      "name": "BUCHANAN GENERAL HOSPITAL HOME HEALTH AGENCY",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "GRUNDY",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "1535 SLATE CREEK RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-4cdfcf72",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691503+00:00"
+    },
+    "payload": {
+      "name": "1ST CARE HOME HEALTH LYNCHBURG",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "LYNCHBURG",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "2808 OLD FOREST RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-380a2280",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691511+00:00"
+    },
+    "payload": {
+      "name": "MOUNTAIN REGION PERSONAL CARE SERVICES INC",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "DUFFIELD",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "463 DUFF PATT HWY",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-653e8667",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691519+00:00"
+    },
+    "payload": {
+      "name": "AT HOME CARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "MECHANICSVILLE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "8149 WALNUT GROVE RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-c4332ca6",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691527+00:00"
+    },
+    "payload": {
+      "name": "INTERIM HEALTHCARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "CHARLOTTESVILLE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "103 S PANTOPS DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-8b77f824",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691534+00:00"
+    },
+    "payload": {
+      "name": "ENHABIT HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "RESTON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "12355 SUNRISE VALLEY DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-76b1b5a6",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691541+00:00"
+    },
+    "payload": {
+      "name": "PERSONAL TOUCH HOME CARE OF INDIANA, INC.",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "NEWPORT NEWS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "11817 CANON BLVD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-80adc20d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691548+00:00"
+    },
+    "payload": {
+      "name": "INTERIM HEALTH CARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "CHRISTIANSBURG",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "100 ARBOR DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-dcb336c1",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691556+00:00"
+    },
+    "payload": {
+      "name": "MEDICAL SERVICES OF AMERICA HOME HEALTH AND HOSPICE",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "RICHLANDS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "1935 FRONT ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-34127a3e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691562+00:00"
+    },
+    "payload": {
+      "name": "CENTERWELL HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "VIRGINIA BEACH",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "5544 GREENWICH RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-771609e4",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691569+00:00"
+    },
+    "payload": {
+      "name": "BROOKSIDE HOME HEALTH AN AMEDISYS COMPANY",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "WILLIAMSBURG",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "5360 DISCOVERY PARK BLVD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-1967189a",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691575+00:00"
+    },
+    "payload": {
+      "name": "AMEDISYS HOME HEALTH CARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "ROANOKE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "5221 VALLEYPARK DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-236be4d5",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691582+00:00"
+    },
+    "payload": {
+      "name": "RIVERSIDE HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "NEWPORT NEWS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "856 J CLYDE MORRIS BLVD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-33cb6888",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691588+00:00"
+    },
+    "payload": {
+      "name": "CAREGIVERS HOME HEALTH SERVICES INC",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "TYSONS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "8500 LEESBURG PIKE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-a445c8c3",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691595+00:00"
+    },
+    "payload": {
+      "name": "NATIONAL HOME HEALTHCARE, INC.",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "HERNDON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "459 HERNDON PKWY",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-06f00530",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691601+00:00"
+    },
+    "payload": {
+      "name": "CHESAPEAKE REGIONAL HOME & SUPPORTIVE CARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "CHESAPEAKE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "1301 EXECUTIVE BLVD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-662f541d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691608+00:00"
+    },
+    "payload": {
+      "name": "CONTINUUM PEDIATRIC NURSING SERVICES",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "VIENNA",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "8230 LEESBURG PIKE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-b17de46f",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691614+00:00"
+    },
+    "payload": {
+      "name": "SENTARA HOME CARE SERVICES",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "NEWPORT NEWS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "11844 ROCK LANDING DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-43748712",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691621+00:00"
+    },
+    "payload": {
+      "name": "1ST CARE HOME HEALTH SOUTH BOSTON",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "SOUTH BOSTON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "425 MAIN ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-2f038382",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691627+00:00"
+    },
+    "payload": {
+      "name": "HUMAN TOUCH HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "FALLS CHURCH",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "113 PARK AVE 300",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-851152cb",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691634+00:00"
+    },
+    "payload": {
+      "name": "WELCOME HOMECARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "RICHMOND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "7323 BOULDER VIEW LN",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-da32f891",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691641+00:00"
+    },
+    "payload": {
+      "name": "LIVIN RITE HOME HEALTH SERVICES",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "MANASSAS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "10550 LINDEN LAKE PLZ",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-d349de99",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691647+00:00"
+    },
+    "payload": {
+      "name": "GREENSPRING VILLAGE HOME SUPPORT SERVICES",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "SPRINGFIELD",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "7410 SPRING VILLAGE DRIVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-14dfa36c",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691654+00:00"
+    },
+    "payload": {
+      "name": "AMEDISYS HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "MIDLOTHIAN",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "4589 LIFESTYLE LN",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-83bdaf40",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691660+00:00"
+    },
+    "payload": {
+      "name": "MARY WASHINGTON HOME HEALTH AGENCY",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "FREDERICKSBURG",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "1340 CENTRAL PARK BLVD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-48de1c6e",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691667+00:00"
+    },
+    "payload": {
+      "name": "PROFESSIONAL HEALTHCARE RESOURCES, INC.",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "ANNANDALE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "7619 LITTLE RIVER TPKE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-8c46db63",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691673+00:00"
+    },
+    "payload": {
+      "name": "ADORATION HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "WILLIAMSBURG",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "366 MCLAWS CIR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-6b91416d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691680+00:00"
+    },
+    "payload": {
+      "name": "HOME NURSING SERVICE OF SOUTHWEST VA, INC.",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "ABINGDON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "26104 LEE HWY",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-6f7c1ac4",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691686+00:00"
+    },
+    "payload": {
+      "name": "MEDI HOME HEALTH AGENCY",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "ROANOKE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "4419 PHEASANT RIDGE RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-9ca56155",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691693+00:00"
+    },
+    "payload": {
+      "name": "ACCENTCARE HOME HEALTH OF VIRGINIA",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "MECHANICSVILLE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "7502 LEE DAVIS RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-7d7282f0",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691700+00:00"
+    },
+    "payload": {
+      "name": "SPECIAL CARE HOSPICE & HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "GRUNDY",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "18334 RIVERSIDE DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-a2a6e9c2",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691707+00:00"
+    },
+    "payload": {
+      "name": "RIVERSIDE SHORE HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "ACCOMAC",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "23379 COMMERCE DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-ccdee38d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691713+00:00"
+    },
+    "payload": {
+      "name": "MEDSTAR HEALTH HOME CARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "ARLINGTON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "4040 NORTH FAIRFAX DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-4341c142",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691720+00:00"
+    },
+    "payload": {
+      "name": "AMEDISYS HOME HEALTH OF NEWPORT NEWS",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "HAMPTON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "1 ENTERPRISE PKWY",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-d1f13269",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691727+00:00"
+    },
+    "payload": {
+      "name": "VIRGINIA HEALTHCARE SERVICES (VHS)",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "ANNANDALE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "7010 LITTLE RIVER TPKE 400",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-2d8f0661",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:01.691733+00:00"
+    },
+    "payload": {
+      "name": "BAYADA HOME HEALTH CARE, INC.",
+      "category": [
+        "respite"
+      ],
+      "location": "Virginia",
+      "area": "YORKTOWN",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "111 CYBERNETICS WAY",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/VA.json"
+  },
+  {
+    "id": "res-20260823-b7d3bc0a",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072548+00:00"
+    },
+    "payload": {
+      "name": "FIRST CALL HOME HEALTH AGENCY, LLC",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "SALEM",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "2608 CASCADIA INDUSTRIAL ST SE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-41f661a1",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072567+00:00"
+    },
+    "payload": {
+      "name": "PARTNERS HOME HEALTH LLC",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "BEND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "2075 NE WYATT CT",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-61934c44",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072575+00:00"
+    },
+    "payload": {
+      "name": "PROVIDENCE BENEDICTINE HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "MOUNT ANGEL",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "570 S MAIN ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-c30559ba",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072583+00:00"
+    },
+    "payload": {
+      "name": "ST. CHARLES HOME HEALTH SERVICES",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "BEND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "2275 NE DOCTORS DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-e99333a5",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072590+00:00"
+    },
+    "payload": {
+      "name": "ENHABIT HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "LA GRANDE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "2502 COVE AVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-2fe5a131",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072598+00:00"
+    },
+    "payload": {
+      "name": "AGERIGHT CARE AT HOME",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "MILWAUKIE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "4560 SE INTERNATIONAL WAY",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-063398ed",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072605+00:00"
+    },
+    "payload": {
+      "name": "GOOD SHEPHERD HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "HERMISTON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "645 W ORCHARD AVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-e5ae9184",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072612+00:00"
+    },
+    "payload": {
+      "name": "GRANDE RONDE HOSPITAL HOME CARE SERVICES",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "LA GRANDE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "909 ADAMS AVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-6b26cecf",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072620+00:00"
+    },
+    "payload": {
+      "name": "ADVENTIST HEALTH HOME CARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "THE DALLES",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "1730 E 12TH ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-2ef110da",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072627+00:00"
+    },
+    "payload": {
+      "name": "SKY LAKES MEDICAL CENTER INC",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "KLAMATH FALLS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "2421 WASHBURN WAY",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-173c7c30",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072633+00:00"
+    },
+    "payload": {
+      "name": "PIONEER MEMORIAL HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "HEPPNER",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "162 N MAIN ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-c7ac5cf8",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072640+00:00"
+    },
+    "payload": {
+      "name": "PACIFIC HOME HEALTH & HOSPICE",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "COOS BAY",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "375 PARK AVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-1ee17c76",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072647+00:00"
+    },
+    "payload": {
+      "name": "PROVIDENCE HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "PORTLAND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "6410 NE HALSEY ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-2d156c06",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072653+00:00"
+    },
+    "payload": {
+      "name": "AMEDISYS HOME HEALTH CARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "SALEM",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "3220 STATE ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-c258858d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072660+00:00"
+    },
+    "payload": {
+      "name": "KAISER PERMANENTE CONTINUING CARE SERVICES HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "PORTLAND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "500 NE MULTNOMAH ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-c96addc7",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072667+00:00"
+    },
+    "payload": {
+      "name": "ASSURED HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "TUALATIN",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "7750 SW MOHAWK ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-43c301dc",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072674+00:00"
+    },
+    "payload": {
+      "name": "ACCENTCARE HOME HEALTH OF ROGUE VALLEY, LLC",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "MEDFORD",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "691 MURPHY RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-e8cca91f",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072680+00:00"
+    },
+    "payload": {
+      "name": "HARNEY COUNTY HOME HEALTH AND HOSPICE",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "BURNS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "415N FAIRVIEW AVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-0fb8a4e2",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072687+00:00"
+    },
+    "payload": {
+      "name": "CLEARCARE, INC",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "BROOKINGS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "585 5TH ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-e3cf067f",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072694+00:00"
+    },
+    "payload": {
+      "name": "SACRED HEART HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "SPRINGFIELD",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "123 INTERNATIONAL WAY",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-0f6b7486",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072700+00:00"
+    },
+    "payload": {
+      "name": "CONNECTED HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "CLACKAMAS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "10365 SE SUNNYSIDE RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-f4ff2c32",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072706+00:00"
+    },
+    "payload": {
+      "name": "OREGON CONTINENTAL HOME HEALTH CARE, INC.",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "HILLSBORO",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "341 SE 3RD AVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-d7de8611",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072713+00:00"
+    },
+    "payload": {
+      "name": "MISSION HOME HEALTH OF PORTLAND",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "PORTLAND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "16083 SW UPPER BOONES FERRY RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-8fef6178",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072719+00:00"
+    },
+    "payload": {
+      "name": "MISSION HOME HEALTH OF SALEM",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "SALEM",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "2601 25TH ST SE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-9cfa24b4",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072725+00:00"
+    },
+    "payload": {
+      "name": "PROVIDENCE MEDFORD HOME CARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "MEDFORD",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "2033 COMMERCE DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-9a0b949d",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072732+00:00"
+    },
+    "payload": {
+      "name": "ADVENTIST HEALTH HOME CARE SERVICES",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "PORTLAND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "5835 NE 122ND AVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-2439d12f",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072739+00:00"
+    },
+    "payload": {
+      "name": "ADVENTIST HEALTH HOME CARE SERVICES-TILLAMOOK",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "TILLAMOOK",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "980 3RD ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-e4e6939c",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072772+00:00"
+    },
+    "payload": {
+      "name": "PHYSICIANS CHOICE",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "WILSONVILLE",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "9126 SW RIDDER RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-6fead987",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072778+00:00"
+    },
+    "payload": {
+      "name": "NIGHTINGALE HOME HEALTH INC",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "PORTLAND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "11707 NE GLISAN STREET",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-d7e2ccbe",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072784+00:00"
+    },
+    "payload": {
+      "name": "MISSION HOME HEALTH OF BEND",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "BEND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "1558 SW NANCY WAY",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-f0b24928",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072791+00:00"
+    },
+    "payload": {
+      "name": "DIVINE MERCY HOME HEALTH, LLC",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "BEAVERTON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "4900 SW GRIFFITH DR",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-4d6407d8",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072797+00:00"
+    },
+    "payload": {
+      "name": "WARM SPRINGS HOME HEALTH CARE OF OREGON",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "PORTLAND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "10570 SE WASHINGTON ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-2004aa99",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072803+00:00"
+    },
+    "payload": {
+      "name": "AFFORDABLE HOME HEALTH CARE AGENCY INC.",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "PORTLAND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "2512 SE 109TH AVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-69191dbe",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072809+00:00"
+    },
+    "payload": {
+      "name": "ROSE CITY HOME HEALTH CARE INC",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "PORTLAND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "10175 SW BARBUR BLVD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-cef4e03c",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072815+00:00"
+    },
+    "payload": {
+      "name": "RIVERSIDE HOME HEALTH CARE",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "GRANTS PASS",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "402 SE G ST",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-d592ea05",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072822+00:00"
+    },
+    "payload": {
+      "name": "KIDSCARE HOME HEALTH OF OREGON LLC",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "BEAVERTON",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "8625 SW CASCADE AVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-912ff7f2",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072828+00:00"
+    },
+    "payload": {
+      "name": "ALECA HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "SALEM",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "1220 20TH ST SE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-4309a756",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072834+00:00"
+    },
+    "payload": {
+      "name": "HOME HEALTH OF NORTHWEST LLC",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "BEND",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "55930 BLUE EAGLE RD",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-77a2269c",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072840+00:00"
+    },
+    "payload": {
+      "name": "OREGON COAST HOME HEALTH",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "COOS BAY",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "650 ANDERSON AVE",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  },
+  {
+    "id": "res-20260823-58f709a4",
+    "type": "resource",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "cms_providers",
+      "submittedAt": "2026-08-23T02:02:03.072846+00:00"
+    },
+    "payload": {
+      "name": "SIGNATURE HEALTHCARE AT HOME",
+      "category": [
+        "respite"
+      ],
+      "location": "Oregon",
+      "area": "LINCOLN CITY",
+      "description": "Medicare-enrolled home health agency providing in-home care services.",
+      "phone": "",
+      "website": "",
+      "address": "798 SE HIGHWAY 101",
+      "ageRange": "",
+      "disabilityTypes": [],
+      "cost": "",
+      "tags": [
+        "cms",
+        "home-health",
+        "care-provider"
+      ],
+      "source": "https://data.cms.gov/provider-data/",
+      "lastScraped": "2026-08-23"
+    },
+    "targetFile": "src/_data/resources/states/OR.json"
+  }
+]

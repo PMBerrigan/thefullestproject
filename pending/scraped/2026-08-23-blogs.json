@@ -1,0 +1,20 @@
+[
+  {
+    "id": "blg-20260823-06518a28",
+    "type": "blog",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "blog_content",
+      "submittedAt": "2026-08-23T02:02:10.805577+00:00"
+    },
+    "payload": {
+      "title": "16 support groups for caregivers that offer connection, help and hope - Care.com",
+      "source": "Care.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tMGwtU1NfRmZNSzg3ZXFsWmRzeWFqNS1fZ1ZtNzdlUzB2Um5fY2JDVTFaOGQ2UWFxMjZVc0JrMUdYVUV1bW9PTkdnQ0JaVGZZaWJtLUVHUy1vb2s0?oc=5",
+      "date": "2026-08-17",
+      "category": "Caregiver Tips",
+      "slug": "16-support-groups-for-caregivers-that-offer-connection-help"
+    }
+  }
+]
