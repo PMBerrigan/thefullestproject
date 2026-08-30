@@ -1,0 +1,58 @@
+[
+  {
+    "id": "spt-20260830-28828a9e",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-08-30T04:39:57.231497+00:00"
+    },
+    "payload": {
+      "name": "Keithley’s Korner",
+      "description": "Keithley’s Korner: Adaptive sports program helps people with disabilities - Ruidoso News",
+      "category": "Adventures",
+      "website": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaVlHYzd3SDFuNi1GOERmVkgzR0hmMG85MTFVdGJSOE5zQ3NkRWZ2V01GUkJKMGE1OGVISzZLUnFxRWV1cXpTbUMwR0pidWNrVWJpWHZYLTQ0X0RwVlc5VVotT0Z4NGVPcXJ3dng2MVhtSDNEc1BleFJ1anVlaE9VbWRHb2xsMXBpbGdKdmJQX09XTHNSLVRnMHh2a1U?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/adventures.svg",
+      "location": "National",
+      "tags": [
+        "adventures",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-08-30"
+    }
+  },
+  {
+    "id": "spt-20260830-7e2ceecf",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-08-30T04:39:57.231521+00:00"
+    },
+    "payload": {
+      "name": "Harckham, Burdick Advance Accessibility in New York with the “Traveling with Dig",
+      "description": "Harckham, Burdick Advance Accessibility in New York with the “Traveling with Dignity Act” - The New York State Senate (.gov)",
+      "category": "Community",
+      "website": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSzhwTUhHYnJ5WU5MNHl5Z0dPUzFucHUxaC1yUXMxN1RuQUJyNmROVFJMMjlPZ1dKczRWUHhaU3ktQXJtQ252WW4xSDhtOXVhcHlydUZMcjJmQ2xVX1llTl9QOV9ObXc1WlBRSTlhWjktdktORXhMS3pnY0RwbUM2b2ZUTnJDUjNrZDNOeGFIR3hNVnpHNG5vdEtFYTJ0R1c3ZmJZSFZmSl9uTXJqUWxtYUtuS01MQQ?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/community.svg",
+      "location": "National",
+      "tags": [
+        "community",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-08-30"
+    }
+  }
+]

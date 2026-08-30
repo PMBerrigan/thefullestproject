@@ -1,29 +1,29 @@
-Weekly Scrape Digest — 2026-08-23
+Weekly Scrape Digest — 2026-08-30
 ==================================================
 
 AWAITING REVIEW — approve or reject at https://thefullestproject.org/admin/review/
-  blog: 6 pending (1 new this run)
-  resource: 1045 pending (200 new this run)
-  spotlight: 7 pending (2 new this run)
-  story: 53 pending (12 new this run)
+  blog: 7 pending (1 new this run)
+  resource: 985 pending (56 new this run)
+  spotlight: 9 pending (2 new this run)
+  story: 64 pending (11 new this run)
   submission: 1 pending
 
 Scraper: osm_overpass
-  Entries processed: 869
-  - [error] TN: HTTP Error 429: Too Many Requests
+  Entries processed: 867
+  - [error] AZ: HTTP Error 504: Gateway Timeout
 
 Scraper: cms_providers
   Entries processed: 78
 
 Scraper: spotlight_scraper
   Entries processed: 3
-  - [queued] Middleburg Heights, Brook Park team up to bring more adaptive sports to families
-  - [queued] Creating health systems that work for everyone
-  - [queued] Middleburg Heights, Brook Park team up to bring more adaptive sports to families
+  - [queued] Keithley’s Korner
+  - [queued] Harckham, Burdick Advance Accessibility in New York with the “Traveling with Dig
+  - [queued] Keithley’s Korner
 
 Scraper: blog_content
   Entries processed: 1
-  - [queued] 16 support groups for caregivers that offer connection, help and hope - Care.com
+  - [queued] Helping Racine's elderly caregivers: Local groups offer free support 2026 - Racine County Eye
 
 —
 The Fullest Project | thefullestproject.org

@@ -1,85 +1,6 @@
 [
   {
     "scraper": "spotlight_scraper",
-    "timestamp": "2026-05-24T03:55:58.399009",
-    "entries_found": 2,
-    "entries": [
-      {
-        "action": "added",
-        "name": "How adaptive sports are transforming youth mental health",
-        "category": "Adventures",
-        "website": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wVWprX21TQVhCUWdLeTdCeVBobVI2ZnVOOHJVWnBwcFc4S3JGcWdfOTEzTlhzTkpxOTFJUlBaa1QtWlBlUUNZZTJMWjRiYzRRT3VZbTV3?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "How adaptive sports are transforming youth mental health",
-        "category": "Sports",
-        "website": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wVWprX21TQVhCUWdLeTdCeVBobVI2ZnVOOHJVWnBwcFc4S3JGcWdfOTEzTlhzTkpxOTFJUlBaa1QtWlBlUUNZZTJMWjRiYzRRT3VZbTV3?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-05-24T03:56:00.276092",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "Alzheimer’s Seminar Highlights Dementia Care and Caregiver Support - Love FM Belize",
-        "source": "Love FM Belize",
-        "slug": "alzheimers-seminar-highlights-dementia-care-and-caregiver-su"
-      },
-      {
-        "action": "created_post",
-        "title": "Public review of the draft Global road map towards universal access to assistive technology - World Health Organization (WHO)",
-        "source": "World Health Organization (WHO)",
-        "slug": "public-review-of-the-draft-global-road-map-towards-universal"
-      },
-      {
-        "action": "created_post",
-        "title": "Disability Organizations Call on Congress to Prioritize Care, Access, Representation and Basic Dignity, not Violence and Detention - DREDF",
-        "source": "DREDF",
-        "slug": "disability-organizations-call-on-congress-to-prioritize-care"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
-    "timestamp": "2026-05-31T04:08:35.854455",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "added",
-        "name": "Chicago elementary school students get lesson in compassion through adaptive spo",
-        "category": "Adventures",
-        "website": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaXNCbTVEbHMwa1I1UVlqdWdncjdqN21tbUk2UFJxaV9lSU9objV6RmI1RFJ1WmxlaGhaU2owQ0wyWDlhQlNuQlVnLU5mTXhNQlM3bnByNy1jWmo2aC1QUVFydU40MVRVNlVwMGFqT2NRNXhPLV9aQnZRUld2LVNnVV9XUXNZbjNGcnJFVHBodFlGUlBsaW4wNFN3STBpQQ?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Chicago elementary school students get lesson in compassion through adaptive spo",
-        "category": "Sports",
-        "website": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaXNCbTVEbHMwa1I1UVlqdWdncjdqN21tbUk2UFJxaV9lSU9objV6RmI1RFJ1WmxlaGhaU2owQ0wyWDlhQlNuQlVnLU5mTXhNQlM3bnByNy1jWmo2aC1QUVFydU40MVRVNlVwMGFqT2NRNXhPLV9aQnZRUld2LVNnVV9XUXNZbjNGcnJFVHBodFlGUlBsaW4wNFN3STBpQQ?oc=5"
-      },
-      {
-        "action": "added",
-        "name": "Amid School Techlash, Accessibility Advocates Worry About Exclusion",
-        "category": "Education",
-        "website": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQakxJQnFkRXdIS2xlbUxnMVBZQlU0VG1VN05GWVRhd0h1U0VMUHVyaExrSnhtZjVMMTlsRTRqcVdlWm5CaW9LUEZ5aFFUeXM2elJNUzhFMFhLLTRwaWsyQkxnOU1XNm8tMTRvSWhVWUdFVXpZT25fVUFtYVllSFU4SnVHem1mLTc5amFDQWh3dFdfT25LdThUUjF5Tl9OdlhqLUlaejk3b0U1UQ?oc=5"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-05-31T04:08:37.964255",
-    "entries_found": 1,
-    "entries": [
-      {
-        "action": "no_new_posts"
-      }
-    ]
-  },
-  {
-    "scraper": "spotlight_scraper",
     "timestamp": "2026-06-07T04:14:07.554507",
     "entries_found": 1,
     "entries": [
@@ -938,6 +859,69 @@
         "title": "16 support groups for caregivers that offer connection, help and hope - Care.com",
         "source": "Care.com",
         "slug": "16-support-groups-for-caregivers-that-offer-connection-help"
+      }
+    ]
+  },
+  {
+    "scraper": "osm_overpass",
+    "timestamp": "2026-08-30T04:39:48.916073",
+    "status": "PARTIAL",
+    "targets_attempted": 51,
+    "targets_succeeded": 50,
+    "entries_found": 867,
+    "entries_queued": 56,
+    "entries": [
+      {
+        "action": "error",
+        "name": "AZ: HTTP Error 504: Gateway Timeout"
+      }
+    ]
+  },
+  {
+    "scraper": "cms_providers",
+    "timestamp": "2026-08-30T04:39:50.983424",
+    "status": "OK",
+    "targets_attempted": 2,
+    "targets_succeeded": 2,
+    "entries_found": 78,
+    "entries_queued": 0,
+    "entries": []
+  },
+  {
+    "scraper": "spotlight_scraper",
+    "timestamp": "2026-08-30T04:39:57.232195",
+    "entries_found": 3,
+    "entries": [
+      {
+        "action": "queued",
+        "name": "Keithley’s Korner",
+        "category": "Adventures",
+        "website": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaVlHYzd3SDFuNi1GOERmVkgzR0hmMG85MTFVdGJSOE5zQ3NkRWZ2V01GUkJKMGE1OGVISzZLUnFxRWV1cXpTbUMwR0pidWNrVWJpWHZYLTQ0X0RwVlc5VVotT0Z4NGVPcXJ3dng2MVhtSDNEc1BleFJ1anVlaE9VbWRHb2xsMXBpbGdKdmJQX09XTHNSLVRnMHh2a1U?oc=5"
+      },
+      {
+        "action": "queued",
+        "name": "Harckham, Burdick Advance Accessibility in New York with the “Traveling with Dig",
+        "category": "Community",
+        "website": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSzhwTUhHYnJ5WU5MNHl5Z0dPUzFucHUxaC1yUXMxN1RuQUJyNmROVFJMMjlPZ1dKczRWUHhaU3ktQXJtQ252WW4xSDhtOXVhcHlydUZMcjJmQ2xVX1llTl9QOV9ObXc1WlBRSTlhWjktdktORXhMS3pnY0RwbUM2b2ZUTnJDUjNrZDNOeGFIR3hNVnpHNG5vdEtFYTJ0R1c3ZmJZSFZmSl9uTXJqUWxtYUtuS01MQQ?oc=5"
+      },
+      {
+        "action": "queued",
+        "name": "Keithley’s Korner",
+        "category": "Sports",
+        "website": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaVlHYzd3SDFuNi1GOERmVkgzR0hmMG85MTFVdGJSOE5zQ3NkRWZ2V01GUkJKMGE1OGVISzZLUnFxRWV1cXpTbUMwR0pidWNrVWJpWHZYLTQ0X0RwVlc5VVotT0Z4NGVPcXJ3dng2MVhtSDNEc1BleFJ1anVlaE9VbWRHb2xsMXBpbGdKdmJQX09XTHNSLVRnMHh2a1U?oc=5"
+      }
+    ]
+  },
+  {
+    "scraper": "blog_content",
+    "timestamp": "2026-08-30T04:39:59.358446",
+    "entries_found": 1,
+    "entries": [
+      {
+        "action": "queued",
+        "title": "Helping Racine's elderly caregivers: Local groups offer free support 2026 - Racine County Eye",
+        "source": "Racine County Eye",
+        "slug": "helping-racines-elderly-caregivers-local-groups-offer-free-s"
       }
     ]
   }
