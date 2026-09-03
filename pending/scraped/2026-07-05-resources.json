@@ -1,37 +1,5 @@
 [
   {
-    "id": "res-20260705-2753e84e",
-    "type": "resource",
-    "status": "pending",
-    "origin": {
-      "type": "scraper",
-      "detail": "osm_overpass",
-      "submittedAt": "2026-07-05T03:51:23.392578+00:00"
-    },
-    "payload": {
-      "name": "Therapy With Heart",
-      "category": [
-        "therapy"
-      ],
-      "location": "Arizona",
-      "area": "Scottsdale",
-      "description": "",
-      "phone": "+1-480-888-5380",
-      "website": "https://therapywithheart.com/",
-      "address": "8737 East Via De Commercio",
-      "ageRange": "",
-      "disabilityTypes": [],
-      "cost": "",
-      "tags": [
-        "osm",
-        "therapist"
-      ],
-      "source": "https://www.openstreetmap.org/node/3123216550",
-      "lastScraped": "2026-07-05"
-    },
-    "targetFile": "src/_data/resources/states/AZ.json"
-  },
-  {
     "id": "res-20260705-4e65e451",
     "type": "resource",
     "status": "pending",
