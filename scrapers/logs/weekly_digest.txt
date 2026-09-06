@@ -1,29 +1,32 @@
-Weekly Scrape Digest — 2026-08-30
+Weekly Scrape Digest — 2026-09-06
 ==================================================
 
 AWAITING REVIEW — approve or reject at https://thefullestproject.org/admin/review/
-  blog: 7 pending (1 new this run)
-  resource: 985 pending (56 new this run)
-  spotlight: 9 pending (2 new this run)
-  story: 64 pending (11 new this run)
+  blog: 6 pending (2 new this run)
+  resource: 907 pending (41 new this run)
+  spotlight: 9 pending (3 new this run)
+  story: 64 pending (13 new this run)
   submission: 1 pending
-
-Scraper: osm_overpass
-  Entries processed: 867
-  - [error] AZ: HTTP Error 504: Gateway Timeout
 
 Scraper: cms_providers
   Entries processed: 78
 
+Scraper: osm_overpass
+  Entries processed: 838
+  - [error] RI: HTTP Error 429: Too Many Requests
+  - [error] CA: HTTP Error 429: Too Many Requests
+  - [error] MD: HTTP Error 429: Too Many Requests
+
 Scraper: spotlight_scraper
   Entries processed: 3
-  - [queued] Keithley’s Korner
-  - [queued] Harckham, Burdick Advance Accessibility in New York with the “Traveling with Dig
-  - [queued] Keithley’s Korner
+  - [queued] Adaptive Adventures is Making Trails More Accessible
+  - [queued] Penn State Health, Penn State College of Medicine recognized as best places to w
+  - [queued] Berkeley’s trailblazing adaptive sports nonprofit BORP turns 50
 
 Scraper: blog_content
-  Entries processed: 1
-  - [queued] Helping Racine's elderly caregivers: Local groups offer free support 2026 - Racine County Eye
+  Entries processed: 2
+  - [queued] CaregiverCompanion.ai Announces Permanent No-Cost Access to CARA for Caregivers - EIN News
+  - [queued] Market shaping via digital public infrastructure for assistive technology in low- and middle-income countries - Frontiers
 
 —
 The Fullest Project | thefullestproject.org

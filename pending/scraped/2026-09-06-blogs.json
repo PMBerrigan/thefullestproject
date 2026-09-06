@@ -1,0 +1,38 @@
+[
+  {
+    "id": "blg-20260906-86a078e1",
+    "type": "blog",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "blog_content",
+      "submittedAt": "2026-09-06T04:35:40.750116+00:00"
+    },
+    "payload": {
+      "title": "CaregiverCompanion.ai Announces Permanent No-Cost Access to CARA for Caregivers - EIN News",
+      "source": "EIN News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUTVLSkFrLTR5bFlkdWM5TEx5blY1MEJJRTBzWTEzLVprczNQNmo0cEw1Y2ZIU2VKVEd2dU40cThsQlZuNGFHcTJoYTFuVWYwM2xJVTE5ZDdYMjZCUEgwOVo5YVd0TGhqNHVpNVZONkxVWVQycXVlWmNQYno0b1VHeWU2aF91N2YxT28wS2JRWUxKd2pLUmhPeG1CaHViNng3aWtEWk4wTE9TNzJqWnVZWWNKLXdhMXdEOHhCaGVINA?oc=5",
+      "date": "2026-09-03",
+      "category": "Caregiver Tips",
+      "slug": "caregivercompanionai-announces-permanent-no-cost-access-to-c"
+    }
+  },
+  {
+    "id": "blg-20260906-6ccc5bd0",
+    "type": "blog",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "blog_content",
+      "submittedAt": "2026-09-06T04:35:40.750142+00:00"
+    },
+    "payload": {
+      "title": "Market shaping via digital public infrastructure for assistive technology in low- and middle-income countries - Frontiers",
+      "source": "Frontiers",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXTHp3N2JmeTQ2d1QwTGJKUEEyam9TelBaclQ3Z1F2MFJMOVBIMjY3ajlQWUtreC1ReUFoWmJrSERmM0swM3VMcnd1LXFDRDBKYTA0R1lpejhvQklhMHI0R2duVS1HVThwbnNNUzc1NllfQ0NHR0hZ?oc=5",
+      "date": "2026-08-31",
+      "category": "Adaptive Technology",
+      "slug": "market-shaping-via-digital-public-infrastructure-for-assisti"
+    }
+  }
+]

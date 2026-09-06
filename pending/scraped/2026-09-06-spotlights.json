@@ -1,0 +1,86 @@
+[
+  {
+    "id": "spt-20260906-0d6705a0",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-09-06T04:35:38.888103+00:00"
+    },
+    "payload": {
+      "name": "Adaptive Adventures is Making Trails More Accessible",
+      "description": "Adaptive Adventures is Making Trails More Accessible - Amplitude Magazine",
+      "category": "Adventures",
+      "website": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeXRVSEZWaFpBWFNpMWF6YTlzclN6SENEN3EwUmxoWTRxMzVtYmdHMlJRQ2w5WF9hVHFFSDBOTzQ4cHNHcGc0U0dYNDFfMmhBZGpMNUUzWmRWOV9yZzFyVExpZzNEeW1aNUwxU2k0c1lQa0Y4TDhDd3N1ZmpQeGZaNFlrLTVkMGxTdGRmUkZn0gGWAUFVX3lxTE9OdzFCemZWZk9uS3U4NldrdGJnT3NtQUNDSFBudmVGazV3NkctRWhKa0J2Y0ZyUFNybUIycjR4aGloVU1mWUx2YUFhcVk0RGpvZUUtTU9KdzU1Y3VVNE1fbDVFV3ZMd2RKNjh0QjFNN0I5dDlIS2dEZ3UwQUpwT1oxM0RERV9DU0ZsS3kxNjRXVVJINnFOQQ?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/adventures.svg",
+      "location": "National",
+      "tags": [
+        "adventures",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-09-06"
+    }
+  },
+  {
+    "id": "spt-20260906-6bbaad18",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-09-06T04:35:38.888132+00:00"
+    },
+    "payload": {
+      "name": "Penn State Health, Penn State College of Medicine recognized as best places to w",
+      "description": "Penn State Health, Penn State College of Medicine recognized as best places to work for disability inclusion - Penn State Health News",
+      "category": "Community",
+      "website": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRHc5UlA1WGhmMFhQZ3NObkg1V3BtX19PNWpKTHBSMjJOYUpFT0RMOURLU1psY20ydVNBdDhNWjY2dmw5LWJILUxNTFJLZWFxTE0xOWMwai12RWZzdGNsRU1qMHU5SWhDbWlTa3BVdHM0TFd6aW5qNU1KVm5mMzlDY19uZUhhSWNmNEo4U19qMzlMTjN2dzBlRHhabnhZcXZjR3poTWN2MzBMM1Fab3JHS1dlcGdhRThBRlhnS0ZqcHVsSFpwRnJ5QlYwek9FVUg0TG1GZFFuN0dVUVpua0gyWnB3?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/community.svg",
+      "location": "National",
+      "tags": [
+        "community",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-09-06"
+    }
+  },
+  {
+    "id": "spt-20260906-21e6d278",
+    "type": "spotlight",
+    "status": "pending",
+    "origin": {
+      "type": "scraper",
+      "detail": "spotlight_scraper",
+      "submittedAt": "2026-09-06T04:35:38.888143+00:00"
+    },
+    "payload": {
+      "name": "Berkeley’s trailblazing adaptive sports nonprofit BORP turns 50",
+      "description": "Berkeley’s trailblazing adaptive sports nonprofit BORP turns 50 - Berkeleyside",
+      "category": "Sports",
+      "website": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYzNvLV9pTHFLYVVwNWhNdUhPRXdLSWFocTdEeFJZc0tSX3M4NWFzRG9vakgtcEVvYkZST29ISjlmbXhVY05qTUhLUkI0QURFbDZhSzBVbDNYaGVYcjZMUXVDeGlNUFZTTklUd0I2V2xaZkUwOE5YTUpEcHBvRHR4MGV0eHBtVEhfeEpRd0JKSlZZaTM2?oc=5",
+      "socialLinks": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "thumbnail": "/images/spotlights/sports.svg",
+      "location": "National",
+      "tags": [
+        "sports",
+        "auto-discovered"
+      ],
+      "featured": false,
+      "date": "2026-09-06"
+    }
+  }
+]

@@ -1,61 +1,6 @@
 [
   {
     "scraper": "spotlight_scraper",
-    "timestamp": "2026-06-07T04:14:07.554507",
-    "entries_found": 1,
-    "entries": [
-      {
-        "action": "no_new_found"
-      }
-    ]
-  },
-  {
-    "scraper": "blog_content",
-    "timestamp": "2026-06-07T04:14:09.704676",
-    "entries_found": 3,
-    "entries": [
-      {
-        "action": "created_post",
-        "title": "Transportation Services for Older Adults: What Caregivers Should Know - AARP",
-        "source": "AARP",
-        "slug": "transportation-services-for-older-adults-what-caregivers-sho"
-      },
-      {
-        "action": "created_post",
-        "title": "Screen time limits call for nuance, disability advocates say - K-12 Dive",
-        "source": "K-12 Dive",
-        "slug": "screen-time-limits-call-for-nuance-disability-advocates-say"
-      },
-      {
-        "action": "created_post",
-        "title": "Disability Services NY, a New Online Resource Launched; Connects New Yorkers With Disabilities to Services - Business Wire",
-        "source": "Business Wire",
-        "slug": "disability-services-ny-a-new-online-resource-launched-connec"
-      }
-    ]
-  },
-  {
-    "scraper": "osm_overpass",
-    "timestamp": "2026-06-14T04:25:08.045657",
-    "status": "OK",
-    "targets_attempted": 11,
-    "targets_succeeded": 11,
-    "entries_found": 262,
-    "entries_queued": 257,
-    "entries": []
-  },
-  {
-    "scraper": "cms_providers",
-    "timestamp": "2026-06-14T04:25:10.932089",
-    "status": "OK",
-    "targets_attempted": 2,
-    "targets_succeeded": 2,
-    "entries_found": 79,
-    "entries_queued": 79,
-    "entries": []
-  },
-  {
-    "scraper": "spotlight_scraper",
     "timestamp": "2026-06-14T04:25:16.098185",
     "entries_found": 1,
     "entries": [
@@ -922,6 +867,83 @@
         "title": "Helping Racine's elderly caregivers: Local groups offer free support 2026 - Racine County Eye",
         "source": "Racine County Eye",
         "slug": "helping-racines-elderly-caregivers-local-groups-offer-free-s"
+      }
+    ]
+  },
+  {
+    "scraper": "cms_providers",
+    "timestamp": "2026-09-06T03:36:30.959883",
+    "status": "OK",
+    "targets_attempted": 2,
+    "targets_succeeded": 2,
+    "entries_found": 78,
+    "entries_queued": 0,
+    "entries": []
+  },
+  {
+    "scraper": "osm_overpass",
+    "timestamp": "2026-09-06T04:35:34.122597",
+    "status": "PARTIAL",
+    "targets_attempted": 51,
+    "targets_succeeded": 48,
+    "entries_found": 838,
+    "entries_queued": 41,
+    "entries": [
+      {
+        "action": "error",
+        "name": "RI: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "CA: HTTP Error 429: Too Many Requests"
+      },
+      {
+        "action": "error",
+        "name": "MD: HTTP Error 429: Too Many Requests"
+      }
+    ]
+  },
+  {
+    "scraper": "spotlight_scraper",
+    "timestamp": "2026-09-06T04:35:38.888909",
+    "entries_found": 3,
+    "entries": [
+      {
+        "action": "queued",
+        "name": "Adaptive Adventures is Making Trails More Accessible",
+        "category": "Adventures",
+        "website": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeXRVSEZWaFpBWFNpMWF6YTlzclN6SENEN3EwUmxoWTRxMzVtYmdHMlJRQ2w5WF9hVHFFSDBOTzQ4cHNHcGc0U0dYNDFfMmhBZGpMNUUzWmRWOV9yZzFyVExpZzNEeW1aNUwxU2k0c1lQa0Y4TDhDd3N1ZmpQeGZaNFlrLTVkMGxTdGRmUkZn0gGWAUFVX3lxTE9OdzFCemZWZk9uS3U4NldrdGJnT3NtQUNDSFBudmVGazV3NkctRWhKa0J2Y0ZyUFNybUIycjR4aGloVU1mWUx2YUFhcVk0RGpvZUUtTU9KdzU1Y3VVNE1fbDVFV3ZMd2RKNjh0QjFNN0I5dDlIS2dEZ3UwQUpwT1oxM0RERV9DU0ZsS3kxNjRXVVJINnFOQQ?oc=5"
+      },
+      {
+        "action": "queued",
+        "name": "Penn State Health, Penn State College of Medicine recognized as best places to w",
+        "category": "Community",
+        "website": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRHc5UlA1WGhmMFhQZ3NObkg1V3BtX19PNWpKTHBSMjJOYUpFT0RMOURLU1psY20ydVNBdDhNWjY2dmw5LWJILUxNTFJLZWFxTE0xOWMwai12RWZzdGNsRU1qMHU5SWhDbWlTa3BVdHM0TFd6aW5qNU1KVm5mMzlDY19uZUhhSWNmNEo4U19qMzlMTjN2dzBlRHhabnhZcXZjR3poTWN2MzBMM1Fab3JHS1dlcGdhRThBRlhnS0ZqcHVsSFpwRnJ5QlYwek9FVUg0TG1GZFFuN0dVUVpua0gyWnB3?oc=5"
+      },
+      {
+        "action": "queued",
+        "name": "Berkeley’s trailblazing adaptive sports nonprofit BORP turns 50",
+        "category": "Sports",
+        "website": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYzNvLV9pTHFLYVVwNWhNdUhPRXdLSWFocTdEeFJZc0tSX3M4NWFzRG9vakgtcEVvYkZST29ISjlmbXhVY05qTUhLUkI0QURFbDZhSzBVbDNYaGVYcjZMUXVDeGlNUFZTTklUd0I2V2xaZkUwOE5YTUpEcHBvRHR4MGV0eHBtVEhfeEpRd0JKSlZZaTM2?oc=5"
+      }
+    ]
+  },
+  {
+    "scraper": "blog_content",
+    "timestamp": "2026-09-06T04:35:40.750828",
+    "entries_found": 2,
+    "entries": [
+      {
+        "action": "queued",
+        "title": "CaregiverCompanion.ai Announces Permanent No-Cost Access to CARA for Caregivers - EIN News",
+        "source": "EIN News",
+        "slug": "caregivercompanionai-announces-permanent-no-cost-access-to-c"
+      },
+      {
+        "action": "queued",
+        "title": "Market shaping via digital public infrastructure for assistive technology in low- and middle-income countries - Frontiers",
+        "source": "Frontiers",
+        "slug": "market-shaping-via-digital-public-infrastructure-for-assisti"
       }
     ]
   }
